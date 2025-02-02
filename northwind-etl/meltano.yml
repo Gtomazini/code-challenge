@@ -1,0 +1,32 @@
+version: 1
+default_environment: dev
+project_id: northwind-etl
+environments:
+- name: dev
+
+plugins:
+  extractors:
+  - name: tap-postgres
+    variant: meltanolabs
+    pip_url: meltanolabs-tap-postgres
+    config:
+      host: northwind_db
+      port: 5432
+      user: northwind_user
+      password: thewindisblowing
+      dbname: northwind
+
+  - name: tap-csv
+    variant: meltanolabs
+    pip_url: meltanolabs-tap-csv
+    config:
+      files:
+      - path: /opt/airflow/data/order_details.csv
+
+  loaders:
+  - name: target-parquet
+    variant: meltanolabs
+    pip_url: meltanolabs-target-parquet
+    config:
+      destination_path: /opt/airflow/data
+      pattern: "{{source_type}}/{{table}}/{{execution_date}}/{{table}}.parquet"
