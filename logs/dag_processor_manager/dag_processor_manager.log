@@ -11580,3 +11580,417 @@ File Path                                             PID    Runtime      # DAGs
 /opt/airflow/dags/northwind_etl/northwind_meltano.py                           1           0  0.11s           2025-02-02T20:09:38                      12
 ================================================================================
 [2025-02-02T20:10:11.800+0000] {manager.py:465} INFO - Exiting gracefully upon receiving signal 15
+[2025-02-04T19:59:31.043+0000] {manager.py:483} INFO - Processing files using up to 2 processes at a time 
+[2025-02-04T19:59:31.044+0000] {manager.py:484} INFO - Process each file at most once every 30 seconds
+[2025-02-04T19:59:31.044+0000] {manager.py:485} INFO - Checking for new files in /opt/airflow/dags every 300 seconds
+[2025-02-04T19:59:31.045+0000] {manager.py:821} INFO - Searching for files in /opt/airflow/dags
+[2025-02-04T19:59:31.127+0000] {manager.py:824} INFO - There are 2 files in /opt/airflow/dags
+[2025-02-04T19:59:31.608+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                               PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run      Last # of DB Queries
+----------------------------------------------------  -----  ---------  --------  ----------  --------------  ----------  ----------------------
+/opt/airflow/dags/northwind_etl/northwind_etl.py        192  0.02s             0           0                                                   0
+/opt/airflow/dags/northwind_etl/northwind_meltano.py    189  0.05s             0           0                                                   0
+================================================================================
+[2025-02-04T20:00:02.155+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                               PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+----------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/northwind_etl/northwind_etl.py                               1           0  1.73s           2025-02-04T19:59:33                      45
+/opt/airflow/dags/northwind_etl/northwind_meltano.py    206  0.00s             1           0  0.38s           2025-02-04T19:59:31                      45
+================================================================================
+[2025-02-04T20:00:32.499+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                               PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+----------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/northwind_etl/northwind_etl.py                               1           0  0.49s           2025-02-04T20:00:04                      12
+/opt/airflow/dags/northwind_etl/northwind_meltano.py    235  0.00s             1           0  0.13s           2025-02-04T20:00:02                      12
+================================================================================
+[2025-02-04T20:01:02.810+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                               PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+----------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/northwind_etl/northwind_etl.py                               1           0  0.47s           2025-02-04T20:00:36                      12
+/opt/airflow/dags/northwind_etl/northwind_meltano.py    258  0.00s             1           0  0.11s           2025-02-04T20:00:32                      12
+================================================================================
+[2025-02-04T20:01:33.151+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                               PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+----------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/northwind_etl/northwind_etl.py                               1           0  0.44s           2025-02-04T20:01:07                      12
+/opt/airflow/dags/northwind_etl/northwind_meltano.py    275  0.00s             1           0  0.10s           2025-02-04T20:01:02                      12
+================================================================================
+[2025-02-04T20:02:03.523+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                               PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+----------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/northwind_etl/northwind_etl.py                               1           0  0.49s           2025-02-04T20:01:37                      12
+/opt/airflow/dags/northwind_etl/northwind_meltano.py    292  0.00s             1           0  0.14s           2025-02-04T20:01:33                      12
+================================================================================
+[2025-02-04T20:02:33.852+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                               PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+----------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/northwind_etl/northwind_etl.py                               1           0  0.43s           2025-02-04T20:02:09                      12
+/opt/airflow/dags/northwind_etl/northwind_meltano.py    309  0.00s             1           0  0.12s           2025-02-04T20:02:03                      12
+================================================================================
+[2025-02-04T20:03:04.187+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                               PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+----------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/northwind_etl/northwind_etl.py                               1           0  0.52s           2025-02-04T20:02:40                      12
+/opt/airflow/dags/northwind_etl/northwind_meltano.py    326  0.00s             1           0  0.11s           2025-02-04T20:02:33                      12
+================================================================================
+[2025-02-04T20:03:34.524+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                               PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+----------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/northwind_etl/northwind_etl.py                               1           0  0.43s           2025-02-04T20:03:11                      12
+/opt/airflow/dags/northwind_etl/northwind_meltano.py    343  0.00s             1           0  0.12s           2025-02-04T20:03:04                      12
+================================================================================
+[2025-02-04T20:04:04.845+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                               PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+----------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/northwind_etl/northwind_etl.py                               1           0  0.46s           2025-02-04T20:03:43                      12
+/opt/airflow/dags/northwind_etl/northwind_meltano.py    360  0.00s             1           0  0.11s           2025-02-04T20:03:34                      12
+================================================================================
+[2025-02-04T20:04:31.121+0000] {manager.py:821} INFO - Searching for files in /opt/airflow/dags
+[2025-02-04T20:04:31.178+0000] {manager.py:824} INFO - There are 2 files in /opt/airflow/dags
+[2025-02-04T20:04:35.232+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                               PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+----------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/northwind_etl/northwind_etl.py                               1           0  0.50s           2025-02-04T20:04:14                      12
+/opt/airflow/dags/northwind_etl/northwind_meltano.py    377  0.00s             1           0  0.10s           2025-02-04T20:04:04                      12
+================================================================================
+[2025-02-04T20:05:05.661+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                               PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+----------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/northwind_etl/northwind_etl.py                               1           0  0.43s           2025-02-04T20:04:44                      12
+/opt/airflow/dags/northwind_etl/northwind_meltano.py    394  0.00s             1           0  0.21s           2025-02-04T20:04:35                      12
+================================================================================
+[2025-02-04T20:05:36.078+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                               PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+----------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/northwind_etl/northwind_etl.py                               1           0  0.44s           2025-02-04T20:05:16                      12
+/opt/airflow/dags/northwind_etl/northwind_meltano.py    411  0.00s             1           0  0.21s           2025-02-04T20:05:05                      12
+================================================================================
+[2025-02-04T20:06:06.474+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                               PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+----------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/northwind_etl/northwind_etl.py                               1           0  0.44s           2025-02-04T20:05:46                      12
+/opt/airflow/dags/northwind_etl/northwind_meltano.py    428  0.00s             1           0  0.18s           2025-02-04T20:05:36                      12
+================================================================================
+[2025-02-04T20:06:36.792+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                               PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+----------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/northwind_etl/northwind_etl.py                               1           0  0.54s           2025-02-04T20:06:18                      12
+/opt/airflow/dags/northwind_etl/northwind_meltano.py    445  0.00s             1           0  0.11s           2025-02-04T20:06:06                      12
+================================================================================
+[2025-02-04T20:07:07.123+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                               PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+----------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/northwind_etl/northwind_etl.py                               1           0  0.41s           2025-02-04T20:06:49                      12
+/opt/airflow/dags/northwind_etl/northwind_meltano.py    462  0.00s             1           0  0.12s           2025-02-04T20:06:36                      12
+================================================================================
+[2025-02-04T20:07:37.334+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                               PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+----------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/northwind_etl/northwind_etl.py                               1           0  0.46s           2025-02-04T20:07:19                      12
+/opt/airflow/dags/northwind_etl/northwind_meltano.py    484  0.00s             1           0  0.27s           2025-02-04T20:07:26                      12
+================================================================================
+[2025-02-04T20:08:01.405+0000] {manager.py:465} INFO - Exiting gracefully upon receiving signal 15
+[2025-02-04T20:09:01.434+0000] {manager.py:483} INFO - Processing files using up to 2 processes at a time 
+[2025-02-04T20:09:01.435+0000] {manager.py:484} INFO - Process each file at most once every 30 seconds
+[2025-02-04T20:09:01.435+0000] {manager.py:485} INFO - Checking for new files in /opt/airflow/dags every 300 seconds
+[2025-02-04T20:09:01.436+0000] {manager.py:821} INFO - Searching for files in /opt/airflow/dags
+[2025-02-04T20:09:01.497+0000] {manager.py:824} INFO - There are 2 files in /opt/airflow/dags
+[2025-02-04T20:09:01.916+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                               PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run      Last # of DB Queries
+----------------------------------------------------  -----  ---------  --------  ----------  --------------  ----------  ----------------------
+/opt/airflow/dags/northwind_etl/northwind_etl.py        193  0.02s             0           0                                                   0
+/opt/airflow/dags/northwind_etl/northwind_meltano.py    190  0.04s             0           0                                                   0
+================================================================================
+[2025-02-04T20:09:32.132+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                             PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+----------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/northwind_etl/northwind_etl.py                               1           0  1.22s           2025-02-04T20:09:03                      12
+/opt/airflow/dags/northwind_etl/northwind_meltano.py                           1           0  0.35s           2025-02-04T20:09:02                      34
+================================================================================
+[2025-02-04T20:10:02.648+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                               PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+----------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/northwind_etl/northwind_etl.py                               1           0  0.52s           2025-02-04T20:09:33                      12
+/opt/airflow/dags/northwind_etl/northwind_meltano.py    227  0.00s             1           0  0.11s           2025-02-04T20:09:32                      12
+================================================================================
+[2025-02-04T20:10:33.053+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                               PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+----------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/northwind_etl/northwind_etl.py                               1           0  0.43s           2025-02-04T20:10:05                      12
+/opt/airflow/dags/northwind_etl/northwind_meltano.py    244  0.00s             1           0  0.18s           2025-02-04T20:10:02                      12
+================================================================================
+[2025-02-04T20:11:03.385+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                               PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+----------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/northwind_etl/northwind_etl.py                               1           0  0.47s           2025-02-04T20:10:35                      12
+/opt/airflow/dags/northwind_etl/northwind_meltano.py    261  0.00s             1           0  0.11s           2025-02-04T20:10:33                      12
+================================================================================
+[2025-02-04T20:11:33.702+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                               PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+----------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/northwind_etl/northwind_etl.py                               1           0  0.42s           2025-02-04T20:11:06                      12
+/opt/airflow/dags/northwind_etl/northwind_meltano.py    278  0.00s             1           0  0.11s           2025-02-04T20:11:03                      12
+================================================================================
+[2025-02-04T20:12:04.484+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                             PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+----------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/northwind_etl/northwind_etl.py                               1           0  0.45s           2025-02-04T20:11:37                      12
+/opt/airflow/dags/northwind_etl/northwind_meltano.py                           1           0  0.12s           2025-02-04T20:11:54                      12
+================================================================================
+[2025-02-04T20:12:34.803+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                             PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+----------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/northwind_etl/northwind_etl.py                               1           0  0.42s           2025-02-04T20:12:07                      12
+/opt/airflow/dags/northwind_etl/northwind_meltano.py                           1           0  0.10s           2025-02-04T20:12:24                      12
+================================================================================
+[2025-02-04T20:13:05.098+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                             PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+----------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/northwind_etl/northwind_etl.py                               1           0  0.42s           2025-02-04T20:12:39                      12
+/opt/airflow/dags/northwind_etl/northwind_meltano.py                           1           0  0.10s           2025-02-04T20:12:55                      12
+================================================================================
+[2025-02-04T20:13:35.406+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                             PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+----------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/northwind_etl/northwind_etl.py                               1           0  0.55s           2025-02-04T20:13:10                      12
+/opt/airflow/dags/northwind_etl/northwind_meltano.py                           1           0  0.11s           2025-02-04T20:13:25                      12
+================================================================================
+[2025-02-04T20:14:01.687+0000] {manager.py:821} INFO - Searching for files in /opt/airflow/dags
+[2025-02-04T20:14:01.729+0000] {manager.py:824} INFO - There are 2 files in /opt/airflow/dags
+[2025-02-04T20:14:05.767+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                             PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+----------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/northwind_etl/northwind_etl.py                               1           0  0.42s           2025-02-04T20:13:41                      12
+/opt/airflow/dags/northwind_etl/northwind_meltano.py                           1           0  0.21s           2025-02-04T20:13:55                      12
+================================================================================
+[2025-02-04T20:14:36.154+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                             PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+----------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/northwind_etl/northwind_etl.py                               1           0  0.48s           2025-02-04T20:14:12                      12
+/opt/airflow/dags/northwind_etl/northwind_meltano.py                           1           0  0.21s           2025-02-04T20:14:26                      12
+================================================================================
+[2025-02-04T20:15:06.569+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                             PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+----------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/northwind_etl/northwind_etl.py                               1           0  0.44s           2025-02-04T20:14:43                      12
+/opt/airflow/dags/northwind_etl/northwind_meltano.py                           1           0  0.11s           2025-02-04T20:14:56                      12
+================================================================================
+[2025-02-04T20:15:36.881+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                             PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+----------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/northwind_etl/northwind_etl.py                               1           0  0.44s           2025-02-04T20:15:14                      12
+/opt/airflow/dags/northwind_etl/northwind_meltano.py                           1           0  0.11s           2025-02-04T20:15:26                      12
+================================================================================
+[2025-02-04T20:16:07.204+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                             PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+----------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/northwind_etl/northwind_etl.py                               1           0  0.42s           2025-02-04T20:15:45                      12
+/opt/airflow/dags/northwind_etl/northwind_meltano.py                           1           0  0.11s           2025-02-04T20:15:57                      12
+================================================================================
+[2025-02-04T20:16:37.510+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                             PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+----------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/northwind_etl/northwind_etl.py                               1           0  0.45s           2025-02-04T20:16:16                      12
+/opt/airflow/dags/northwind_etl/northwind_meltano.py                           1           0  0.25s           2025-02-04T20:16:27                      12
+================================================================================
+[2025-02-04T20:17:07.718+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                             PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+----------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/northwind_etl/northwind_etl.py                               1           0  0.44s           2025-02-04T20:16:47                      12
+/opt/airflow/dags/northwind_etl/northwind_meltano.py                           1           0  0.30s           2025-02-04T20:16:56                      34
+================================================================================
+[2025-02-04T20:17:38.081+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                             PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+----------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/northwind_etl/northwind_etl.py                               1           0  0.46s           2025-02-04T20:17:17                      12
+/opt/airflow/dags/northwind_etl/northwind_meltano.py                           1           0  0.21s           2025-02-04T20:17:27                      12
+================================================================================
+[2025-02-04T20:18:08.336+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                             PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+----------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/northwind_etl/northwind_etl.py                               1           0  0.43s           2025-02-04T20:17:48                      12
+/opt/airflow/dags/northwind_etl/northwind_meltano.py                           1           0  0.11s           2025-02-04T20:17:57                      12
+================================================================================
+[2025-02-04T20:18:38.652+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                             PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+----------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/northwind_etl/northwind_etl.py                               1           0  0.45s           2025-02-04T20:18:19                      12
+/opt/airflow/dags/northwind_etl/northwind_meltano.py                           1           0  0.11s           2025-02-04T20:18:27                      12
+================================================================================
+[2025-02-04T20:19:01.919+0000] {manager.py:821} INFO - Searching for files in /opt/airflow/dags
+[2025-02-04T20:19:01.974+0000] {manager.py:824} INFO - There are 2 files in /opt/airflow/dags
+[2025-02-04T20:19:09.041+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                             PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+----------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/northwind_etl/northwind_etl.py                               1           0  0.47s           2025-02-04T20:18:51                      12
+/opt/airflow/dags/northwind_etl/northwind_meltano.py                           1           0  0.24s           2025-02-04T20:18:58                      12
+================================================================================
+[2025-02-04T20:19:39.638+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                             PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+----------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/northwind_etl/northwind_etl.py                               1           0  0.43s           2025-02-04T20:19:21                      12
+/opt/airflow/dags/northwind_etl/northwind_meltano.py                           1           0  0.33s           2025-02-04T20:19:29                      34
+================================================================================
+[2025-02-04T20:20:09.980+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                             PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+----------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/northwind_etl/northwind_etl.py                               1           0  0.58s           2025-02-04T20:19:52                      12
+/opt/airflow/dags/northwind_etl/northwind_meltano.py                           1           0  0.21s           2025-02-04T20:20:00                      12
+================================================================================
+[2025-02-04T20:20:40.649+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                             PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+----------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/northwind_etl/northwind_etl.py                               1           0  0.44s           2025-02-04T20:20:23                      12
+/opt/airflow/dags/northwind_etl/northwind_meltano.py                           1           0  0.12s           2025-02-04T20:20:38                      11
+================================================================================
+[2025-02-04T20:21:10.913+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                             PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+----------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/northwind_etl/northwind_etl.py                               1           0  0.49s           2025-02-04T20:20:54                      12
+/opt/airflow/dags/northwind_etl/northwind_meltano.py                           1           0  0.30s           2025-02-04T20:20:56                      34
+================================================================================
+[2025-02-04T20:21:41.444+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                             PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+----------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/northwind_etl/northwind_etl.py                               1           0  0.46s           2025-02-04T20:21:24                      12
+/opt/airflow/dags/northwind_etl/northwind_meltano.py                           1           0  0.24s           2025-02-04T20:21:26                      12
+================================================================================
+[2025-02-04T20:22:12.043+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                             PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+----------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/northwind_etl/northwind_etl.py                               1           0  0.43s           2025-02-04T20:21:55                      12
+/opt/airflow/dags/northwind_etl/northwind_meltano.py                           1           0  0.22s           2025-02-04T20:22:04                      11
+================================================================================
+[2025-02-04T20:22:20.020+0000] {manager.py:465} INFO - Exiting gracefully upon receiving signal 15

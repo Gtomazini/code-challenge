@@ -1,0 +1,42 @@
+[2025-02-04T20:25:33.354+0000] {local_task_job_runner.py:123} INFO - ::group::Pre task execution logs
+[2025-02-04T20:25:33.369+0000] {taskinstance.py:2613} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: northwind_meltano.setup_meltano manual__2025-02-04T20:25:32.887288+00:00 [queued]>
+[2025-02-04T20:25:33.376+0000] {taskinstance.py:2613} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: northwind_meltano.setup_meltano manual__2025-02-04T20:25:32.887288+00:00 [queued]>
+[2025-02-04T20:25:33.376+0000] {taskinstance.py:2866} INFO - Starting attempt 1 of 1
+[2025-02-04T20:25:33.388+0000] {taskinstance.py:2889} INFO - Executing <Task(DockerOperator): setup_meltano> on 2025-02-04 20:25:32.887288+00:00
+[2025-02-04T20:25:33.394+0000] {standard_task_runner.py:104} INFO - Running: ['***', 'tasks', 'run', 'northwind_meltano', 'setup_meltano', 'manual__2025-02-04T20:25:32.887288+00:00', '--job-id', '15', '--raw', '--subdir', 'DAGS_FOLDER/northwind_etl/northwind_meltano.py', '--cfg-path', '/tmp/tmp55zz_wgu']
+[2025-02-04T20:25:33.396+0000] {standard_task_runner.py:105} INFO - Job 15: Subtask setup_meltano
+[2025-02-04T20:25:33.398+0000] {logging_mixin.py:190} WARNING - /home/***/.local/lib/python3.12/site-packages/***/task/task_runner/standard_task_runner.py:70 DeprecationWarning: This process (pid=266) is multi-threaded, use of fork() may lead to deadlocks in the child.
+[2025-02-04T20:25:33.398+0000] {standard_task_runner.py:72} INFO - Started process 268 to run task
+[2025-02-04T20:25:33.433+0000] {task_command.py:467} INFO - Running <TaskInstance: northwind_meltano.setup_meltano manual__2025-02-04T20:25:32.887288+00:00 [running]> on host 09d05643d017
+[2025-02-04T20:25:33.503+0000] {taskinstance.py:3132} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='gabriel' AIRFLOW_CTX_DAG_ID='northwind_meltano' AIRFLOW_CTX_TASK_ID='setup_meltano' AIRFLOW_CTX_EXECUTION_DATE='2025-02-04T20:25:32.887288+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2025-02-04T20:25:32.887288+00:00'
+[2025-02-04T20:25:33.504+0000] {taskinstance.py:731} INFO - ::endgroup::
+[2025-02-04T20:25:33.565+0000] {docker.py:379} INFO - Starting docker container from image meu-meltano
+[2025-02-04T20:25:37.595+0000] {docker.py:73} INFO - Added extractor 'tap-postgres' to your project
+[2025-02-04T20:25:37.595+0000] {docker.py:73} INFO - Variant:	meltanolabs (default)
+[2025-02-04T20:25:37.596+0000] {docker.py:73} INFO - Repository:	https://github.com/MeltanoLabs/tap-postgres
+[2025-02-04T20:25:37.596+0000] {docker.py:73} INFO - Documentation:	https://hub.meltano.com/extractors/tap-postgres--meltanolabs
+[2025-02-04T20:25:37.732+0000] {docker.py:73} INFO - [2m2025-02-04T20:25:37.731238Z[0m [[32m[1minfo     [0m] [1mInstalling extractor 'tap-postgres'[0m
+[2025-02-04T20:26:02.880+0000] {docker.py:73} INFO - [2m2025-02-04T20:26:02.879245Z[0m [[32m[1minfo     [0m] [1mInstalled extractor 'tap-postgres'[0m
+[2025-02-04T20:26:02.881+0000] {docker.py:73} INFO - 
+[2025-02-04T20:26:02.881+0000] {docker.py:73} INFO - To learn more about extractor 'tap-postgres', visit https://hub.meltano.com/extractors/tap-postgres--meltanolabs
+[2025-02-04T20:26:04.491+0000] {docker.py:73} INFO - [2m2025-02-04T20:26:04.490160Z[0m [[32m[1minfo     [0m] [1mThe default environment 'dev' will be ignored for `meltano config`. To configure a specific environment, please use the option `--environment=<environment name>`.[0m
+[2025-02-04T20:26:04.639+0000] {docker.py:73} INFO - Extractor 'tap-postgres' setting 'host' was set in `meltano.yml`: 'northwind_db'
+[2025-02-04T20:26:06.259+0000] {docker.py:73} INFO - [2m2025-02-04T20:26:06.258067Z[0m [[32m[1minfo     [0m] [1mThe default environment 'dev' will be ignored for `meltano config`. To configure a specific environment, please use the option `--environment=<environment name>`.[0m
+[2025-02-04T20:26:06.382+0000] {docker.py:73} INFO - Extractor 'tap-postgres' setting 'port' was set in `meltano.yml`: 5432
+[2025-02-04T20:26:07.961+0000] {docker.py:73} INFO - [2m2025-02-04T20:26:07.960590Z[0m [[32m[1minfo     [0m] [1mThe default environment 'dev' will be ignored for `meltano config`. To configure a specific environment, please use the option `--environment=<environment name>`.[0m
+[2025-02-04T20:26:08.026+0000] {docker.py:73} INFO - Extractor 'tap-postgres' setting 'user' was set in `meltano.yml`: 'northwind_user'
+[2025-02-04T20:26:09.621+0000] {docker.py:73} INFO - [2m2025-02-04T20:26:09.619811Z[0m [[32m[1minfo     [0m] [1mThe default environment 'dev' will be ignored for `meltano config`. To configure a specific environment, please use the option `--environment=<environment name>`.[0m
+[2025-02-04T20:26:09.679+0000] {docker.py:73} INFO - Extractor 'tap-postgres' setting 'password' was set in `.env`: (redacted)
+[2025-02-04T20:26:11.256+0000] {docker.py:73} INFO - [2m2025-02-04T20:26:11.255587Z[0m [[32m[1minfo     [0m] [1mThe default environment 'dev' will be ignored for `meltano config`. To configure a specific environment, please use the option `--environment=<environment name>`.[0m
+[2025-02-04T20:26:11.309+0000] {docker.py:73} INFO - /usr/local/lib/python3.10/site-packages/meltano/cli/interactive/config.py:403: RuntimeWarning: Unknown setting 'dbname'
+[2025-02-04T20:26:11.309+0000] {docker.py:73} INFO -   value, metadata = settings.set_with_metadata(
+[2025-02-04T20:26:11.386+0000] {docker.py:73} INFO - Extractor 'tap-postgres' setting 'dbname' was set in `meltano.yml`: 'northwind'
+[2025-02-04T20:26:12.979+0000] {docker.py:73} INFO - [2m2025-02-04T20:26:12.978077Z[0m [[32m[1minfo     [0m] [1mEnvironment 'dev' is active   [0m
+[2025-02-04T20:26:13.036+0000] {docker.py:73} INFO - 
+[2025-02-04T20:26:13.037+0000] {docker.py:73} INFO - 
+[2025-02-04T20:26:13.037+0000] {docker.py:73} INFO - === Testing completed successfully. 0 test(s) successful. 0 test(s) failed. ===
+[2025-02-04T20:26:15.830+0000] {taskinstance.py:340} INFO - ::group::Post task execution logs
+[2025-02-04T20:26:15.830+0000] {taskinstance.py:352} INFO - Marking task as SUCCESS. dag_id=northwind_meltano, task_id=setup_meltano, run_id=manual__2025-02-04T20:25:32.887288+00:00, execution_date=20250204T202532, start_date=20250204T202533, end_date=20250204T202615
+[2025-02-04T20:26:15.872+0000] {local_task_job_runner.py:266} INFO - Task exited with return code 0
+[2025-02-04T20:26:15.897+0000] {taskinstance.py:3895} INFO - 0 downstream tasks scheduled from follow-on schedule check
+[2025-02-04T20:26:15.901+0000] {local_task_job_runner.py:245} INFO - ::endgroup::

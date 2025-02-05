@@ -1,0 +1,51 @@
+[2025-02-04T21:42:22.135+0000] {local_task_job_runner.py:123} INFO - ::group::Pre task execution logs
+[2025-02-04T21:42:22.150+0000] {taskinstance.py:2613} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: northwind_meltano.setup_meltano manual__2025-02-04T21:42:21.419379+00:00 [queued]>
+[2025-02-04T21:42:22.156+0000] {taskinstance.py:2613} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: northwind_meltano.setup_meltano manual__2025-02-04T21:42:21.419379+00:00 [queued]>
+[2025-02-04T21:42:22.157+0000] {taskinstance.py:2866} INFO - Starting attempt 1 of 1
+[2025-02-04T21:42:22.169+0000] {taskinstance.py:2889} INFO - Executing <Task(DockerOperator): setup_meltano> on 2025-02-04 21:42:21.419379+00:00
+[2025-02-04T21:42:22.175+0000] {standard_task_runner.py:104} INFO - Running: ['***', 'tasks', 'run', 'northwind_meltano', 'setup_meltano', 'manual__2025-02-04T21:42:21.419379+00:00', '--job-id', '29', '--raw', '--subdir', 'DAGS_FOLDER/northwind_etl/northwind_meltano.py', '--cfg-path', '/tmp/tmp11t808r_']
+[2025-02-04T21:42:22.177+0000] {standard_task_runner.py:105} INFO - Job 29: Subtask setup_meltano
+[2025-02-04T21:42:22.179+0000] {logging_mixin.py:190} WARNING - /home/***/.local/lib/python3.12/site-packages/***/task/task_runner/standard_task_runner.py:70 DeprecationWarning: This process (pid=3007) is multi-threaded, use of fork() may lead to deadlocks in the child.
+[2025-02-04T21:42:22.179+0000] {standard_task_runner.py:72} INFO - Started process 3008 to run task
+[2025-02-04T21:42:22.212+0000] {task_command.py:467} INFO - Running <TaskInstance: northwind_meltano.setup_meltano manual__2025-02-04T21:42:21.419379+00:00 [running]> on host 09d05643d017
+[2025-02-04T21:42:22.275+0000] {taskinstance.py:3132} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='gabriel' AIRFLOW_CTX_DAG_ID='northwind_meltano' AIRFLOW_CTX_TASK_ID='setup_meltano' AIRFLOW_CTX_EXECUTION_DATE='2025-02-04T21:42:21.419379+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2025-02-04T21:42:21.419379+00:00'
+[2025-02-04T21:42:22.276+0000] {taskinstance.py:731} INFO - ::endgroup::
+[2025-02-04T21:42:22.313+0000] {docker.py:379} INFO - Starting docker container from image meu-meltano
+[2025-02-04T21:42:25.326+0000] {docker.py:73} INFO - Added extractor 'tap-postgres' to your project
+[2025-02-04T21:42:25.327+0000] {docker.py:73} INFO - Variant:	meltanolabs (default)
+[2025-02-04T21:42:25.327+0000] {docker.py:73} INFO - Repository:	https://github.com/MeltanoLabs/tap-postgres
+[2025-02-04T21:42:25.327+0000] {docker.py:73} INFO - Documentation:	https://hub.meltano.com/extractors/tap-postgres--meltanolabs
+[2025-02-04T21:42:25.459+0000] {docker.py:73} INFO - [2m2025-02-04T21:42:25.457661Z[0m [[32m[1minfo     [0m] [1mInstalling extractor 'tap-postgres'[0m
+[2025-02-04T21:42:45.266+0000] {docker.py:73} INFO - [2m2025-02-04T21:42:45.264835Z[0m [[32m[1minfo     [0m] [1mInstalled extractor 'tap-postgres'[0m
+[2025-02-04T21:42:45.266+0000] {docker.py:73} INFO - 
+[2025-02-04T21:42:45.267+0000] {docker.py:73} INFO - To learn more about extractor 'tap-postgres', visit https://hub.meltano.com/extractors/tap-postgres--meltanolabs
+[2025-02-04T21:42:46.958+0000] {docker.py:73} INFO - [2m2025-02-04T21:42:46.957166Z[0m [[32m[1minfo     [0m] [1mEnvironment 'dev' is active   [0m
+[2025-02-04T21:42:47.047+0000] {docker.py:73} INFO - Extractor 'tap-postgres' setting 'host' was set in the active environment in `meltano.yml`: 'northwind_db'
+[2025-02-04T21:42:48.619+0000] {docker.py:73} INFO - [2m2025-02-04T21:42:48.617664Z[0m [[32m[1minfo     [0m] [1mEnvironment 'dev' is active   [0m
+[2025-02-04T21:42:48.696+0000] {docker.py:73} INFO - Extractor 'tap-postgres' setting 'port' was set in the active environment in `meltano.yml`: 5432
+[2025-02-04T21:42:50.280+0000] {docker.py:73} INFO - [2m2025-02-04T21:42:50.278916Z[0m [[32m[1minfo     [0m] [1mEnvironment 'dev' is active   [0m
+[2025-02-04T21:42:50.360+0000] {docker.py:73} INFO - Extractor 'tap-postgres' setting 'user' was set in the active environment in `meltano.yml`: 'northwind_user'
+[2025-02-04T21:42:51.952+0000] {docker.py:73} INFO - [2m2025-02-04T21:42:51.951547Z[0m [[32m[1minfo     [0m] [1mEnvironment 'dev' is active   [0m
+[2025-02-04T21:42:52.023+0000] {docker.py:73} INFO - Extractor 'tap-postgres' setting 'password' was set in `.env`: (redacted)
+[2025-02-04T21:42:53.596+0000] {docker.py:73} INFO - [2m2025-02-04T21:42:53.595524Z[0m [[32m[1minfo     [0m] [1mEnvironment 'dev' is active   [0m
+[2025-02-04T21:42:53.676+0000] {docker.py:73} INFO - Extractor 'tap-postgres' setting 'database' was set in the active environment in `meltano.yml`: 'northwind'
+[2025-02-04T21:42:55.254+0000] {docker.py:73} INFO - [2m2025-02-04T21:42:55.252894Z[0m [[32m[1minfo     [0m] [1mEnvironment 'dev' is active   [0m
+[2025-02-04T21:42:55.339+0000] {docker.py:73} INFO - Extractor 'tap-postgres' setting 'filter_schemas' was set in the active environment in `meltano.yml`: ['public']
+[2025-02-04T21:42:56.919+0000] {docker.py:73} INFO - [2m2025-02-04T21:42:56.918014Z[0m [[32m[1minfo     [0m] [1mEnvironment 'dev' is active   [0m
+[2025-02-04T21:42:58.249+0000] {docker.py:73} INFO - /meltano/demo-project/.meltano/extractors/tap-postgres/venv/lib/python3.10/site-packages/singer_sdk/connectors/sql.py:1052: SAWarning: Did not recognize type 'bpchar' of column 'customer_id'
+[2025-02-04T21:42:58.250+0000] {docker.py:73} INFO -   columns = inspected.get_multi_columns(
+[2025-02-04T21:42:58.250+0000] {docker.py:73} INFO - /meltano/demo-project/.meltano/extractors/tap-postgres/venv/lib/python3.10/site-packages/singer_sdk/connectors/sql.py:1052: SAWarning: Did not recognize type 'bpchar' of column 'customer_type_id'
+[2025-02-04T21:42:58.250+0000] {docker.py:73} INFO -   columns = inspected.get_multi_columns(
+[2025-02-04T21:42:58.251+0000] {docker.py:73} INFO - /meltano/demo-project/.meltano/extractors/tap-postgres/venv/lib/python3.10/site-packages/singer_sdk/connectors/sql.py:1052: SAWarning: Did not recognize type 'bpchar' of column 'region_description'
+[2025-02-04T21:42:58.251+0000] {docker.py:73} INFO -   columns = inspected.get_multi_columns(
+[2025-02-04T21:42:58.252+0000] {docker.py:73} INFO - /meltano/demo-project/.meltano/extractors/tap-postgres/venv/lib/python3.10/site-packages/singer_sdk/connectors/sql.py:1052: SAWarning: Did not recognize type 'bpchar' of column 'territory_description'
+[2025-02-04T21:42:58.252+0000] {docker.py:73} INFO -   columns = inspected.get_multi_columns(
+[2025-02-04T21:42:59.909+0000] {docker.py:73} INFO - [2m2025-02-04T21:42:59.907847Z[0m [[32m[1minfo     [0m] [1mEnvironment 'dev' is active   [0m
+[2025-02-04T21:42:59.965+0000] {docker.py:73} INFO - 
+[2025-02-04T21:42:59.966+0000] {docker.py:73} INFO - 
+[2025-02-04T21:42:59.966+0000] {docker.py:73} INFO - === Testing completed successfully. 0 test(s) successful. 0 test(s) failed. ===
+[2025-02-04T21:43:01.571+0000] {taskinstance.py:340} INFO - ::group::Post task execution logs
+[2025-02-04T21:43:01.572+0000] {taskinstance.py:352} INFO - Marking task as SUCCESS. dag_id=northwind_meltano, task_id=setup_meltano, run_id=manual__2025-02-04T21:42:21.419379+00:00, execution_date=20250204T214221, start_date=20250204T214222, end_date=20250204T214301
+[2025-02-04T21:43:01.609+0000] {local_task_job_runner.py:266} INFO - Task exited with return code 0
+[2025-02-04T21:43:01.625+0000] {taskinstance.py:3895} INFO - 0 downstream tasks scheduled from follow-on schedule check
+[2025-02-04T21:43:01.627+0000] {local_task_job_runner.py:245} INFO - ::endgroup::

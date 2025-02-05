@@ -1,0 +1,42 @@
+[2025-02-04T20:31:18.822+0000] {local_task_job_runner.py:123} INFO - ::group::Pre task execution logs
+[2025-02-04T20:31:18.836+0000] {taskinstance.py:2613} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: northwind_meltano.setup_meltano manual__2025-02-04T20:31:18.126159+00:00 [queued]>
+[2025-02-04T20:31:18.842+0000] {taskinstance.py:2613} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: northwind_meltano.setup_meltano manual__2025-02-04T20:31:18.126159+00:00 [queued]>
+[2025-02-04T20:31:18.842+0000] {taskinstance.py:2866} INFO - Starting attempt 1 of 1
+[2025-02-04T20:31:18.853+0000] {taskinstance.py:2889} INFO - Executing <Task(DockerOperator): setup_meltano> on 2025-02-04 20:31:18.126159+00:00
+[2025-02-04T20:31:18.862+0000] {logging_mixin.py:190} WARNING - /home/***/.local/lib/python3.12/site-packages/***/task/task_runner/standard_task_runner.py:70 DeprecationWarning: This process (pid=493) is multi-threaded, use of fork() may lead to deadlocks in the child.
+[2025-02-04T20:31:18.863+0000] {standard_task_runner.py:72} INFO - Started process 494 to run task
+[2025-02-04T20:31:18.862+0000] {standard_task_runner.py:104} INFO - Running: ['***', 'tasks', 'run', 'northwind_meltano', 'setup_meltano', 'manual__2025-02-04T20:31:18.126159+00:00', '--job-id', '20', '--raw', '--subdir', 'DAGS_FOLDER/northwind_etl/northwind_meltano.py', '--cfg-path', '/tmp/tmpdo5vif5c']
+[2025-02-04T20:31:18.864+0000] {standard_task_runner.py:105} INFO - Job 20: Subtask setup_meltano
+[2025-02-04T20:31:18.896+0000] {task_command.py:467} INFO - Running <TaskInstance: northwind_meltano.setup_meltano manual__2025-02-04T20:31:18.126159+00:00 [running]> on host 09d05643d017
+[2025-02-04T20:31:18.967+0000] {taskinstance.py:3132} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='gabriel' AIRFLOW_CTX_DAG_ID='northwind_meltano' AIRFLOW_CTX_TASK_ID='setup_meltano' AIRFLOW_CTX_EXECUTION_DATE='2025-02-04T20:31:18.126159+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2025-02-04T20:31:18.126159+00:00'
+[2025-02-04T20:31:18.967+0000] {taskinstance.py:731} INFO - ::endgroup::
+[2025-02-04T20:31:19.018+0000] {docker.py:379} INFO - Starting docker container from image meu-meltano
+[2025-02-04T20:31:22.687+0000] {docker.py:73} INFO - Added extractor 'tap-postgres' to your project
+[2025-02-04T20:31:22.687+0000] {docker.py:73} INFO - Variant:	meltanolabs (default)
+[2025-02-04T20:31:22.688+0000] {docker.py:73} INFO - Repository:	https://github.com/MeltanoLabs/tap-postgres
+[2025-02-04T20:31:22.688+0000] {docker.py:73} INFO - Documentation:	https://hub.meltano.com/extractors/tap-postgres--meltanolabs
+[2025-02-04T20:31:22.828+0000] {docker.py:73} INFO - [2m2025-02-04T20:31:22.827498Z[0m [[32m[1minfo     [0m] [1mInstalling extractor 'tap-postgres'[0m
+[2025-02-04T20:31:45.861+0000] {docker.py:73} INFO - 
+[2025-02-04T20:31:45.862+0000] {docker.py:73} INFO - To learn more about extractor 'tap-postgres', visit https://hub.meltano.com/extractors/tap-postgres--meltanolabs
+[2025-02-04T20:31:45.862+0000] {docker.py:73} INFO - [2m2025-02-04T20:31:45.860574Z[0m [[32m[1minfo     [0m] [1mInstalled extractor 'tap-postgres'[0m
+[2025-02-04T20:31:47.443+0000] {docker.py:73} INFO - [2m2025-02-04T20:31:47.442450Z[0m [[32m[1minfo     [0m] [1mEnvironment 'dev' is active   [0m
+[2025-02-04T20:31:47.525+0000] {docker.py:73} INFO - Extractor 'tap-postgres' setting 'host' was set in the active environment in `meltano.yml`: 'northwind_db'
+[2025-02-04T20:31:49.098+0000] {docker.py:73} INFO - [2m2025-02-04T20:31:49.096570Z[0m [[32m[1minfo     [0m] [1mEnvironment 'dev' is active   [0m
+[2025-02-04T20:31:49.176+0000] {docker.py:73} INFO - Extractor 'tap-postgres' setting 'port' was set in the active environment in `meltano.yml`: 5432
+[2025-02-04T20:31:50.747+0000] {docker.py:73} INFO - [2m2025-02-04T20:31:50.745949Z[0m [[32m[1minfo     [0m] [1mEnvironment 'dev' is active   [0m
+[2025-02-04T20:31:50.825+0000] {docker.py:73} INFO - Extractor 'tap-postgres' setting 'user' was set in the active environment in `meltano.yml`: 'northwind_user'
+[2025-02-04T20:31:52.467+0000] {docker.py:73} INFO - [2m2025-02-04T20:31:52.466375Z[0m [[32m[1minfo     [0m] [1mEnvironment 'dev' is active   [0m
+[2025-02-04T20:31:52.537+0000] {docker.py:73} INFO - Extractor 'tap-postgres' setting 'password' was set in `.env`: (redacted)
+[2025-02-04T20:31:54.170+0000] {docker.py:73} INFO - [2m2025-02-04T20:31:54.168960Z[0m [[32m[1minfo     [0m] [1mEnvironment 'dev' is active   [0m
+[2025-02-04T20:31:54.250+0000] {docker.py:73} INFO - Extractor 'tap-postgres' setting 'database' was set in the active environment in `meltano.yml`: 'northwind'
+[2025-02-04T20:31:55.843+0000] {docker.py:73} INFO - [2m2025-02-04T20:31:55.842586Z[0m [[32m[1minfo     [0m] [1mEnvironment 'dev' is active   [0m
+[2025-02-04T20:31:55.925+0000] {docker.py:73} INFO - Extractor 'tap-postgres' setting 'filter_schemas' was set in the active environment in `meltano.yml`: ['public']
+[2025-02-04T20:31:57.514+0000] {docker.py:73} INFO - [2m2025-02-04T20:31:57.512759Z[0m [[32m[1minfo     [0m] [1mEnvironment 'dev' is active   [0m
+[2025-02-04T20:31:57.570+0000] {docker.py:73} INFO - 
+[2025-02-04T20:31:57.570+0000] {docker.py:73} INFO - 
+[2025-02-04T20:31:57.571+0000] {docker.py:73} INFO - === Testing completed successfully. 0 test(s) successful. 0 test(s) failed. ===
+[2025-02-04T20:31:59.238+0000] {taskinstance.py:340} INFO - ::group::Post task execution logs
+[2025-02-04T20:31:59.239+0000] {taskinstance.py:352} INFO - Marking task as SUCCESS. dag_id=northwind_meltano, task_id=setup_meltano, run_id=manual__2025-02-04T20:31:18.126159+00:00, execution_date=20250204T203118, start_date=20250204T203118, end_date=20250204T203159
+[2025-02-04T20:31:59.284+0000] {local_task_job_runner.py:266} INFO - Task exited with return code 0
+[2025-02-04T20:31:59.302+0000] {taskinstance.py:3895} INFO - 0 downstream tasks scheduled from follow-on schedule check
+[2025-02-04T20:31:59.304+0000] {local_task_job_runner.py:245} INFO - ::endgroup::

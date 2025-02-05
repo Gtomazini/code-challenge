@@ -1,0 +1,728 @@
+[2025-02-05T00:00:27.784+0000] {processor.py:186} INFO - Started process (PID=7712) to work on /opt/airflow/dags/northwind_etl/northwind_meltano.py
+[2025-02-05T00:00:27.785+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/northwind_etl/northwind_meltano.py for tasks to queue
+[2025-02-05T00:00:27.786+0000] {logging_mixin.py:190} INFO - [2025-02-05T00:00:27.786+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/northwind_etl/northwind_meltano.py
+[2025-02-05T00:00:27.804+0000] {processor.py:925} INFO - DAG(s) 'northwind_meltano' retrieved from /opt/airflow/dags/northwind_etl/northwind_meltano.py
+[2025-02-05T00:00:27.824+0000] {logging_mixin.py:190} INFO - [2025-02-05T00:00:27.824+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-02-05T00:00:27.844+0000] {logging_mixin.py:190} INFO - [2025-02-05T00:00:27.844+0000] {dag.py:4180} INFO - Setting next_dagrun for northwind_meltano to 2025-02-04 08:00:00+00:00, run_after=2025-02-05 08:00:00+00:00
+[2025-02-05T00:00:27.860+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/northwind_etl/northwind_meltano.py took 0.080 seconds
+[2025-02-05T00:00:58.100+0000] {processor.py:186} INFO - Started process (PID=7729) to work on /opt/airflow/dags/northwind_etl/northwind_meltano.py
+[2025-02-05T00:00:58.100+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/northwind_etl/northwind_meltano.py for tasks to queue
+[2025-02-05T00:00:58.101+0000] {logging_mixin.py:190} INFO - [2025-02-05T00:00:58.101+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/northwind_etl/northwind_meltano.py
+[2025-02-05T00:00:58.121+0000] {processor.py:925} INFO - DAG(s) 'northwind_meltano' retrieved from /opt/airflow/dags/northwind_etl/northwind_meltano.py
+[2025-02-05T00:00:58.140+0000] {logging_mixin.py:190} INFO - [2025-02-05T00:00:58.140+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-02-05T00:00:58.159+0000] {logging_mixin.py:190} INFO - [2025-02-05T00:00:58.159+0000] {dag.py:4180} INFO - Setting next_dagrun for northwind_meltano to 2025-02-04 08:00:00+00:00, run_after=2025-02-05 08:00:00+00:00
+[2025-02-05T00:00:58.174+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/northwind_etl/northwind_meltano.py took 0.078 seconds
+[2025-02-05T00:01:28.419+0000] {processor.py:186} INFO - Started process (PID=7746) to work on /opt/airflow/dags/northwind_etl/northwind_meltano.py
+[2025-02-05T00:01:28.420+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/northwind_etl/northwind_meltano.py for tasks to queue
+[2025-02-05T00:01:28.421+0000] {logging_mixin.py:190} INFO - [2025-02-05T00:01:28.421+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/northwind_etl/northwind_meltano.py
+[2025-02-05T00:01:28.441+0000] {processor.py:925} INFO - DAG(s) 'northwind_meltano' retrieved from /opt/airflow/dags/northwind_etl/northwind_meltano.py
+[2025-02-05T00:01:28.460+0000] {logging_mixin.py:190} INFO - [2025-02-05T00:01:28.460+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-02-05T00:01:28.478+0000] {logging_mixin.py:190} INFO - [2025-02-05T00:01:28.478+0000] {dag.py:4180} INFO - Setting next_dagrun for northwind_meltano to 2025-02-04 08:00:00+00:00, run_after=2025-02-05 08:00:00+00:00
+[2025-02-05T00:01:28.492+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/northwind_etl/northwind_meltano.py took 0.077 seconds
+[2025-02-05T00:01:58.736+0000] {processor.py:186} INFO - Started process (PID=7763) to work on /opt/airflow/dags/northwind_etl/northwind_meltano.py
+[2025-02-05T00:01:58.737+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/northwind_etl/northwind_meltano.py for tasks to queue
+[2025-02-05T00:01:58.738+0000] {logging_mixin.py:190} INFO - [2025-02-05T00:01:58.737+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/northwind_etl/northwind_meltano.py
+[2025-02-05T00:01:58.757+0000] {processor.py:925} INFO - DAG(s) 'northwind_meltano' retrieved from /opt/airflow/dags/northwind_etl/northwind_meltano.py
+[2025-02-05T00:01:58.777+0000] {logging_mixin.py:190} INFO - [2025-02-05T00:01:58.777+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-02-05T00:01:58.796+0000] {logging_mixin.py:190} INFO - [2025-02-05T00:01:58.795+0000] {dag.py:4180} INFO - Setting next_dagrun for northwind_meltano to 2025-02-04 08:00:00+00:00, run_after=2025-02-05 08:00:00+00:00
+[2025-02-05T00:01:58.809+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/northwind_etl/northwind_meltano.py took 0.077 seconds
+[2025-02-05T00:02:29.055+0000] {processor.py:186} INFO - Started process (PID=7780) to work on /opt/airflow/dags/northwind_etl/northwind_meltano.py
+[2025-02-05T00:02:29.056+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/northwind_etl/northwind_meltano.py for tasks to queue
+[2025-02-05T00:02:29.057+0000] {logging_mixin.py:190} INFO - [2025-02-05T00:02:29.057+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/northwind_etl/northwind_meltano.py
+[2025-02-05T00:02:29.077+0000] {processor.py:925} INFO - DAG(s) 'northwind_meltano' retrieved from /opt/airflow/dags/northwind_etl/northwind_meltano.py
+[2025-02-05T00:02:29.095+0000] {logging_mixin.py:190} INFO - [2025-02-05T00:02:29.095+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-02-05T00:02:29.113+0000] {logging_mixin.py:190} INFO - [2025-02-05T00:02:29.113+0000] {dag.py:4180} INFO - Setting next_dagrun for northwind_meltano to 2025-02-04 08:00:00+00:00, run_after=2025-02-05 08:00:00+00:00
+[2025-02-05T00:02:29.127+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/northwind_etl/northwind_meltano.py took 0.076 seconds
+[2025-02-05T00:02:59.363+0000] {processor.py:186} INFO - Started process (PID=7803) to work on /opt/airflow/dags/northwind_etl/northwind_meltano.py
+[2025-02-05T00:02:59.364+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/northwind_etl/northwind_meltano.py for tasks to queue
+[2025-02-05T00:02:59.365+0000] {logging_mixin.py:190} INFO - [2025-02-05T00:02:59.365+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/northwind_etl/northwind_meltano.py
+[2025-02-05T00:02:59.384+0000] {processor.py:925} INFO - DAG(s) 'northwind_meltano' retrieved from /opt/airflow/dags/northwind_etl/northwind_meltano.py
+[2025-02-05T00:02:59.403+0000] {logging_mixin.py:190} INFO - [2025-02-05T00:02:59.403+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-02-05T00:02:59.422+0000] {logging_mixin.py:190} INFO - [2025-02-05T00:02:59.422+0000] {dag.py:4180} INFO - Setting next_dagrun for northwind_meltano to 2025-02-04 08:00:00+00:00, run_after=2025-02-05 08:00:00+00:00
+[2025-02-05T00:02:59.436+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/northwind_etl/northwind_meltano.py took 0.077 seconds
+[2025-02-05T00:03:29.676+0000] {processor.py:186} INFO - Started process (PID=7821) to work on /opt/airflow/dags/northwind_etl/northwind_meltano.py
+[2025-02-05T00:03:29.676+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/northwind_etl/northwind_meltano.py for tasks to queue
+[2025-02-05T00:03:29.677+0000] {logging_mixin.py:190} INFO - [2025-02-05T00:03:29.677+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/northwind_etl/northwind_meltano.py
+[2025-02-05T00:03:29.697+0000] {processor.py:925} INFO - DAG(s) 'northwind_meltano' retrieved from /opt/airflow/dags/northwind_etl/northwind_meltano.py
+[2025-02-05T00:03:29.715+0000] {logging_mixin.py:190} INFO - [2025-02-05T00:03:29.715+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-02-05T00:03:29.734+0000] {logging_mixin.py:190} INFO - [2025-02-05T00:03:29.734+0000] {dag.py:4180} INFO - Setting next_dagrun for northwind_meltano to 2025-02-04 08:00:00+00:00, run_after=2025-02-05 08:00:00+00:00
+[2025-02-05T00:03:29.748+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/northwind_etl/northwind_meltano.py took 0.076 seconds
+[2025-02-05T00:04:00.036+0000] {processor.py:186} INFO - Started process (PID=7838) to work on /opt/airflow/dags/northwind_etl/northwind_meltano.py
+[2025-02-05T00:04:00.037+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/northwind_etl/northwind_meltano.py for tasks to queue
+[2025-02-05T00:04:00.038+0000] {logging_mixin.py:190} INFO - [2025-02-05T00:04:00.038+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/northwind_etl/northwind_meltano.py
+[2025-02-05T00:04:00.058+0000] {processor.py:925} INFO - DAG(s) 'northwind_meltano' retrieved from /opt/airflow/dags/northwind_etl/northwind_meltano.py
+[2025-02-05T00:04:00.077+0000] {logging_mixin.py:190} INFO - [2025-02-05T00:04:00.077+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-02-05T00:04:00.095+0000] {logging_mixin.py:190} INFO - [2025-02-05T00:04:00.095+0000] {dag.py:4180} INFO - Setting next_dagrun for northwind_meltano to 2025-02-04 08:00:00+00:00, run_after=2025-02-05 08:00:00+00:00
+[2025-02-05T00:04:00.112+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/northwind_etl/northwind_meltano.py took 0.080 seconds
+[2025-02-05T00:04:30.346+0000] {processor.py:186} INFO - Started process (PID=7855) to work on /opt/airflow/dags/northwind_etl/northwind_meltano.py
+[2025-02-05T00:04:30.347+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/northwind_etl/northwind_meltano.py for tasks to queue
+[2025-02-05T00:04:30.348+0000] {logging_mixin.py:190} INFO - [2025-02-05T00:04:30.348+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/northwind_etl/northwind_meltano.py
+[2025-02-05T00:04:30.368+0000] {processor.py:925} INFO - DAG(s) 'northwind_meltano' retrieved from /opt/airflow/dags/northwind_etl/northwind_meltano.py
+[2025-02-05T00:04:30.387+0000] {logging_mixin.py:190} INFO - [2025-02-05T00:04:30.386+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-02-05T00:04:30.405+0000] {logging_mixin.py:190} INFO - [2025-02-05T00:04:30.405+0000] {dag.py:4180} INFO - Setting next_dagrun for northwind_meltano to 2025-02-04 08:00:00+00:00, run_after=2025-02-05 08:00:00+00:00
+[2025-02-05T00:04:30.419+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/northwind_etl/northwind_meltano.py took 0.077 seconds
+[2025-02-05T00:05:00.661+0000] {processor.py:186} INFO - Started process (PID=7872) to work on /opt/airflow/dags/northwind_etl/northwind_meltano.py
+[2025-02-05T00:05:00.662+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/northwind_etl/northwind_meltano.py for tasks to queue
+[2025-02-05T00:05:00.663+0000] {logging_mixin.py:190} INFO - [2025-02-05T00:05:00.662+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/northwind_etl/northwind_meltano.py
+[2025-02-05T00:05:00.682+0000] {processor.py:925} INFO - DAG(s) 'northwind_meltano' retrieved from /opt/airflow/dags/northwind_etl/northwind_meltano.py
+[2025-02-05T00:05:00.700+0000] {logging_mixin.py:190} INFO - [2025-02-05T00:05:00.700+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-02-05T00:05:00.718+0000] {logging_mixin.py:190} INFO - [2025-02-05T00:05:00.718+0000] {dag.py:4180} INFO - Setting next_dagrun for northwind_meltano to 2025-02-04 08:00:00+00:00, run_after=2025-02-05 08:00:00+00:00
+[2025-02-05T00:05:00.732+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/northwind_etl/northwind_meltano.py took 0.075 seconds
+[2025-02-05T00:05:30.975+0000] {processor.py:186} INFO - Started process (PID=7889) to work on /opt/airflow/dags/northwind_etl/northwind_meltano.py
+[2025-02-05T00:05:30.976+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/northwind_etl/northwind_meltano.py for tasks to queue
+[2025-02-05T00:05:30.977+0000] {logging_mixin.py:190} INFO - [2025-02-05T00:05:30.977+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/northwind_etl/northwind_meltano.py
+[2025-02-05T00:05:30.999+0000] {processor.py:925} INFO - DAG(s) 'northwind_meltano' retrieved from /opt/airflow/dags/northwind_etl/northwind_meltano.py
+[2025-02-05T00:05:31.021+0000] {logging_mixin.py:190} INFO - [2025-02-05T00:05:31.020+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-02-05T00:05:31.039+0000] {logging_mixin.py:190} INFO - [2025-02-05T00:05:31.039+0000] {dag.py:4180} INFO - Setting next_dagrun for northwind_meltano to 2025-02-04 08:00:00+00:00, run_after=2025-02-05 08:00:00+00:00
+[2025-02-05T00:05:31.053+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/northwind_etl/northwind_meltano.py took 0.082 seconds
+[2025-02-05T00:06:01.299+0000] {processor.py:186} INFO - Started process (PID=7906) to work on /opt/airflow/dags/northwind_etl/northwind_meltano.py
+[2025-02-05T00:06:01.299+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/northwind_etl/northwind_meltano.py for tasks to queue
+[2025-02-05T00:06:01.300+0000] {logging_mixin.py:190} INFO - [2025-02-05T00:06:01.300+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/northwind_etl/northwind_meltano.py
+[2025-02-05T00:06:01.319+0000] {processor.py:925} INFO - DAG(s) 'northwind_meltano' retrieved from /opt/airflow/dags/northwind_etl/northwind_meltano.py
+[2025-02-05T00:06:01.338+0000] {logging_mixin.py:190} INFO - [2025-02-05T00:06:01.338+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-02-05T00:06:01.357+0000] {logging_mixin.py:190} INFO - [2025-02-05T00:06:01.356+0000] {dag.py:4180} INFO - Setting next_dagrun for northwind_meltano to 2025-02-04 08:00:00+00:00, run_after=2025-02-05 08:00:00+00:00
+[2025-02-05T00:06:01.370+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/northwind_etl/northwind_meltano.py took 0.076 seconds
+[2025-02-05T00:06:31.605+0000] {processor.py:186} INFO - Started process (PID=7923) to work on /opt/airflow/dags/northwind_etl/northwind_meltano.py
+[2025-02-05T00:06:31.606+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/northwind_etl/northwind_meltano.py for tasks to queue
+[2025-02-05T00:06:31.606+0000] {logging_mixin.py:190} INFO - [2025-02-05T00:06:31.606+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/northwind_etl/northwind_meltano.py
+[2025-02-05T00:06:31.626+0000] {processor.py:925} INFO - DAG(s) 'northwind_meltano' retrieved from /opt/airflow/dags/northwind_etl/northwind_meltano.py
+[2025-02-05T00:06:31.644+0000] {logging_mixin.py:190} INFO - [2025-02-05T00:06:31.644+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-02-05T00:06:31.663+0000] {logging_mixin.py:190} INFO - [2025-02-05T00:06:31.663+0000] {dag.py:4180} INFO - Setting next_dagrun for northwind_meltano to 2025-02-04 08:00:00+00:00, run_after=2025-02-05 08:00:00+00:00
+[2025-02-05T00:06:31.677+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/northwind_etl/northwind_meltano.py took 0.076 seconds
+[2025-02-05T00:07:01.919+0000] {processor.py:186} INFO - Started process (PID=7940) to work on /opt/airflow/dags/northwind_etl/northwind_meltano.py
+[2025-02-05T00:07:01.919+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/northwind_etl/northwind_meltano.py for tasks to queue
+[2025-02-05T00:07:01.920+0000] {logging_mixin.py:190} INFO - [2025-02-05T00:07:01.920+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/northwind_etl/northwind_meltano.py
+[2025-02-05T00:07:01.940+0000] {processor.py:925} INFO - DAG(s) 'northwind_meltano' retrieved from /opt/airflow/dags/northwind_etl/northwind_meltano.py
+[2025-02-05T00:07:01.959+0000] {logging_mixin.py:190} INFO - [2025-02-05T00:07:01.958+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-02-05T00:07:01.977+0000] {logging_mixin.py:190} INFO - [2025-02-05T00:07:01.977+0000] {dag.py:4180} INFO - Setting next_dagrun for northwind_meltano to 2025-02-04 08:00:00+00:00, run_after=2025-02-05 08:00:00+00:00
+[2025-02-05T00:07:01.991+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/northwind_etl/northwind_meltano.py took 0.077 seconds
+[2025-02-05T00:07:32.228+0000] {processor.py:186} INFO - Started process (PID=7957) to work on /opt/airflow/dags/northwind_etl/northwind_meltano.py
+[2025-02-05T00:07:32.229+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/northwind_etl/northwind_meltano.py for tasks to queue
+[2025-02-05T00:07:32.230+0000] {logging_mixin.py:190} INFO - [2025-02-05T00:07:32.230+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/northwind_etl/northwind_meltano.py
+[2025-02-05T00:07:32.252+0000] {processor.py:925} INFO - DAG(s) 'northwind_meltano' retrieved from /opt/airflow/dags/northwind_etl/northwind_meltano.py
+[2025-02-05T00:07:32.273+0000] {logging_mixin.py:190} INFO - [2025-02-05T00:07:32.273+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-02-05T00:07:32.292+0000] {logging_mixin.py:190} INFO - [2025-02-05T00:07:32.292+0000] {dag.py:4180} INFO - Setting next_dagrun for northwind_meltano to 2025-02-04 08:00:00+00:00, run_after=2025-02-05 08:00:00+00:00
+[2025-02-05T00:07:32.306+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/northwind_etl/northwind_meltano.py took 0.082 seconds
+[2025-02-05T00:08:02.546+0000] {processor.py:186} INFO - Started process (PID=7975) to work on /opt/airflow/dags/northwind_etl/northwind_meltano.py
+[2025-02-05T00:08:02.547+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/northwind_etl/northwind_meltano.py for tasks to queue
+[2025-02-05T00:08:02.548+0000] {logging_mixin.py:190} INFO - [2025-02-05T00:08:02.547+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/northwind_etl/northwind_meltano.py
+[2025-02-05T00:08:02.567+0000] {processor.py:925} INFO - DAG(s) 'northwind_meltano' retrieved from /opt/airflow/dags/northwind_etl/northwind_meltano.py
+[2025-02-05T00:08:02.587+0000] {logging_mixin.py:190} INFO - [2025-02-05T00:08:02.587+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-02-05T00:08:02.607+0000] {logging_mixin.py:190} INFO - [2025-02-05T00:08:02.607+0000] {dag.py:4180} INFO - Setting next_dagrun for northwind_meltano to 2025-02-04 08:00:00+00:00, run_after=2025-02-05 08:00:00+00:00
+[2025-02-05T00:08:02.622+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/northwind_etl/northwind_meltano.py took 0.081 seconds
+[2025-02-05T00:08:32.853+0000] {processor.py:186} INFO - Started process (PID=7992) to work on /opt/airflow/dags/northwind_etl/northwind_meltano.py
+[2025-02-05T00:08:32.853+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/northwind_etl/northwind_meltano.py for tasks to queue
+[2025-02-05T00:08:32.854+0000] {logging_mixin.py:190} INFO - [2025-02-05T00:08:32.854+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/northwind_etl/northwind_meltano.py
+[2025-02-05T00:08:32.874+0000] {processor.py:925} INFO - DAG(s) 'northwind_meltano' retrieved from /opt/airflow/dags/northwind_etl/northwind_meltano.py
+[2025-02-05T00:08:32.893+0000] {logging_mixin.py:190} INFO - [2025-02-05T00:08:32.892+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-02-05T00:08:32.912+0000] {logging_mixin.py:190} INFO - [2025-02-05T00:08:32.911+0000] {dag.py:4180} INFO - Setting next_dagrun for northwind_meltano to 2025-02-04 08:00:00+00:00, run_after=2025-02-05 08:00:00+00:00
+[2025-02-05T00:08:32.925+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/northwind_etl/northwind_meltano.py took 0.077 seconds
+[2025-02-05T00:09:03.218+0000] {processor.py:186} INFO - Started process (PID=8009) to work on /opt/airflow/dags/northwind_etl/northwind_meltano.py
+[2025-02-05T00:09:03.219+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/northwind_etl/northwind_meltano.py for tasks to queue
+[2025-02-05T00:09:03.219+0000] {logging_mixin.py:190} INFO - [2025-02-05T00:09:03.219+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/northwind_etl/northwind_meltano.py
+[2025-02-05T00:09:03.238+0000] {processor.py:925} INFO - DAG(s) 'northwind_meltano' retrieved from /opt/airflow/dags/northwind_etl/northwind_meltano.py
+[2025-02-05T00:09:03.257+0000] {logging_mixin.py:190} INFO - [2025-02-05T00:09:03.257+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-02-05T00:09:03.276+0000] {logging_mixin.py:190} INFO - [2025-02-05T00:09:03.276+0000] {dag.py:4180} INFO - Setting next_dagrun for northwind_meltano to 2025-02-04 08:00:00+00:00, run_after=2025-02-05 08:00:00+00:00
+[2025-02-05T00:09:03.292+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/northwind_etl/northwind_meltano.py took 0.079 seconds
+[2025-02-05T00:09:33.533+0000] {processor.py:186} INFO - Started process (PID=8026) to work on /opt/airflow/dags/northwind_etl/northwind_meltano.py
+[2025-02-05T00:09:33.534+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/northwind_etl/northwind_meltano.py for tasks to queue
+[2025-02-05T00:09:33.535+0000] {logging_mixin.py:190} INFO - [2025-02-05T00:09:33.535+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/northwind_etl/northwind_meltano.py
+[2025-02-05T00:09:33.554+0000] {processor.py:925} INFO - DAG(s) 'northwind_meltano' retrieved from /opt/airflow/dags/northwind_etl/northwind_meltano.py
+[2025-02-05T00:09:33.573+0000] {logging_mixin.py:190} INFO - [2025-02-05T00:09:33.573+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-02-05T00:09:33.591+0000] {logging_mixin.py:190} INFO - [2025-02-05T00:09:33.591+0000] {dag.py:4180} INFO - Setting next_dagrun for northwind_meltano to 2025-02-04 08:00:00+00:00, run_after=2025-02-05 08:00:00+00:00
+[2025-02-05T00:09:33.605+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/northwind_etl/northwind_meltano.py took 0.076 seconds
+[2025-02-05T00:10:03.833+0000] {processor.py:186} INFO - Started process (PID=8043) to work on /opt/airflow/dags/northwind_etl/northwind_meltano.py
+[2025-02-05T00:10:03.834+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/northwind_etl/northwind_meltano.py for tasks to queue
+[2025-02-05T00:10:03.835+0000] {logging_mixin.py:190} INFO - [2025-02-05T00:10:03.835+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/northwind_etl/northwind_meltano.py
+[2025-02-05T00:10:03.854+0000] {processor.py:925} INFO - DAG(s) 'northwind_meltano' retrieved from /opt/airflow/dags/northwind_etl/northwind_meltano.py
+[2025-02-05T00:10:03.872+0000] {logging_mixin.py:190} INFO - [2025-02-05T00:10:03.872+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-02-05T00:10:03.891+0000] {logging_mixin.py:190} INFO - [2025-02-05T00:10:03.890+0000] {dag.py:4180} INFO - Setting next_dagrun for northwind_meltano to 2025-02-04 08:00:00+00:00, run_after=2025-02-05 08:00:00+00:00
+[2025-02-05T00:10:03.905+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/northwind_etl/northwind_meltano.py took 0.076 seconds
+[2025-02-05T00:10:34.142+0000] {processor.py:186} INFO - Started process (PID=8060) to work on /opt/airflow/dags/northwind_etl/northwind_meltano.py
+[2025-02-05T00:10:34.143+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/northwind_etl/northwind_meltano.py for tasks to queue
+[2025-02-05T00:10:34.144+0000] {logging_mixin.py:190} INFO - [2025-02-05T00:10:34.144+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/northwind_etl/northwind_meltano.py
+[2025-02-05T00:10:34.163+0000] {processor.py:925} INFO - DAG(s) 'northwind_meltano' retrieved from /opt/airflow/dags/northwind_etl/northwind_meltano.py
+[2025-02-05T00:10:34.183+0000] {logging_mixin.py:190} INFO - [2025-02-05T00:10:34.183+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-02-05T00:10:34.201+0000] {logging_mixin.py:190} INFO - [2025-02-05T00:10:34.201+0000] {dag.py:4180} INFO - Setting next_dagrun for northwind_meltano to 2025-02-04 08:00:00+00:00, run_after=2025-02-05 08:00:00+00:00
+[2025-02-05T00:10:34.215+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/northwind_etl/northwind_meltano.py took 0.077 seconds
+[2025-02-05T00:11:04.455+0000] {processor.py:186} INFO - Started process (PID=8077) to work on /opt/airflow/dags/northwind_etl/northwind_meltano.py
+[2025-02-05T00:11:04.456+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/northwind_etl/northwind_meltano.py for tasks to queue
+[2025-02-05T00:11:04.458+0000] {logging_mixin.py:190} INFO - [2025-02-05T00:11:04.457+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/northwind_etl/northwind_meltano.py
+[2025-02-05T00:11:04.476+0000] {processor.py:925} INFO - DAG(s) 'northwind_meltano' retrieved from /opt/airflow/dags/northwind_etl/northwind_meltano.py
+[2025-02-05T00:11:04.495+0000] {logging_mixin.py:190} INFO - [2025-02-05T00:11:04.495+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-02-05T00:11:04.514+0000] {logging_mixin.py:190} INFO - [2025-02-05T00:11:04.514+0000] {dag.py:4180} INFO - Setting next_dagrun for northwind_meltano to 2025-02-04 08:00:00+00:00, run_after=2025-02-05 08:00:00+00:00
+[2025-02-05T00:11:04.528+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/northwind_etl/northwind_meltano.py took 0.077 seconds
+[2025-02-05T00:11:34.765+0000] {processor.py:186} INFO - Started process (PID=8094) to work on /opt/airflow/dags/northwind_etl/northwind_meltano.py
+[2025-02-05T00:11:34.766+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/northwind_etl/northwind_meltano.py for tasks to queue
+[2025-02-05T00:11:34.767+0000] {logging_mixin.py:190} INFO - [2025-02-05T00:11:34.766+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/northwind_etl/northwind_meltano.py
+[2025-02-05T00:11:34.786+0000] {processor.py:925} INFO - DAG(s) 'northwind_meltano' retrieved from /opt/airflow/dags/northwind_etl/northwind_meltano.py
+[2025-02-05T00:11:34.804+0000] {logging_mixin.py:190} INFO - [2025-02-05T00:11:34.804+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-02-05T00:11:34.822+0000] {logging_mixin.py:190} INFO - [2025-02-05T00:11:34.822+0000] {dag.py:4180} INFO - Setting next_dagrun for northwind_meltano to 2025-02-04 08:00:00+00:00, run_after=2025-02-05 08:00:00+00:00
+[2025-02-05T00:11:34.836+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/northwind_etl/northwind_meltano.py took 0.075 seconds
+[2025-02-05T00:12:05.075+0000] {processor.py:186} INFO - Started process (PID=8111) to work on /opt/airflow/dags/northwind_etl/northwind_meltano.py
+[2025-02-05T00:12:05.076+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/northwind_etl/northwind_meltano.py for tasks to queue
+[2025-02-05T00:12:05.077+0000] {logging_mixin.py:190} INFO - [2025-02-05T00:12:05.077+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/northwind_etl/northwind_meltano.py
+[2025-02-05T00:12:05.096+0000] {processor.py:925} INFO - DAG(s) 'northwind_meltano' retrieved from /opt/airflow/dags/northwind_etl/northwind_meltano.py
+[2025-02-05T00:12:05.114+0000] {logging_mixin.py:190} INFO - [2025-02-05T00:12:05.114+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-02-05T00:12:05.134+0000] {logging_mixin.py:190} INFO - [2025-02-05T00:12:05.134+0000] {dag.py:4180} INFO - Setting next_dagrun for northwind_meltano to 2025-02-04 08:00:00+00:00, run_after=2025-02-05 08:00:00+00:00
+[2025-02-05T00:12:05.148+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/northwind_etl/northwind_meltano.py took 0.078 seconds
+[2025-02-05T00:12:35.387+0000] {processor.py:186} INFO - Started process (PID=8128) to work on /opt/airflow/dags/northwind_etl/northwind_meltano.py
+[2025-02-05T00:12:35.388+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/northwind_etl/northwind_meltano.py for tasks to queue
+[2025-02-05T00:12:35.389+0000] {logging_mixin.py:190} INFO - [2025-02-05T00:12:35.389+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/northwind_etl/northwind_meltano.py
+[2025-02-05T00:12:35.411+0000] {processor.py:925} INFO - DAG(s) 'northwind_meltano' retrieved from /opt/airflow/dags/northwind_etl/northwind_meltano.py
+[2025-02-05T00:12:35.430+0000] {logging_mixin.py:190} INFO - [2025-02-05T00:12:35.429+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-02-05T00:12:35.449+0000] {logging_mixin.py:190} INFO - [2025-02-05T00:12:35.449+0000] {dag.py:4180} INFO - Setting next_dagrun for northwind_meltano to 2025-02-04 08:00:00+00:00, run_after=2025-02-05 08:00:00+00:00
+[2025-02-05T00:12:35.463+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/northwind_etl/northwind_meltano.py took 0.080 seconds
+[2025-02-05T00:13:05.687+0000] {processor.py:186} INFO - Started process (PID=8146) to work on /opt/airflow/dags/northwind_etl/northwind_meltano.py
+[2025-02-05T00:13:05.688+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/northwind_etl/northwind_meltano.py for tasks to queue
+[2025-02-05T00:13:05.689+0000] {logging_mixin.py:190} INFO - [2025-02-05T00:13:05.689+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/northwind_etl/northwind_meltano.py
+[2025-02-05T00:13:05.708+0000] {processor.py:925} INFO - DAG(s) 'northwind_meltano' retrieved from /opt/airflow/dags/northwind_etl/northwind_meltano.py
+[2025-02-05T00:13:05.727+0000] {logging_mixin.py:190} INFO - [2025-02-05T00:13:05.727+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-02-05T00:13:05.745+0000] {logging_mixin.py:190} INFO - [2025-02-05T00:13:05.745+0000] {dag.py:4180} INFO - Setting next_dagrun for northwind_meltano to 2025-02-04 08:00:00+00:00, run_after=2025-02-05 08:00:00+00:00
+[2025-02-05T00:13:05.760+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/northwind_etl/northwind_meltano.py took 0.077 seconds
+[2025-02-05T00:13:36.000+0000] {processor.py:186} INFO - Started process (PID=8163) to work on /opt/airflow/dags/northwind_etl/northwind_meltano.py
+[2025-02-05T00:13:36.000+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/northwind_etl/northwind_meltano.py for tasks to queue
+[2025-02-05T00:13:36.001+0000] {logging_mixin.py:190} INFO - [2025-02-05T00:13:36.001+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/northwind_etl/northwind_meltano.py
+[2025-02-05T00:13:36.022+0000] {processor.py:925} INFO - DAG(s) 'northwind_meltano' retrieved from /opt/airflow/dags/northwind_etl/northwind_meltano.py
+[2025-02-05T00:13:36.040+0000] {logging_mixin.py:190} INFO - [2025-02-05T00:13:36.040+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-02-05T00:13:36.059+0000] {logging_mixin.py:190} INFO - [2025-02-05T00:13:36.059+0000] {dag.py:4180} INFO - Setting next_dagrun for northwind_meltano to 2025-02-04 08:00:00+00:00, run_after=2025-02-05 08:00:00+00:00
+[2025-02-05T00:13:36.073+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/northwind_etl/northwind_meltano.py took 0.078 seconds
+[2025-02-05T00:14:06.303+0000] {processor.py:186} INFO - Started process (PID=8180) to work on /opt/airflow/dags/northwind_etl/northwind_meltano.py
+[2025-02-05T00:14:06.304+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/northwind_etl/northwind_meltano.py for tasks to queue
+[2025-02-05T00:14:06.305+0000] {logging_mixin.py:190} INFO - [2025-02-05T00:14:06.304+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/northwind_etl/northwind_meltano.py
+[2025-02-05T00:14:06.324+0000] {processor.py:925} INFO - DAG(s) 'northwind_meltano' retrieved from /opt/airflow/dags/northwind_etl/northwind_meltano.py
+[2025-02-05T00:14:06.343+0000] {logging_mixin.py:190} INFO - [2025-02-05T00:14:06.343+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-02-05T00:14:06.362+0000] {logging_mixin.py:190} INFO - [2025-02-05T00:14:06.362+0000] {dag.py:4180} INFO - Setting next_dagrun for northwind_meltano to 2025-02-04 08:00:00+00:00, run_after=2025-02-05 08:00:00+00:00
+[2025-02-05T00:14:06.375+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/northwind_etl/northwind_meltano.py took 0.077 seconds
+[2025-02-05T00:14:36.608+0000] {processor.py:186} INFO - Started process (PID=8197) to work on /opt/airflow/dags/northwind_etl/northwind_meltano.py
+[2025-02-05T00:14:36.609+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/northwind_etl/northwind_meltano.py for tasks to queue
+[2025-02-05T00:14:36.610+0000] {logging_mixin.py:190} INFO - [2025-02-05T00:14:36.609+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/northwind_etl/northwind_meltano.py
+[2025-02-05T00:14:36.629+0000] {processor.py:925} INFO - DAG(s) 'northwind_meltano' retrieved from /opt/airflow/dags/northwind_etl/northwind_meltano.py
+[2025-02-05T00:14:36.647+0000] {logging_mixin.py:190} INFO - [2025-02-05T00:14:36.647+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-02-05T00:14:36.667+0000] {logging_mixin.py:190} INFO - [2025-02-05T00:14:36.667+0000] {dag.py:4180} INFO - Setting next_dagrun for northwind_meltano to 2025-02-04 08:00:00+00:00, run_after=2025-02-05 08:00:00+00:00
+[2025-02-05T00:14:36.681+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/northwind_etl/northwind_meltano.py took 0.077 seconds
+[2025-02-05T00:15:06.916+0000] {processor.py:186} INFO - Started process (PID=8214) to work on /opt/airflow/dags/northwind_etl/northwind_meltano.py
+[2025-02-05T00:15:06.917+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/northwind_etl/northwind_meltano.py for tasks to queue
+[2025-02-05T00:15:06.919+0000] {logging_mixin.py:190} INFO - [2025-02-05T00:15:06.919+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/northwind_etl/northwind_meltano.py
+[2025-02-05T00:15:06.942+0000] {processor.py:925} INFO - DAG(s) 'northwind_meltano' retrieved from /opt/airflow/dags/northwind_etl/northwind_meltano.py
+[2025-02-05T00:15:06.962+0000] {logging_mixin.py:190} INFO - [2025-02-05T00:15:06.962+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-02-05T00:15:06.982+0000] {logging_mixin.py:190} INFO - [2025-02-05T00:15:06.982+0000] {dag.py:4180} INFO - Setting next_dagrun for northwind_meltano to 2025-02-04 08:00:00+00:00, run_after=2025-02-05 08:00:00+00:00
+[2025-02-05T00:15:06.998+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/northwind_etl/northwind_meltano.py took 0.086 seconds
+[2025-02-05T00:15:37.230+0000] {processor.py:186} INFO - Started process (PID=8231) to work on /opt/airflow/dags/northwind_etl/northwind_meltano.py
+[2025-02-05T00:15:37.231+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/northwind_etl/northwind_meltano.py for tasks to queue
+[2025-02-05T00:15:37.232+0000] {logging_mixin.py:190} INFO - [2025-02-05T00:15:37.232+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/northwind_etl/northwind_meltano.py
+[2025-02-05T00:15:37.251+0000] {processor.py:925} INFO - DAG(s) 'northwind_meltano' retrieved from /opt/airflow/dags/northwind_etl/northwind_meltano.py
+[2025-02-05T00:15:37.270+0000] {logging_mixin.py:190} INFO - [2025-02-05T00:15:37.270+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-02-05T00:15:37.289+0000] {logging_mixin.py:190} INFO - [2025-02-05T00:15:37.289+0000] {dag.py:4180} INFO - Setting next_dagrun for northwind_meltano to 2025-02-04 08:00:00+00:00, run_after=2025-02-05 08:00:00+00:00
+[2025-02-05T00:15:37.303+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/northwind_etl/northwind_meltano.py took 0.077 seconds
+[2025-02-05T00:16:07.532+0000] {processor.py:186} INFO - Started process (PID=8248) to work on /opt/airflow/dags/northwind_etl/northwind_meltano.py
+[2025-02-05T00:16:07.532+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/northwind_etl/northwind_meltano.py for tasks to queue
+[2025-02-05T00:16:07.534+0000] {logging_mixin.py:190} INFO - [2025-02-05T00:16:07.533+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/northwind_etl/northwind_meltano.py
+[2025-02-05T00:16:07.553+0000] {processor.py:925} INFO - DAG(s) 'northwind_meltano' retrieved from /opt/airflow/dags/northwind_etl/northwind_meltano.py
+[2025-02-05T00:16:07.572+0000] {logging_mixin.py:190} INFO - [2025-02-05T00:16:07.571+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-02-05T00:16:07.591+0000] {logging_mixin.py:190} INFO - [2025-02-05T00:16:07.590+0000] {dag.py:4180} INFO - Setting next_dagrun for northwind_meltano to 2025-02-04 08:00:00+00:00, run_after=2025-02-05 08:00:00+00:00
+[2025-02-05T00:16:07.605+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/northwind_etl/northwind_meltano.py took 0.077 seconds
+[2025-02-05T00:16:37.844+0000] {processor.py:186} INFO - Started process (PID=8265) to work on /opt/airflow/dags/northwind_etl/northwind_meltano.py
+[2025-02-05T00:16:37.844+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/northwind_etl/northwind_meltano.py for tasks to queue
+[2025-02-05T00:16:37.845+0000] {logging_mixin.py:190} INFO - [2025-02-05T00:16:37.845+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/northwind_etl/northwind_meltano.py
+[2025-02-05T00:16:37.865+0000] {processor.py:925} INFO - DAG(s) 'northwind_meltano' retrieved from /opt/airflow/dags/northwind_etl/northwind_meltano.py
+[2025-02-05T00:16:37.883+0000] {logging_mixin.py:190} INFO - [2025-02-05T00:16:37.883+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-02-05T00:16:37.902+0000] {logging_mixin.py:190} INFO - [2025-02-05T00:16:37.902+0000] {dag.py:4180} INFO - Setting next_dagrun for northwind_meltano to 2025-02-04 08:00:00+00:00, run_after=2025-02-05 08:00:00+00:00
+[2025-02-05T00:16:37.917+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/northwind_etl/northwind_meltano.py took 0.077 seconds
+[2025-02-05T00:17:08.147+0000] {processor.py:186} INFO - Started process (PID=8282) to work on /opt/airflow/dags/northwind_etl/northwind_meltano.py
+[2025-02-05T00:17:08.147+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/northwind_etl/northwind_meltano.py for tasks to queue
+[2025-02-05T00:17:08.148+0000] {logging_mixin.py:190} INFO - [2025-02-05T00:17:08.148+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/northwind_etl/northwind_meltano.py
+[2025-02-05T00:17:08.169+0000] {processor.py:925} INFO - DAG(s) 'northwind_meltano' retrieved from /opt/airflow/dags/northwind_etl/northwind_meltano.py
+[2025-02-05T00:17:08.188+0000] {logging_mixin.py:190} INFO - [2025-02-05T00:17:08.188+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-02-05T00:17:08.207+0000] {logging_mixin.py:190} INFO - [2025-02-05T00:17:08.207+0000] {dag.py:4180} INFO - Setting next_dagrun for northwind_meltano to 2025-02-04 08:00:00+00:00, run_after=2025-02-05 08:00:00+00:00
+[2025-02-05T00:17:08.220+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/northwind_etl/northwind_meltano.py took 0.078 seconds
+[2025-02-05T00:17:38.457+0000] {processor.py:186} INFO - Started process (PID=8299) to work on /opt/airflow/dags/northwind_etl/northwind_meltano.py
+[2025-02-05T00:17:38.457+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/northwind_etl/northwind_meltano.py for tasks to queue
+[2025-02-05T00:17:38.458+0000] {logging_mixin.py:190} INFO - [2025-02-05T00:17:38.458+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/northwind_etl/northwind_meltano.py
+[2025-02-05T00:17:38.478+0000] {processor.py:925} INFO - DAG(s) 'northwind_meltano' retrieved from /opt/airflow/dags/northwind_etl/northwind_meltano.py
+[2025-02-05T00:17:38.497+0000] {logging_mixin.py:190} INFO - [2025-02-05T00:17:38.497+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-02-05T00:17:38.515+0000] {logging_mixin.py:190} INFO - [2025-02-05T00:17:38.515+0000] {dag.py:4180} INFO - Setting next_dagrun for northwind_meltano to 2025-02-04 08:00:00+00:00, run_after=2025-02-05 08:00:00+00:00
+[2025-02-05T00:17:38.529+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/northwind_etl/northwind_meltano.py took 0.076 seconds
+[2025-02-05T00:18:08.756+0000] {processor.py:186} INFO - Started process (PID=8316) to work on /opt/airflow/dags/northwind_etl/northwind_meltano.py
+[2025-02-05T00:18:08.756+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/northwind_etl/northwind_meltano.py for tasks to queue
+[2025-02-05T00:18:08.757+0000] {logging_mixin.py:190} INFO - [2025-02-05T00:18:08.757+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/northwind_etl/northwind_meltano.py
+[2025-02-05T00:18:08.776+0000] {processor.py:925} INFO - DAG(s) 'northwind_meltano' retrieved from /opt/airflow/dags/northwind_etl/northwind_meltano.py
+[2025-02-05T00:18:08.795+0000] {logging_mixin.py:190} INFO - [2025-02-05T00:18:08.795+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-02-05T00:18:08.814+0000] {logging_mixin.py:190} INFO - [2025-02-05T00:18:08.813+0000] {dag.py:4180} INFO - Setting next_dagrun for northwind_meltano to 2025-02-04 08:00:00+00:00, run_after=2025-02-05 08:00:00+00:00
+[2025-02-05T00:18:08.830+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/northwind_etl/northwind_meltano.py took 0.078 seconds
+[2025-02-05T00:18:39.061+0000] {processor.py:186} INFO - Started process (PID=8333) to work on /opt/airflow/dags/northwind_etl/northwind_meltano.py
+[2025-02-05T00:18:39.062+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/northwind_etl/northwind_meltano.py for tasks to queue
+[2025-02-05T00:18:39.063+0000] {logging_mixin.py:190} INFO - [2025-02-05T00:18:39.063+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/northwind_etl/northwind_meltano.py
+[2025-02-05T00:18:39.082+0000] {processor.py:925} INFO - DAG(s) 'northwind_meltano' retrieved from /opt/airflow/dags/northwind_etl/northwind_meltano.py
+[2025-02-05T00:18:39.101+0000] {logging_mixin.py:190} INFO - [2025-02-05T00:18:39.101+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-02-05T00:18:39.120+0000] {logging_mixin.py:190} INFO - [2025-02-05T00:18:39.119+0000] {dag.py:4180} INFO - Setting next_dagrun for northwind_meltano to 2025-02-04 08:00:00+00:00, run_after=2025-02-05 08:00:00+00:00
+[2025-02-05T00:18:39.134+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/northwind_etl/northwind_meltano.py took 0.077 seconds
+[2025-02-05T00:19:09.356+0000] {processor.py:186} INFO - Started process (PID=8350) to work on /opt/airflow/dags/northwind_etl/northwind_meltano.py
+[2025-02-05T00:19:09.357+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/northwind_etl/northwind_meltano.py for tasks to queue
+[2025-02-05T00:19:09.358+0000] {logging_mixin.py:190} INFO - [2025-02-05T00:19:09.358+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/northwind_etl/northwind_meltano.py
+[2025-02-05T00:19:09.378+0000] {processor.py:925} INFO - DAG(s) 'northwind_meltano' retrieved from /opt/airflow/dags/northwind_etl/northwind_meltano.py
+[2025-02-05T00:19:09.398+0000] {logging_mixin.py:190} INFO - [2025-02-05T00:19:09.398+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-02-05T00:19:09.419+0000] {logging_mixin.py:190} INFO - [2025-02-05T00:19:09.419+0000] {dag.py:4180} INFO - Setting next_dagrun for northwind_meltano to 2025-02-04 08:00:00+00:00, run_after=2025-02-05 08:00:00+00:00
+[2025-02-05T00:19:09.435+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/northwind_etl/northwind_meltano.py took 0.083 seconds
+[2025-02-05T00:19:39.667+0000] {processor.py:186} INFO - Started process (PID=8367) to work on /opt/airflow/dags/northwind_etl/northwind_meltano.py
+[2025-02-05T00:19:39.668+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/northwind_etl/northwind_meltano.py for tasks to queue
+[2025-02-05T00:19:39.669+0000] {logging_mixin.py:190} INFO - [2025-02-05T00:19:39.669+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/northwind_etl/northwind_meltano.py
+[2025-02-05T00:19:39.687+0000] {processor.py:925} INFO - DAG(s) 'northwind_meltano' retrieved from /opt/airflow/dags/northwind_etl/northwind_meltano.py
+[2025-02-05T00:19:39.705+0000] {logging_mixin.py:190} INFO - [2025-02-05T00:19:39.705+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-02-05T00:19:39.724+0000] {logging_mixin.py:190} INFO - [2025-02-05T00:19:39.724+0000] {dag.py:4180} INFO - Setting next_dagrun for northwind_meltano to 2025-02-04 08:00:00+00:00, run_after=2025-02-05 08:00:00+00:00
+[2025-02-05T00:19:39.738+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/northwind_etl/northwind_meltano.py took 0.075 seconds
+[2025-02-05T00:20:09.965+0000] {processor.py:186} INFO - Started process (PID=8384) to work on /opt/airflow/dags/northwind_etl/northwind_meltano.py
+[2025-02-05T00:20:09.966+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/northwind_etl/northwind_meltano.py for tasks to queue
+[2025-02-05T00:20:09.967+0000] {logging_mixin.py:190} INFO - [2025-02-05T00:20:09.966+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/northwind_etl/northwind_meltano.py
+[2025-02-05T00:20:09.986+0000] {processor.py:925} INFO - DAG(s) 'northwind_meltano' retrieved from /opt/airflow/dags/northwind_etl/northwind_meltano.py
+[2025-02-05T00:20:10.004+0000] {logging_mixin.py:190} INFO - [2025-02-05T00:20:10.004+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-02-05T00:20:10.023+0000] {logging_mixin.py:190} INFO - [2025-02-05T00:20:10.023+0000] {dag.py:4180} INFO - Setting next_dagrun for northwind_meltano to 2025-02-04 08:00:00+00:00, run_after=2025-02-05 08:00:00+00:00
+[2025-02-05T00:20:10.037+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/northwind_etl/northwind_meltano.py took 0.076 seconds
+[2025-02-05T00:20:40.269+0000] {processor.py:186} INFO - Started process (PID=8401) to work on /opt/airflow/dags/northwind_etl/northwind_meltano.py
+[2025-02-05T00:20:40.270+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/northwind_etl/northwind_meltano.py for tasks to queue
+[2025-02-05T00:20:40.271+0000] {logging_mixin.py:190} INFO - [2025-02-05T00:20:40.270+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/northwind_etl/northwind_meltano.py
+[2025-02-05T00:20:40.290+0000] {processor.py:925} INFO - DAG(s) 'northwind_meltano' retrieved from /opt/airflow/dags/northwind_etl/northwind_meltano.py
+[2025-02-05T00:20:40.308+0000] {logging_mixin.py:190} INFO - [2025-02-05T00:20:40.308+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-02-05T00:20:40.327+0000] {logging_mixin.py:190} INFO - [2025-02-05T00:20:40.326+0000] {dag.py:4180} INFO - Setting next_dagrun for northwind_meltano to 2025-02-04 08:00:00+00:00, run_after=2025-02-05 08:00:00+00:00
+[2025-02-05T00:20:40.340+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/northwind_etl/northwind_meltano.py took 0.075 seconds
+[2025-02-05T00:21:10.564+0000] {processor.py:186} INFO - Started process (PID=8418) to work on /opt/airflow/dags/northwind_etl/northwind_meltano.py
+[2025-02-05T00:21:10.565+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/northwind_etl/northwind_meltano.py for tasks to queue
+[2025-02-05T00:21:10.566+0000] {logging_mixin.py:190} INFO - [2025-02-05T00:21:10.565+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/northwind_etl/northwind_meltano.py
+[2025-02-05T00:21:10.585+0000] {processor.py:925} INFO - DAG(s) 'northwind_meltano' retrieved from /opt/airflow/dags/northwind_etl/northwind_meltano.py
+[2025-02-05T00:21:10.604+0000] {logging_mixin.py:190} INFO - [2025-02-05T00:21:10.603+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-02-05T00:21:10.623+0000] {logging_mixin.py:190} INFO - [2025-02-05T00:21:10.622+0000] {dag.py:4180} INFO - Setting next_dagrun for northwind_meltano to 2025-02-04 08:00:00+00:00, run_after=2025-02-05 08:00:00+00:00
+[2025-02-05T00:21:10.637+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/northwind_etl/northwind_meltano.py took 0.077 seconds
+[2025-02-05T00:21:40.868+0000] {processor.py:186} INFO - Started process (PID=8435) to work on /opt/airflow/dags/northwind_etl/northwind_meltano.py
+[2025-02-05T00:21:40.869+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/northwind_etl/northwind_meltano.py for tasks to queue
+[2025-02-05T00:21:40.870+0000] {logging_mixin.py:190} INFO - [2025-02-05T00:21:40.870+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/northwind_etl/northwind_meltano.py
+[2025-02-05T00:21:40.889+0000] {processor.py:925} INFO - DAG(s) 'northwind_meltano' retrieved from /opt/airflow/dags/northwind_etl/northwind_meltano.py
+[2025-02-05T00:21:40.908+0000] {logging_mixin.py:190} INFO - [2025-02-05T00:21:40.908+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-02-05T00:21:40.927+0000] {logging_mixin.py:190} INFO - [2025-02-05T00:21:40.926+0000] {dag.py:4180} INFO - Setting next_dagrun for northwind_meltano to 2025-02-04 08:00:00+00:00, run_after=2025-02-05 08:00:00+00:00
+[2025-02-05T00:21:40.940+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/northwind_etl/northwind_meltano.py took 0.076 seconds
+[2025-02-05T00:22:11.159+0000] {processor.py:186} INFO - Started process (PID=8452) to work on /opt/airflow/dags/northwind_etl/northwind_meltano.py
+[2025-02-05T00:22:11.160+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/northwind_etl/northwind_meltano.py for tasks to queue
+[2025-02-05T00:22:11.161+0000] {logging_mixin.py:190} INFO - [2025-02-05T00:22:11.161+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/northwind_etl/northwind_meltano.py
+[2025-02-05T00:22:11.180+0000] {processor.py:925} INFO - DAG(s) 'northwind_meltano' retrieved from /opt/airflow/dags/northwind_etl/northwind_meltano.py
+[2025-02-05T00:22:11.199+0000] {logging_mixin.py:190} INFO - [2025-02-05T00:22:11.199+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-02-05T00:22:11.218+0000] {logging_mixin.py:190} INFO - [2025-02-05T00:22:11.218+0000] {dag.py:4180} INFO - Setting next_dagrun for northwind_meltano to 2025-02-04 08:00:00+00:00, run_after=2025-02-05 08:00:00+00:00
+[2025-02-05T00:22:11.232+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/northwind_etl/northwind_meltano.py took 0.077 seconds
+[2025-02-05T00:22:41.462+0000] {processor.py:186} INFO - Started process (PID=8469) to work on /opt/airflow/dags/northwind_etl/northwind_meltano.py
+[2025-02-05T00:22:41.463+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/northwind_etl/northwind_meltano.py for tasks to queue
+[2025-02-05T00:22:41.465+0000] {logging_mixin.py:190} INFO - [2025-02-05T00:22:41.464+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/northwind_etl/northwind_meltano.py
+[2025-02-05T00:22:41.486+0000] {processor.py:925} INFO - DAG(s) 'northwind_meltano' retrieved from /opt/airflow/dags/northwind_etl/northwind_meltano.py
+[2025-02-05T00:22:41.507+0000] {logging_mixin.py:190} INFO - [2025-02-05T00:22:41.507+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-02-05T00:22:41.528+0000] {logging_mixin.py:190} INFO - [2025-02-05T00:22:41.528+0000] {dag.py:4180} INFO - Setting next_dagrun for northwind_meltano to 2025-02-04 08:00:00+00:00, run_after=2025-02-05 08:00:00+00:00
+[2025-02-05T00:22:41.543+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/northwind_etl/northwind_meltano.py took 0.086 seconds
+[2025-02-05T00:23:11.775+0000] {processor.py:186} INFO - Started process (PID=8486) to work on /opt/airflow/dags/northwind_etl/northwind_meltano.py
+[2025-02-05T00:23:11.775+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/northwind_etl/northwind_meltano.py for tasks to queue
+[2025-02-05T00:23:11.776+0000] {logging_mixin.py:190} INFO - [2025-02-05T00:23:11.776+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/northwind_etl/northwind_meltano.py
+[2025-02-05T00:23:11.797+0000] {processor.py:925} INFO - DAG(s) 'northwind_meltano' retrieved from /opt/airflow/dags/northwind_etl/northwind_meltano.py
+[2025-02-05T00:23:11.815+0000] {logging_mixin.py:190} INFO - [2025-02-05T00:23:11.815+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-02-05T00:23:11.834+0000] {logging_mixin.py:190} INFO - [2025-02-05T00:23:11.834+0000] {dag.py:4180} INFO - Setting next_dagrun for northwind_meltano to 2025-02-04 08:00:00+00:00, run_after=2025-02-05 08:00:00+00:00
+[2025-02-05T00:23:11.849+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/northwind_etl/northwind_meltano.py took 0.079 seconds
+[2025-02-05T00:23:42.076+0000] {processor.py:186} INFO - Started process (PID=8503) to work on /opt/airflow/dags/northwind_etl/northwind_meltano.py
+[2025-02-05T00:23:42.077+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/northwind_etl/northwind_meltano.py for tasks to queue
+[2025-02-05T00:23:42.078+0000] {logging_mixin.py:190} INFO - [2025-02-05T00:23:42.077+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/northwind_etl/northwind_meltano.py
+[2025-02-05T00:23:42.100+0000] {processor.py:925} INFO - DAG(s) 'northwind_meltano' retrieved from /opt/airflow/dags/northwind_etl/northwind_meltano.py
+[2025-02-05T00:23:42.120+0000] {logging_mixin.py:190} INFO - [2025-02-05T00:23:42.120+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-02-05T00:23:42.140+0000] {logging_mixin.py:190} INFO - [2025-02-05T00:23:42.140+0000] {dag.py:4180} INFO - Setting next_dagrun for northwind_meltano to 2025-02-04 08:00:00+00:00, run_after=2025-02-05 08:00:00+00:00
+[2025-02-05T00:23:42.154+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/northwind_etl/northwind_meltano.py took 0.083 seconds
+[2025-02-05T00:24:12.438+0000] {processor.py:186} INFO - Started process (PID=8520) to work on /opt/airflow/dags/northwind_etl/northwind_meltano.py
+[2025-02-05T00:24:12.439+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/northwind_etl/northwind_meltano.py for tasks to queue
+[2025-02-05T00:24:12.439+0000] {logging_mixin.py:190} INFO - [2025-02-05T00:24:12.439+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/northwind_etl/northwind_meltano.py
+[2025-02-05T00:24:12.459+0000] {processor.py:925} INFO - DAG(s) 'northwind_meltano' retrieved from /opt/airflow/dags/northwind_etl/northwind_meltano.py
+[2025-02-05T00:24:12.478+0000] {logging_mixin.py:190} INFO - [2025-02-05T00:24:12.478+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-02-05T00:24:12.499+0000] {logging_mixin.py:190} INFO - [2025-02-05T00:24:12.499+0000] {dag.py:4180} INFO - Setting next_dagrun for northwind_meltano to 2025-02-04 08:00:00+00:00, run_after=2025-02-05 08:00:00+00:00
+[2025-02-05T00:24:12.514+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/northwind_etl/northwind_meltano.py took 0.081 seconds
+[2025-02-05T00:24:42.739+0000] {processor.py:186} INFO - Started process (PID=8537) to work on /opt/airflow/dags/northwind_etl/northwind_meltano.py
+[2025-02-05T00:24:42.739+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/northwind_etl/northwind_meltano.py for tasks to queue
+[2025-02-05T00:24:42.740+0000] {logging_mixin.py:190} INFO - [2025-02-05T00:24:42.740+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/northwind_etl/northwind_meltano.py
+[2025-02-05T00:24:42.760+0000] {processor.py:925} INFO - DAG(s) 'northwind_meltano' retrieved from /opt/airflow/dags/northwind_etl/northwind_meltano.py
+[2025-02-05T00:24:42.779+0000] {logging_mixin.py:190} INFO - [2025-02-05T00:24:42.778+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-02-05T00:24:42.798+0000] {logging_mixin.py:190} INFO - [2025-02-05T00:24:42.797+0000] {dag.py:4180} INFO - Setting next_dagrun for northwind_meltano to 2025-02-04 08:00:00+00:00, run_after=2025-02-05 08:00:00+00:00
+[2025-02-05T00:24:42.812+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/northwind_etl/northwind_meltano.py took 0.078 seconds
+[2025-02-05T00:25:13.066+0000] {processor.py:186} INFO - Started process (PID=8554) to work on /opt/airflow/dags/northwind_etl/northwind_meltano.py
+[2025-02-05T00:25:13.066+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/northwind_etl/northwind_meltano.py for tasks to queue
+[2025-02-05T00:25:13.067+0000] {logging_mixin.py:190} INFO - [2025-02-05T00:25:13.067+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/northwind_etl/northwind_meltano.py
+[2025-02-05T00:25:13.087+0000] {processor.py:925} INFO - DAG(s) 'northwind_meltano' retrieved from /opt/airflow/dags/northwind_etl/northwind_meltano.py
+[2025-02-05T00:25:13.105+0000] {logging_mixin.py:190} INFO - [2025-02-05T00:25:13.105+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-02-05T00:25:13.124+0000] {logging_mixin.py:190} INFO - [2025-02-05T00:25:13.124+0000] {dag.py:4180} INFO - Setting next_dagrun for northwind_meltano to 2025-02-04 08:00:00+00:00, run_after=2025-02-05 08:00:00+00:00
+[2025-02-05T00:25:13.140+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/northwind_etl/northwind_meltano.py took 0.079 seconds
+[2025-02-05T00:25:33.211+0000] {processor.py:186} INFO - Started process (PID=8565) to work on /opt/airflow/dags/northwind_etl/northwind_meltano.py
+[2025-02-05T00:25:33.212+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/northwind_etl/northwind_meltano.py for tasks to queue
+[2025-02-05T00:25:33.213+0000] {logging_mixin.py:190} INFO - [2025-02-05T00:25:33.212+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/northwind_etl/northwind_meltano.py
+[2025-02-05T00:25:33.242+0000] {processor.py:925} INFO - DAG(s) 'northwind_meltano' retrieved from /opt/airflow/dags/northwind_etl/northwind_meltano.py
+[2025-02-05T00:25:33.262+0000] {logging_mixin.py:190} INFO - [2025-02-05T00:25:33.262+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-02-05T00:25:33.282+0000] {logging_mixin.py:190} INFO - [2025-02-05T00:25:33.282+0000] {dag.py:4180} INFO - Setting next_dagrun for northwind_meltano to 2025-02-04 08:00:00+00:00, run_after=2025-02-05 08:00:00+00:00
+[2025-02-05T00:25:33.300+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/northwind_etl/northwind_meltano.py took 0.093 seconds
+[2025-02-05T00:26:03.539+0000] {processor.py:186} INFO - Started process (PID=8582) to work on /opt/airflow/dags/northwind_etl/northwind_meltano.py
+[2025-02-05T00:26:03.540+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/northwind_etl/northwind_meltano.py for tasks to queue
+[2025-02-05T00:26:03.541+0000] {logging_mixin.py:190} INFO - [2025-02-05T00:26:03.541+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/northwind_etl/northwind_meltano.py
+[2025-02-05T00:26:03.562+0000] {processor.py:925} INFO - DAG(s) 'northwind_meltano' retrieved from /opt/airflow/dags/northwind_etl/northwind_meltano.py
+[2025-02-05T00:26:03.582+0000] {logging_mixin.py:190} INFO - [2025-02-05T00:26:03.582+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-02-05T00:26:03.603+0000] {logging_mixin.py:190} INFO - [2025-02-05T00:26:03.602+0000] {dag.py:4180} INFO - Setting next_dagrun for northwind_meltano to 2025-02-04 08:00:00+00:00, run_after=2025-02-05 08:00:00+00:00
+[2025-02-05T00:26:03.618+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/northwind_etl/northwind_meltano.py took 0.083 seconds
+[2025-02-05T00:26:17.771+0000] {processor.py:186} INFO - Started process (PID=8593) to work on /opt/airflow/dags/northwind_etl/northwind_meltano.py
+[2025-02-05T00:26:17.772+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/northwind_etl/northwind_meltano.py for tasks to queue
+[2025-02-05T00:26:17.773+0000] {logging_mixin.py:190} INFO - [2025-02-05T00:26:17.773+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/northwind_etl/northwind_meltano.py
+[2025-02-05T00:26:17.804+0000] {processor.py:925} INFO - DAG(s) 'northwind_meltano' retrieved from /opt/airflow/dags/northwind_etl/northwind_meltano.py
+[2025-02-05T00:26:17.824+0000] {logging_mixin.py:190} INFO - [2025-02-05T00:26:17.824+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-02-05T00:26:17.844+0000] {logging_mixin.py:190} INFO - [2025-02-05T00:26:17.844+0000] {dag.py:4180} INFO - Setting next_dagrun for northwind_meltano to 2025-02-04 08:00:00+00:00, run_after=2025-02-05 08:00:00+00:00
+[2025-02-05T00:26:17.862+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/northwind_etl/northwind_meltano.py took 0.096 seconds
+[2025-02-05T00:26:48.121+0000] {processor.py:186} INFO - Started process (PID=8613) to work on /opt/airflow/dags/northwind_etl/northwind_meltano.py
+[2025-02-05T00:26:48.122+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/northwind_etl/northwind_meltano.py for tasks to queue
+[2025-02-05T00:26:48.124+0000] {logging_mixin.py:190} INFO - [2025-02-05T00:26:48.123+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/northwind_etl/northwind_meltano.py
+[2025-02-05T00:26:48.152+0000] {processor.py:925} INFO - DAG(s) 'northwind_meltano' retrieved from /opt/airflow/dags/northwind_etl/northwind_meltano.py
+[2025-02-05T00:26:48.176+0000] {logging_mixin.py:190} INFO - [2025-02-05T00:26:48.176+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-02-05T00:26:48.199+0000] {logging_mixin.py:190} INFO - [2025-02-05T00:26:48.199+0000] {dag.py:4180} INFO - Setting next_dagrun for northwind_meltano to 2025-02-04 08:00:00+00:00, run_after=2025-02-05 08:00:00+00:00
+[2025-02-05T00:26:48.219+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/northwind_etl/northwind_meltano.py took 0.102 seconds
+[2025-02-05T00:27:18.465+0000] {processor.py:186} INFO - Started process (PID=8630) to work on /opt/airflow/dags/northwind_etl/northwind_meltano.py
+[2025-02-05T00:27:18.466+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/northwind_etl/northwind_meltano.py for tasks to queue
+[2025-02-05T00:27:18.467+0000] {logging_mixin.py:190} INFO - [2025-02-05T00:27:18.467+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/northwind_etl/northwind_meltano.py
+[2025-02-05T00:27:18.488+0000] {processor.py:925} INFO - DAG(s) 'northwind_meltano' retrieved from /opt/airflow/dags/northwind_etl/northwind_meltano.py
+[2025-02-05T00:27:18.509+0000] {logging_mixin.py:190} INFO - [2025-02-05T00:27:18.509+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-02-05T00:27:18.529+0000] {logging_mixin.py:190} INFO - [2025-02-05T00:27:18.529+0000] {dag.py:4180} INFO - Setting next_dagrun for northwind_meltano to 2025-02-04 08:00:00+00:00, run_after=2025-02-05 08:00:00+00:00
+[2025-02-05T00:27:18.544+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/northwind_etl/northwind_meltano.py took 0.083 seconds
+[2025-02-05T00:27:48.786+0000] {processor.py:186} INFO - Started process (PID=8650) to work on /opt/airflow/dags/northwind_etl/northwind_meltano.py
+[2025-02-05T00:27:48.787+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/northwind_etl/northwind_meltano.py for tasks to queue
+[2025-02-05T00:27:48.788+0000] {logging_mixin.py:190} INFO - [2025-02-05T00:27:48.788+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/northwind_etl/northwind_meltano.py
+[2025-02-05T00:27:48.807+0000] {processor.py:925} INFO - DAG(s) 'northwind_meltano' retrieved from /opt/airflow/dags/northwind_etl/northwind_meltano.py
+[2025-02-05T00:27:48.826+0000] {logging_mixin.py:190} INFO - [2025-02-05T00:27:48.826+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-02-05T00:27:48.846+0000] {logging_mixin.py:190} INFO - [2025-02-05T00:27:48.846+0000] {dag.py:4180} INFO - Setting next_dagrun for northwind_meltano to 2025-02-04 08:00:00+00:00, run_after=2025-02-05 08:00:00+00:00
+[2025-02-05T00:27:48.860+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/northwind_etl/northwind_meltano.py took 0.079 seconds
+[2025-02-05T00:28:19.099+0000] {processor.py:186} INFO - Started process (PID=8667) to work on /opt/airflow/dags/northwind_etl/northwind_meltano.py
+[2025-02-05T00:28:19.100+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/northwind_etl/northwind_meltano.py for tasks to queue
+[2025-02-05T00:28:19.101+0000] {logging_mixin.py:190} INFO - [2025-02-05T00:28:19.101+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/northwind_etl/northwind_meltano.py
+[2025-02-05T00:28:19.120+0000] {processor.py:925} INFO - DAG(s) 'northwind_meltano' retrieved from /opt/airflow/dags/northwind_etl/northwind_meltano.py
+[2025-02-05T00:28:19.140+0000] {logging_mixin.py:190} INFO - [2025-02-05T00:28:19.139+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-02-05T00:28:19.159+0000] {logging_mixin.py:190} INFO - [2025-02-05T00:28:19.158+0000] {dag.py:4180} INFO - Setting next_dagrun for northwind_meltano to 2025-02-04 08:00:00+00:00, run_after=2025-02-05 08:00:00+00:00
+[2025-02-05T00:28:19.172+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/northwind_etl/northwind_meltano.py took 0.078 seconds
+[2025-02-05T00:28:49.443+0000] {processor.py:186} INFO - Started process (PID=8684) to work on /opt/airflow/dags/northwind_etl/northwind_meltano.py
+[2025-02-05T00:28:49.444+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/northwind_etl/northwind_meltano.py for tasks to queue
+[2025-02-05T00:28:49.445+0000] {logging_mixin.py:190} INFO - [2025-02-05T00:28:49.444+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/northwind_etl/northwind_meltano.py
+[2025-02-05T00:28:49.464+0000] {processor.py:925} INFO - DAG(s) 'northwind_meltano' retrieved from /opt/airflow/dags/northwind_etl/northwind_meltano.py
+[2025-02-05T00:28:49.483+0000] {logging_mixin.py:190} INFO - [2025-02-05T00:28:49.482+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-02-05T00:28:49.502+0000] {logging_mixin.py:190} INFO - [2025-02-05T00:28:49.501+0000] {dag.py:4180} INFO - Setting next_dagrun for northwind_meltano to 2025-02-04 08:00:00+00:00, run_after=2025-02-05 08:00:00+00:00
+[2025-02-05T00:28:49.516+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/northwind_etl/northwind_meltano.py took 0.078 seconds
+[2025-02-05T00:29:19.751+0000] {processor.py:186} INFO - Started process (PID=8701) to work on /opt/airflow/dags/northwind_etl/northwind_meltano.py
+[2025-02-05T00:29:19.751+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/northwind_etl/northwind_meltano.py for tasks to queue
+[2025-02-05T00:29:19.752+0000] {logging_mixin.py:190} INFO - [2025-02-05T00:29:19.752+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/northwind_etl/northwind_meltano.py
+[2025-02-05T00:29:19.771+0000] {processor.py:925} INFO - DAG(s) 'northwind_meltano' retrieved from /opt/airflow/dags/northwind_etl/northwind_meltano.py
+[2025-02-05T00:29:19.790+0000] {logging_mixin.py:190} INFO - [2025-02-05T00:29:19.789+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-02-05T00:29:19.809+0000] {logging_mixin.py:190} INFO - [2025-02-05T00:29:19.809+0000] {dag.py:4180} INFO - Setting next_dagrun for northwind_meltano to 2025-02-04 08:00:00+00:00, run_after=2025-02-05 08:00:00+00:00
+[2025-02-05T00:29:19.822+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/northwind_etl/northwind_meltano.py took 0.077 seconds
+[2025-02-05T00:29:50.045+0000] {processor.py:186} INFO - Started process (PID=8718) to work on /opt/airflow/dags/northwind_etl/northwind_meltano.py
+[2025-02-05T00:29:50.046+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/northwind_etl/northwind_meltano.py for tasks to queue
+[2025-02-05T00:29:50.047+0000] {logging_mixin.py:190} INFO - [2025-02-05T00:29:50.047+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/northwind_etl/northwind_meltano.py
+[2025-02-05T00:29:50.067+0000] {processor.py:925} INFO - DAG(s) 'northwind_meltano' retrieved from /opt/airflow/dags/northwind_etl/northwind_meltano.py
+[2025-02-05T00:29:50.086+0000] {logging_mixin.py:190} INFO - [2025-02-05T00:29:50.085+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-02-05T00:29:50.106+0000] {logging_mixin.py:190} INFO - [2025-02-05T00:29:50.106+0000] {dag.py:4180} INFO - Setting next_dagrun for northwind_meltano to 2025-02-04 08:00:00+00:00, run_after=2025-02-05 08:00:00+00:00
+[2025-02-05T00:29:50.121+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/northwind_etl/northwind_meltano.py took 0.079 seconds
+[2025-02-05T00:30:20.356+0000] {processor.py:186} INFO - Started process (PID=8735) to work on /opt/airflow/dags/northwind_etl/northwind_meltano.py
+[2025-02-05T00:30:20.357+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/northwind_etl/northwind_meltano.py for tasks to queue
+[2025-02-05T00:30:20.358+0000] {logging_mixin.py:190} INFO - [2025-02-05T00:30:20.357+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/northwind_etl/northwind_meltano.py
+[2025-02-05T00:30:20.377+0000] {processor.py:925} INFO - DAG(s) 'northwind_meltano' retrieved from /opt/airflow/dags/northwind_etl/northwind_meltano.py
+[2025-02-05T00:30:20.395+0000] {logging_mixin.py:190} INFO - [2025-02-05T00:30:20.395+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-02-05T00:30:20.414+0000] {logging_mixin.py:190} INFO - [2025-02-05T00:30:20.414+0000] {dag.py:4180} INFO - Setting next_dagrun for northwind_meltano to 2025-02-04 08:00:00+00:00, run_after=2025-02-05 08:00:00+00:00
+[2025-02-05T00:30:20.428+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/northwind_etl/northwind_meltano.py took 0.077 seconds
+[2025-02-05T00:30:50.650+0000] {processor.py:186} INFO - Started process (PID=8752) to work on /opt/airflow/dags/northwind_etl/northwind_meltano.py
+[2025-02-05T00:30:50.651+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/northwind_etl/northwind_meltano.py for tasks to queue
+[2025-02-05T00:30:50.652+0000] {logging_mixin.py:190} INFO - [2025-02-05T00:30:50.652+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/northwind_etl/northwind_meltano.py
+[2025-02-05T00:30:50.674+0000] {processor.py:925} INFO - DAG(s) 'northwind_meltano' retrieved from /opt/airflow/dags/northwind_etl/northwind_meltano.py
+[2025-02-05T00:30:50.693+0000] {logging_mixin.py:190} INFO - [2025-02-05T00:30:50.693+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-02-05T00:30:50.712+0000] {logging_mixin.py:190} INFO - [2025-02-05T00:30:50.712+0000] {dag.py:4180} INFO - Setting next_dagrun for northwind_meltano to 2025-02-04 08:00:00+00:00, run_after=2025-02-05 08:00:00+00:00
+[2025-02-05T00:30:50.727+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/northwind_etl/northwind_meltano.py took 0.083 seconds
+[2025-02-05T00:31:20.968+0000] {processor.py:186} INFO - Started process (PID=8769) to work on /opt/airflow/dags/northwind_etl/northwind_meltano.py
+[2025-02-05T00:31:20.969+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/northwind_etl/northwind_meltano.py for tasks to queue
+[2025-02-05T00:31:20.970+0000] {logging_mixin.py:190} INFO - [2025-02-05T00:31:20.970+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/northwind_etl/northwind_meltano.py
+[2025-02-05T00:31:20.990+0000] {processor.py:925} INFO - DAG(s) 'northwind_meltano' retrieved from /opt/airflow/dags/northwind_etl/northwind_meltano.py
+[2025-02-05T00:31:21.011+0000] {logging_mixin.py:190} INFO - [2025-02-05T00:31:21.011+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-02-05T00:31:21.033+0000] {logging_mixin.py:190} INFO - [2025-02-05T00:31:21.033+0000] {dag.py:4180} INFO - Setting next_dagrun for northwind_meltano to 2025-02-04 08:00:00+00:00, run_after=2025-02-05 08:00:00+00:00
+[2025-02-05T00:31:21.057+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/northwind_etl/northwind_meltano.py took 0.093 seconds
+[2025-02-05T00:31:51.290+0000] {processor.py:186} INFO - Started process (PID=8786) to work on /opt/airflow/dags/northwind_etl/northwind_meltano.py
+[2025-02-05T00:31:51.291+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/northwind_etl/northwind_meltano.py for tasks to queue
+[2025-02-05T00:31:51.292+0000] {logging_mixin.py:190} INFO - [2025-02-05T00:31:51.292+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/northwind_etl/northwind_meltano.py
+[2025-02-05T00:31:51.311+0000] {processor.py:925} INFO - DAG(s) 'northwind_meltano' retrieved from /opt/airflow/dags/northwind_etl/northwind_meltano.py
+[2025-02-05T00:31:51.330+0000] {logging_mixin.py:190} INFO - [2025-02-05T00:31:51.330+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-02-05T00:31:51.349+0000] {logging_mixin.py:190} INFO - [2025-02-05T00:31:51.349+0000] {dag.py:4180} INFO - Setting next_dagrun for northwind_meltano to 2025-02-04 08:00:00+00:00, run_after=2025-02-05 08:00:00+00:00
+[2025-02-05T00:31:51.363+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/northwind_etl/northwind_meltano.py took 0.077 seconds
+[2025-02-05T00:32:21.602+0000] {processor.py:186} INFO - Started process (PID=8803) to work on /opt/airflow/dags/northwind_etl/northwind_meltano.py
+[2025-02-05T00:32:21.603+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/northwind_etl/northwind_meltano.py for tasks to queue
+[2025-02-05T00:32:21.604+0000] {logging_mixin.py:190} INFO - [2025-02-05T00:32:21.603+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/northwind_etl/northwind_meltano.py
+[2025-02-05T00:32:21.624+0000] {processor.py:925} INFO - DAG(s) 'northwind_meltano' retrieved from /opt/airflow/dags/northwind_etl/northwind_meltano.py
+[2025-02-05T00:32:21.644+0000] {logging_mixin.py:190} INFO - [2025-02-05T00:32:21.644+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-02-05T00:32:21.664+0000] {logging_mixin.py:190} INFO - [2025-02-05T00:32:21.664+0000] {dag.py:4180} INFO - Setting next_dagrun for northwind_meltano to 2025-02-04 08:00:00+00:00, run_after=2025-02-05 08:00:00+00:00
+[2025-02-05T00:32:21.680+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/northwind_etl/northwind_meltano.py took 0.084 seconds
+[2025-02-05T00:32:51.927+0000] {processor.py:186} INFO - Started process (PID=8820) to work on /opt/airflow/dags/northwind_etl/northwind_meltano.py
+[2025-02-05T00:32:51.928+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/northwind_etl/northwind_meltano.py for tasks to queue
+[2025-02-05T00:32:51.929+0000] {logging_mixin.py:190} INFO - [2025-02-05T00:32:51.929+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/northwind_etl/northwind_meltano.py
+[2025-02-05T00:32:51.949+0000] {processor.py:925} INFO - DAG(s) 'northwind_meltano' retrieved from /opt/airflow/dags/northwind_etl/northwind_meltano.py
+[2025-02-05T00:32:51.969+0000] {logging_mixin.py:190} INFO - [2025-02-05T00:32:51.969+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-02-05T00:32:51.989+0000] {logging_mixin.py:190} INFO - [2025-02-05T00:32:51.988+0000] {dag.py:4180} INFO - Setting next_dagrun for northwind_meltano to 2025-02-04 08:00:00+00:00, run_after=2025-02-05 08:00:00+00:00
+[2025-02-05T00:32:52.004+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/northwind_etl/northwind_meltano.py took 0.081 seconds
+[2025-02-05T00:33:22.242+0000] {processor.py:186} INFO - Started process (PID=8838) to work on /opt/airflow/dags/northwind_etl/northwind_meltano.py
+[2025-02-05T00:33:22.243+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/northwind_etl/northwind_meltano.py for tasks to queue
+[2025-02-05T00:33:22.244+0000] {logging_mixin.py:190} INFO - [2025-02-05T00:33:22.243+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/northwind_etl/northwind_meltano.py
+[2025-02-05T00:33:22.263+0000] {processor.py:925} INFO - DAG(s) 'northwind_meltano' retrieved from /opt/airflow/dags/northwind_etl/northwind_meltano.py
+[2025-02-05T00:33:22.283+0000] {logging_mixin.py:190} INFO - [2025-02-05T00:33:22.282+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-02-05T00:33:22.303+0000] {logging_mixin.py:190} INFO - [2025-02-05T00:33:22.303+0000] {dag.py:4180} INFO - Setting next_dagrun for northwind_meltano to 2025-02-04 08:00:00+00:00, run_after=2025-02-05 08:00:00+00:00
+[2025-02-05T00:33:22.318+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/northwind_etl/northwind_meltano.py took 0.081 seconds
+[2025-02-05T00:33:52.567+0000] {processor.py:186} INFO - Started process (PID=8855) to work on /opt/airflow/dags/northwind_etl/northwind_meltano.py
+[2025-02-05T00:33:52.568+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/northwind_etl/northwind_meltano.py for tasks to queue
+[2025-02-05T00:33:52.569+0000] {logging_mixin.py:190} INFO - [2025-02-05T00:33:52.569+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/northwind_etl/northwind_meltano.py
+[2025-02-05T00:33:52.593+0000] {processor.py:925} INFO - DAG(s) 'northwind_meltano' retrieved from /opt/airflow/dags/northwind_etl/northwind_meltano.py
+[2025-02-05T00:33:52.617+0000] {logging_mixin.py:190} INFO - [2025-02-05T00:33:52.617+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-02-05T00:33:52.644+0000] {logging_mixin.py:190} INFO - [2025-02-05T00:33:52.644+0000] {dag.py:4180} INFO - Setting next_dagrun for northwind_meltano to 2025-02-04 08:00:00+00:00, run_after=2025-02-05 08:00:00+00:00
+[2025-02-05T00:33:52.668+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/northwind_etl/northwind_meltano.py took 0.107 seconds
+[2025-02-05T00:34:22.915+0000] {processor.py:186} INFO - Started process (PID=8873) to work on /opt/airflow/dags/northwind_etl/northwind_meltano.py
+[2025-02-05T00:34:22.916+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/northwind_etl/northwind_meltano.py for tasks to queue
+[2025-02-05T00:34:22.917+0000] {logging_mixin.py:190} INFO - [2025-02-05T00:34:22.917+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/northwind_etl/northwind_meltano.py
+[2025-02-05T00:34:22.937+0000] {processor.py:925} INFO - DAG(s) 'northwind_meltano' retrieved from /opt/airflow/dags/northwind_etl/northwind_meltano.py
+[2025-02-05T00:34:22.957+0000] {logging_mixin.py:190} INFO - [2025-02-05T00:34:22.956+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-02-05T00:34:22.976+0000] {logging_mixin.py:190} INFO - [2025-02-05T00:34:22.976+0000] {dag.py:4180} INFO - Setting next_dagrun for northwind_meltano to 2025-02-04 08:00:00+00:00, run_after=2025-02-05 08:00:00+00:00
+[2025-02-05T00:34:22.991+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/northwind_etl/northwind_meltano.py took 0.080 seconds
+[2025-02-05T00:34:53.217+0000] {processor.py:186} INFO - Started process (PID=8890) to work on /opt/airflow/dags/northwind_etl/northwind_meltano.py
+[2025-02-05T00:34:53.218+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/northwind_etl/northwind_meltano.py for tasks to queue
+[2025-02-05T00:34:53.219+0000] {logging_mixin.py:190} INFO - [2025-02-05T00:34:53.219+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/northwind_etl/northwind_meltano.py
+[2025-02-05T00:34:53.239+0000] {processor.py:925} INFO - DAG(s) 'northwind_meltano' retrieved from /opt/airflow/dags/northwind_etl/northwind_meltano.py
+[2025-02-05T00:34:53.258+0000] {logging_mixin.py:190} INFO - [2025-02-05T00:34:53.258+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-02-05T00:34:53.278+0000] {logging_mixin.py:190} INFO - [2025-02-05T00:34:53.277+0000] {dag.py:4180} INFO - Setting next_dagrun for northwind_meltano to 2025-02-04 08:00:00+00:00, run_after=2025-02-05 08:00:00+00:00
+[2025-02-05T00:34:53.292+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/northwind_etl/northwind_meltano.py took 0.080 seconds
+[2025-02-05T00:35:23.521+0000] {processor.py:186} INFO - Started process (PID=8907) to work on /opt/airflow/dags/northwind_etl/northwind_meltano.py
+[2025-02-05T00:35:23.522+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/northwind_etl/northwind_meltano.py for tasks to queue
+[2025-02-05T00:35:23.523+0000] {logging_mixin.py:190} INFO - [2025-02-05T00:35:23.523+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/northwind_etl/northwind_meltano.py
+[2025-02-05T00:35:23.542+0000] {processor.py:925} INFO - DAG(s) 'northwind_meltano' retrieved from /opt/airflow/dags/northwind_etl/northwind_meltano.py
+[2025-02-05T00:35:23.561+0000] {logging_mixin.py:190} INFO - [2025-02-05T00:35:23.561+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-02-05T00:35:23.580+0000] {logging_mixin.py:190} INFO - [2025-02-05T00:35:23.580+0000] {dag.py:4180} INFO - Setting next_dagrun for northwind_meltano to 2025-02-04 08:00:00+00:00, run_after=2025-02-05 08:00:00+00:00
+[2025-02-05T00:35:23.594+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/northwind_etl/northwind_meltano.py took 0.077 seconds
+[2025-02-05T00:35:53.838+0000] {processor.py:186} INFO - Started process (PID=8924) to work on /opt/airflow/dags/northwind_etl/northwind_meltano.py
+[2025-02-05T00:35:53.839+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/northwind_etl/northwind_meltano.py for tasks to queue
+[2025-02-05T00:35:53.840+0000] {logging_mixin.py:190} INFO - [2025-02-05T00:35:53.840+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/northwind_etl/northwind_meltano.py
+[2025-02-05T00:35:53.863+0000] {processor.py:925} INFO - DAG(s) 'northwind_meltano' retrieved from /opt/airflow/dags/northwind_etl/northwind_meltano.py
+[2025-02-05T00:35:53.885+0000] {logging_mixin.py:190} INFO - [2025-02-05T00:35:53.885+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-02-05T00:35:53.910+0000] {logging_mixin.py:190} INFO - [2025-02-05T00:35:53.910+0000] {dag.py:4180} INFO - Setting next_dagrun for northwind_meltano to 2025-02-04 08:00:00+00:00, run_after=2025-02-05 08:00:00+00:00
+[2025-02-05T00:35:53.928+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/northwind_etl/northwind_meltano.py took 0.094 seconds
+[2025-02-05T00:36:24.165+0000] {processor.py:186} INFO - Started process (PID=8941) to work on /opt/airflow/dags/northwind_etl/northwind_meltano.py
+[2025-02-05T00:36:24.166+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/northwind_etl/northwind_meltano.py for tasks to queue
+[2025-02-05T00:36:24.167+0000] {logging_mixin.py:190} INFO - [2025-02-05T00:36:24.167+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/northwind_etl/northwind_meltano.py
+[2025-02-05T00:36:24.187+0000] {processor.py:925} INFO - DAG(s) 'northwind_meltano' retrieved from /opt/airflow/dags/northwind_etl/northwind_meltano.py
+[2025-02-05T00:36:24.206+0000] {logging_mixin.py:190} INFO - [2025-02-05T00:36:24.205+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-02-05T00:36:24.225+0000] {logging_mixin.py:190} INFO - [2025-02-05T00:36:24.225+0000] {dag.py:4180} INFO - Setting next_dagrun for northwind_meltano to 2025-02-04 08:00:00+00:00, run_after=2025-02-05 08:00:00+00:00
+[2025-02-05T00:36:24.240+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/northwind_etl/northwind_meltano.py took 0.079 seconds
+[2025-02-05T00:36:39.290+0000] {processor.py:186} INFO - Started process (PID=8952) to work on /opt/airflow/dags/northwind_etl/northwind_meltano.py
+[2025-02-05T00:36:39.290+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/northwind_etl/northwind_meltano.py for tasks to queue
+[2025-02-05T00:36:39.292+0000] {logging_mixin.py:190} INFO - [2025-02-05T00:36:39.291+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/northwind_etl/northwind_meltano.py
+[2025-02-05T00:36:39.324+0000] {processor.py:925} INFO - DAG(s) 'northwind_meltano' retrieved from /opt/airflow/dags/northwind_etl/northwind_meltano.py
+[2025-02-05T00:36:39.456+0000] {logging_mixin.py:190} INFO - [2025-02-05T00:36:39.456+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-02-05T00:36:39.477+0000] {logging_mixin.py:190} INFO - [2025-02-05T00:36:39.476+0000] {dag.py:4180} INFO - Setting next_dagrun for northwind_meltano to 2025-02-04 08:00:00+00:00, run_after=2025-02-05 08:00:00+00:00
+[2025-02-05T00:36:39.496+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/northwind_etl/northwind_meltano.py took 0.211 seconds
+[2025-02-05T00:37:09.766+0000] {processor.py:186} INFO - Started process (PID=8972) to work on /opt/airflow/dags/northwind_etl/northwind_meltano.py
+[2025-02-05T00:37:09.768+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/northwind_etl/northwind_meltano.py for tasks to queue
+[2025-02-05T00:37:09.770+0000] {logging_mixin.py:190} INFO - [2025-02-05T00:37:09.770+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/northwind_etl/northwind_meltano.py
+[2025-02-05T00:37:09.792+0000] {processor.py:925} INFO - DAG(s) 'northwind_meltano' retrieved from /opt/airflow/dags/northwind_etl/northwind_meltano.py
+[2025-02-05T00:37:09.812+0000] {logging_mixin.py:190} INFO - [2025-02-05T00:37:09.811+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-02-05T00:37:09.831+0000] {logging_mixin.py:190} INFO - [2025-02-05T00:37:09.831+0000] {dag.py:4180} INFO - Setting next_dagrun for northwind_meltano to 2025-02-04 08:00:00+00:00, run_after=2025-02-05 08:00:00+00:00
+[2025-02-05T00:37:09.850+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/northwind_etl/northwind_meltano.py took 0.091 seconds
+[2025-02-05T00:37:40.099+0000] {processor.py:186} INFO - Started process (PID=8989) to work on /opt/airflow/dags/northwind_etl/northwind_meltano.py
+[2025-02-05T00:37:40.100+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/northwind_etl/northwind_meltano.py for tasks to queue
+[2025-02-05T00:37:40.101+0000] {logging_mixin.py:190} INFO - [2025-02-05T00:37:40.101+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/northwind_etl/northwind_meltano.py
+[2025-02-05T00:37:40.123+0000] {processor.py:925} INFO - DAG(s) 'northwind_meltano' retrieved from /opt/airflow/dags/northwind_etl/northwind_meltano.py
+[2025-02-05T00:37:40.145+0000] {logging_mixin.py:190} INFO - [2025-02-05T00:37:40.145+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-02-05T00:37:40.167+0000] {logging_mixin.py:190} INFO - [2025-02-05T00:37:40.167+0000] {dag.py:4180} INFO - Setting next_dagrun for northwind_meltano to 2025-02-04 08:00:00+00:00, run_after=2025-02-05 08:00:00+00:00
+[2025-02-05T00:37:40.185+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/northwind_etl/northwind_meltano.py took 0.091 seconds
+[2025-02-05T00:38:10.450+0000] {processor.py:186} INFO - Started process (PID=9009) to work on /opt/airflow/dags/northwind_etl/northwind_meltano.py
+[2025-02-05T00:38:10.451+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/northwind_etl/northwind_meltano.py for tasks to queue
+[2025-02-05T00:38:10.452+0000] {logging_mixin.py:190} INFO - [2025-02-05T00:38:10.451+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/northwind_etl/northwind_meltano.py
+[2025-02-05T00:38:10.472+0000] {processor.py:925} INFO - DAG(s) 'northwind_meltano' retrieved from /opt/airflow/dags/northwind_etl/northwind_meltano.py
+[2025-02-05T00:38:10.492+0000] {logging_mixin.py:190} INFO - [2025-02-05T00:38:10.492+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-02-05T00:38:10.514+0000] {logging_mixin.py:190} INFO - [2025-02-05T00:38:10.514+0000] {dag.py:4180} INFO - Setting next_dagrun for northwind_meltano to 2025-02-04 08:00:00+00:00, run_after=2025-02-05 08:00:00+00:00
+[2025-02-05T00:38:10.530+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/northwind_etl/northwind_meltano.py took 0.085 seconds
+[2025-02-05T00:38:40.765+0000] {processor.py:186} INFO - Started process (PID=9026) to work on /opt/airflow/dags/northwind_etl/northwind_meltano.py
+[2025-02-05T00:38:40.765+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/northwind_etl/northwind_meltano.py for tasks to queue
+[2025-02-05T00:38:40.767+0000] {logging_mixin.py:190} INFO - [2025-02-05T00:38:40.767+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/northwind_etl/northwind_meltano.py
+[2025-02-05T00:38:40.787+0000] {processor.py:925} INFO - DAG(s) 'northwind_meltano' retrieved from /opt/airflow/dags/northwind_etl/northwind_meltano.py
+[2025-02-05T00:38:40.806+0000] {logging_mixin.py:190} INFO - [2025-02-05T00:38:40.806+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-02-05T00:38:40.831+0000] {logging_mixin.py:190} INFO - [2025-02-05T00:38:40.830+0000] {dag.py:4180} INFO - Setting next_dagrun for northwind_meltano to 2025-02-04 08:00:00+00:00, run_after=2025-02-05 08:00:00+00:00
+[2025-02-05T00:38:40.855+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/northwind_etl/northwind_meltano.py took 0.095 seconds
+[2025-02-05T00:39:08.110+0000] {processor.py:186} INFO - Started process (PID=9043) to work on /opt/airflow/dags/northwind_etl/northwind_meltano.py
+[2025-02-05T00:39:08.111+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/northwind_etl/northwind_meltano.py for tasks to queue
+[2025-02-05T00:39:08.112+0000] {logging_mixin.py:190} INFO - [2025-02-05T00:39:08.112+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/northwind_etl/northwind_meltano.py
+[2025-02-05T00:39:08.143+0000] {processor.py:925} INFO - DAG(s) 'northwind_meltano' retrieved from /opt/airflow/dags/northwind_etl/northwind_meltano.py
+[2025-02-05T00:39:08.233+0000] {logging_mixin.py:190} INFO - [2025-02-05T00:39:08.233+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-02-05T00:39:08.252+0000] {logging_mixin.py:190} INFO - [2025-02-05T00:39:08.252+0000] {dag.py:4180} INFO - Setting next_dagrun for northwind_meltano to 2025-02-04 08:00:00+00:00, run_after=2025-02-05 08:00:00+00:00
+[2025-02-05T00:39:08.274+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/northwind_etl/northwind_meltano.py took 0.167 seconds
+[2025-02-05T00:39:38.532+0000] {processor.py:186} INFO - Started process (PID=9063) to work on /opt/airflow/dags/northwind_etl/northwind_meltano.py
+[2025-02-05T00:39:38.533+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/northwind_etl/northwind_meltano.py for tasks to queue
+[2025-02-05T00:39:38.533+0000] {logging_mixin.py:190} INFO - [2025-02-05T00:39:38.533+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/northwind_etl/northwind_meltano.py
+[2025-02-05T00:39:38.554+0000] {processor.py:925} INFO - DAG(s) 'northwind_meltano' retrieved from /opt/airflow/dags/northwind_etl/northwind_meltano.py
+[2025-02-05T00:39:38.578+0000] {logging_mixin.py:190} INFO - [2025-02-05T00:39:38.578+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-02-05T00:39:38.599+0000] {logging_mixin.py:190} INFO - [2025-02-05T00:39:38.599+0000] {dag.py:4180} INFO - Setting next_dagrun for northwind_meltano to 2025-02-04 08:00:00+00:00, run_after=2025-02-05 08:00:00+00:00
+[2025-02-05T00:39:38.614+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/northwind_etl/northwind_meltano.py took 0.087 seconds
+[2025-02-05T00:40:08.854+0000] {processor.py:186} INFO - Started process (PID=9080) to work on /opt/airflow/dags/northwind_etl/northwind_meltano.py
+[2025-02-05T00:40:08.855+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/northwind_etl/northwind_meltano.py for tasks to queue
+[2025-02-05T00:40:08.856+0000] {logging_mixin.py:190} INFO - [2025-02-05T00:40:08.856+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/northwind_etl/northwind_meltano.py
+[2025-02-05T00:40:08.876+0000] {processor.py:925} INFO - DAG(s) 'northwind_meltano' retrieved from /opt/airflow/dags/northwind_etl/northwind_meltano.py
+[2025-02-05T00:40:08.896+0000] {logging_mixin.py:190} INFO - [2025-02-05T00:40:08.895+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-02-05T00:40:08.915+0000] {logging_mixin.py:190} INFO - [2025-02-05T00:40:08.915+0000] {dag.py:4180} INFO - Setting next_dagrun for northwind_meltano to 2025-02-04 08:00:00+00:00, run_after=2025-02-05 08:00:00+00:00
+[2025-02-05T00:40:08.930+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/northwind_etl/northwind_meltano.py took 0.080 seconds
+[2025-02-05T00:40:39.181+0000] {processor.py:186} INFO - Started process (PID=9100) to work on /opt/airflow/dags/northwind_etl/northwind_meltano.py
+[2025-02-05T00:40:39.181+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/northwind_etl/northwind_meltano.py for tasks to queue
+[2025-02-05T00:40:39.182+0000] {logging_mixin.py:190} INFO - [2025-02-05T00:40:39.182+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/northwind_etl/northwind_meltano.py
+[2025-02-05T00:40:39.203+0000] {processor.py:925} INFO - DAG(s) 'northwind_meltano' retrieved from /opt/airflow/dags/northwind_etl/northwind_meltano.py
+[2025-02-05T00:40:39.223+0000] {logging_mixin.py:190} INFO - [2025-02-05T00:40:39.223+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-02-05T00:40:39.244+0000] {logging_mixin.py:190} INFO - [2025-02-05T00:40:39.244+0000] {dag.py:4180} INFO - Setting next_dagrun for northwind_meltano to 2025-02-04 08:00:00+00:00, run_after=2025-02-05 08:00:00+00:00
+[2025-02-05T00:40:39.260+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/northwind_etl/northwind_meltano.py took 0.084 seconds
+[2025-02-05T00:41:09.514+0000] {processor.py:186} INFO - Started process (PID=9117) to work on /opt/airflow/dags/northwind_etl/northwind_meltano.py
+[2025-02-05T00:41:09.515+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/northwind_etl/northwind_meltano.py for tasks to queue
+[2025-02-05T00:41:09.516+0000] {logging_mixin.py:190} INFO - [2025-02-05T00:41:09.516+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/northwind_etl/northwind_meltano.py
+[2025-02-05T00:41:09.539+0000] {processor.py:925} INFO - DAG(s) 'northwind_meltano' retrieved from /opt/airflow/dags/northwind_etl/northwind_meltano.py
+[2025-02-05T00:41:09.562+0000] {logging_mixin.py:190} INFO - [2025-02-05T00:41:09.562+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-02-05T00:41:09.585+0000] {logging_mixin.py:190} INFO - [2025-02-05T00:41:09.585+0000] {dag.py:4180} INFO - Setting next_dagrun for northwind_meltano to 2025-02-04 08:00:00+00:00, run_after=2025-02-05 08:00:00+00:00
+[2025-02-05T00:41:09.602+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/northwind_etl/northwind_meltano.py took 0.094 seconds
+[2025-02-05T00:41:31.196+0000] {processor.py:186} INFO - Started process (PID=9128) to work on /opt/airflow/dags/northwind_etl/northwind_meltano.py
+[2025-02-05T00:41:31.197+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/northwind_etl/northwind_meltano.py for tasks to queue
+[2025-02-05T00:41:31.198+0000] {logging_mixin.py:190} INFO - [2025-02-05T00:41:31.198+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/northwind_etl/northwind_meltano.py
+[2025-02-05T00:41:31.228+0000] {processor.py:925} INFO - DAG(s) 'northwind_meltano' retrieved from /opt/airflow/dags/northwind_etl/northwind_meltano.py
+[2025-02-05T00:41:31.318+0000] {logging_mixin.py:190} INFO - [2025-02-05T00:41:31.318+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-02-05T00:41:31.336+0000] {logging_mixin.py:190} INFO - [2025-02-05T00:41:31.336+0000] {dag.py:4180} INFO - Setting next_dagrun for northwind_meltano to 2025-02-04 08:00:00+00:00, run_after=2025-02-05 08:00:00+00:00
+[2025-02-05T00:41:31.356+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/northwind_etl/northwind_meltano.py took 0.164 seconds
+[2025-02-05T00:42:01.599+0000] {processor.py:186} INFO - Started process (PID=9148) to work on /opt/airflow/dags/northwind_etl/northwind_meltano.py
+[2025-02-05T00:42:01.601+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/northwind_etl/northwind_meltano.py for tasks to queue
+[2025-02-05T00:42:01.602+0000] {logging_mixin.py:190} INFO - [2025-02-05T00:42:01.602+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/northwind_etl/northwind_meltano.py
+[2025-02-05T00:42:01.628+0000] {processor.py:925} INFO - DAG(s) 'northwind_meltano' retrieved from /opt/airflow/dags/northwind_etl/northwind_meltano.py
+[2025-02-05T00:42:01.650+0000] {logging_mixin.py:190} INFO - [2025-02-05T00:42:01.650+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-02-05T00:42:01.671+0000] {logging_mixin.py:190} INFO - [2025-02-05T00:42:01.671+0000] {dag.py:4180} INFO - Setting next_dagrun for northwind_meltano to 2025-02-04 08:00:00+00:00, run_after=2025-02-05 08:00:00+00:00
+[2025-02-05T00:42:01.686+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/northwind_etl/northwind_meltano.py took 0.092 seconds
+[2025-02-05T00:42:31.929+0000] {processor.py:186} INFO - Started process (PID=9171) to work on /opt/airflow/dags/northwind_etl/northwind_meltano.py
+[2025-02-05T00:42:31.930+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/northwind_etl/northwind_meltano.py for tasks to queue
+[2025-02-05T00:42:31.930+0000] {logging_mixin.py:190} INFO - [2025-02-05T00:42:31.930+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/northwind_etl/northwind_meltano.py
+[2025-02-05T00:42:31.951+0000] {processor.py:925} INFO - DAG(s) 'northwind_meltano' retrieved from /opt/airflow/dags/northwind_etl/northwind_meltano.py
+[2025-02-05T00:42:31.971+0000] {logging_mixin.py:190} INFO - [2025-02-05T00:42:31.970+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-02-05T00:42:31.991+0000] {logging_mixin.py:190} INFO - [2025-02-05T00:42:31.991+0000] {dag.py:4180} INFO - Setting next_dagrun for northwind_meltano to 2025-02-04 08:00:00+00:00, run_after=2025-02-05 08:00:00+00:00
+[2025-02-05T00:42:32.007+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/northwind_etl/northwind_meltano.py took 0.082 seconds
+[2025-02-05T00:43:02.247+0000] {processor.py:186} INFO - Started process (PID=9191) to work on /opt/airflow/dags/northwind_etl/northwind_meltano.py
+[2025-02-05T00:43:02.248+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/northwind_etl/northwind_meltano.py for tasks to queue
+[2025-02-05T00:43:02.249+0000] {logging_mixin.py:190} INFO - [2025-02-05T00:43:02.248+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/northwind_etl/northwind_meltano.py
+[2025-02-05T00:43:02.271+0000] {processor.py:925} INFO - DAG(s) 'northwind_meltano' retrieved from /opt/airflow/dags/northwind_etl/northwind_meltano.py
+[2025-02-05T00:43:02.292+0000] {logging_mixin.py:190} INFO - [2025-02-05T00:43:02.292+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-02-05T00:43:02.314+0000] {logging_mixin.py:190} INFO - [2025-02-05T00:43:02.314+0000] {dag.py:4180} INFO - Setting next_dagrun for northwind_meltano to 2025-02-04 08:00:00+00:00, run_after=2025-02-05 08:00:00+00:00
+[2025-02-05T00:43:02.330+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/northwind_etl/northwind_meltano.py took 0.088 seconds
+[2025-02-05T00:43:32.564+0000] {processor.py:186} INFO - Started process (PID=9208) to work on /opt/airflow/dags/northwind_etl/northwind_meltano.py
+[2025-02-05T00:43:32.565+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/northwind_etl/northwind_meltano.py for tasks to queue
+[2025-02-05T00:43:32.566+0000] {logging_mixin.py:190} INFO - [2025-02-05T00:43:32.566+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/northwind_etl/northwind_meltano.py
+[2025-02-05T00:43:32.585+0000] {processor.py:925} INFO - DAG(s) 'northwind_meltano' retrieved from /opt/airflow/dags/northwind_etl/northwind_meltano.py
+[2025-02-05T00:43:32.604+0000] {logging_mixin.py:190} INFO - [2025-02-05T00:43:32.604+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-02-05T00:43:32.623+0000] {logging_mixin.py:190} INFO - [2025-02-05T00:43:32.623+0000] {dag.py:4180} INFO - Setting next_dagrun for northwind_meltano to 2025-02-04 08:00:00+00:00, run_after=2025-02-05 08:00:00+00:00
+[2025-02-05T00:43:32.637+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/northwind_etl/northwind_meltano.py took 0.077 seconds
+[2025-02-05T00:44:02.851+0000] {processor.py:186} INFO - Started process (PID=9225) to work on /opt/airflow/dags/northwind_etl/northwind_meltano.py
+[2025-02-05T00:44:02.852+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/northwind_etl/northwind_meltano.py for tasks to queue
+[2025-02-05T00:44:02.853+0000] {logging_mixin.py:190} INFO - [2025-02-05T00:44:02.852+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/northwind_etl/northwind_meltano.py
+[2025-02-05T00:44:02.872+0000] {processor.py:925} INFO - DAG(s) 'northwind_meltano' retrieved from /opt/airflow/dags/northwind_etl/northwind_meltano.py
+[2025-02-05T00:44:02.892+0000] {logging_mixin.py:190} INFO - [2025-02-05T00:44:02.892+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-02-05T00:44:02.911+0000] {logging_mixin.py:190} INFO - [2025-02-05T00:44:02.911+0000] {dag.py:4180} INFO - Setting next_dagrun for northwind_meltano to 2025-02-04 08:00:00+00:00, run_after=2025-02-05 08:00:00+00:00
+[2025-02-05T00:44:02.927+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/northwind_etl/northwind_meltano.py took 0.080 seconds
+[2025-02-05T00:44:33.144+0000] {processor.py:186} INFO - Started process (PID=9242) to work on /opt/airflow/dags/northwind_etl/northwind_meltano.py
+[2025-02-05T00:44:33.144+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/northwind_etl/northwind_meltano.py for tasks to queue
+[2025-02-05T00:44:33.145+0000] {logging_mixin.py:190} INFO - [2025-02-05T00:44:33.145+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/northwind_etl/northwind_meltano.py
+[2025-02-05T00:44:33.165+0000] {processor.py:925} INFO - DAG(s) 'northwind_meltano' retrieved from /opt/airflow/dags/northwind_etl/northwind_meltano.py
+[2025-02-05T00:44:33.184+0000] {logging_mixin.py:190} INFO - [2025-02-05T00:44:33.184+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-02-05T00:44:33.203+0000] {logging_mixin.py:190} INFO - [2025-02-05T00:44:33.203+0000] {dag.py:4180} INFO - Setting next_dagrun for northwind_meltano to 2025-02-04 08:00:00+00:00, run_after=2025-02-05 08:00:00+00:00
+[2025-02-05T00:44:33.218+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/northwind_etl/northwind_meltano.py took 0.079 seconds
+[2025-02-05T00:45:03.443+0000] {processor.py:186} INFO - Started process (PID=9259) to work on /opt/airflow/dags/northwind_etl/northwind_meltano.py
+[2025-02-05T00:45:03.444+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/northwind_etl/northwind_meltano.py for tasks to queue
+[2025-02-05T00:45:03.445+0000] {logging_mixin.py:190} INFO - [2025-02-05T00:45:03.445+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/northwind_etl/northwind_meltano.py
+[2025-02-05T00:45:03.464+0000] {processor.py:925} INFO - DAG(s) 'northwind_meltano' retrieved from /opt/airflow/dags/northwind_etl/northwind_meltano.py
+[2025-02-05T00:45:03.483+0000] {logging_mixin.py:190} INFO - [2025-02-05T00:45:03.483+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-02-05T00:45:03.503+0000] {logging_mixin.py:190} INFO - [2025-02-05T00:45:03.502+0000] {dag.py:4180} INFO - Setting next_dagrun for northwind_meltano to 2025-02-04 08:00:00+00:00, run_after=2025-02-05 08:00:00+00:00
+[2025-02-05T00:45:03.517+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/northwind_etl/northwind_meltano.py took 0.078 seconds
+[2025-02-05T00:45:33.733+0000] {processor.py:186} INFO - Started process (PID=9276) to work on /opt/airflow/dags/northwind_etl/northwind_meltano.py
+[2025-02-05T00:45:33.734+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/northwind_etl/northwind_meltano.py for tasks to queue
+[2025-02-05T00:45:33.735+0000] {logging_mixin.py:190} INFO - [2025-02-05T00:45:33.735+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/northwind_etl/northwind_meltano.py
+[2025-02-05T00:45:33.755+0000] {processor.py:925} INFO - DAG(s) 'northwind_meltano' retrieved from /opt/airflow/dags/northwind_etl/northwind_meltano.py
+[2025-02-05T00:45:33.775+0000] {logging_mixin.py:190} INFO - [2025-02-05T00:45:33.775+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-02-05T00:45:33.794+0000] {logging_mixin.py:190} INFO - [2025-02-05T00:45:33.794+0000] {dag.py:4180} INFO - Setting next_dagrun for northwind_meltano to 2025-02-04 08:00:00+00:00, run_after=2025-02-05 08:00:00+00:00
+[2025-02-05T00:45:33.808+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/northwind_etl/northwind_meltano.py took 0.080 seconds
+[2025-02-05T00:46:04.036+0000] {processor.py:186} INFO - Started process (PID=9293) to work on /opt/airflow/dags/northwind_etl/northwind_meltano.py
+[2025-02-05T00:46:04.037+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/northwind_etl/northwind_meltano.py for tasks to queue
+[2025-02-05T00:46:04.038+0000] {logging_mixin.py:190} INFO - [2025-02-05T00:46:04.038+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/northwind_etl/northwind_meltano.py
+[2025-02-05T00:46:04.060+0000] {processor.py:925} INFO - DAG(s) 'northwind_meltano' retrieved from /opt/airflow/dags/northwind_etl/northwind_meltano.py
+[2025-02-05T00:46:04.081+0000] {logging_mixin.py:190} INFO - [2025-02-05T00:46:04.080+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-02-05T00:46:04.100+0000] {logging_mixin.py:190} INFO - [2025-02-05T00:46:04.099+0000] {dag.py:4180} INFO - Setting next_dagrun for northwind_meltano to 2025-02-04 08:00:00+00:00, run_after=2025-02-05 08:00:00+00:00
+[2025-02-05T00:46:04.115+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/northwind_etl/northwind_meltano.py took 0.083 seconds
+[2025-02-05T00:46:34.353+0000] {processor.py:186} INFO - Started process (PID=9310) to work on /opt/airflow/dags/northwind_etl/northwind_meltano.py
+[2025-02-05T00:46:34.354+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/northwind_etl/northwind_meltano.py for tasks to queue
+[2025-02-05T00:46:34.355+0000] {logging_mixin.py:190} INFO - [2025-02-05T00:46:34.355+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/northwind_etl/northwind_meltano.py
+[2025-02-05T00:46:34.378+0000] {processor.py:925} INFO - DAG(s) 'northwind_meltano' retrieved from /opt/airflow/dags/northwind_etl/northwind_meltano.py
+[2025-02-05T00:46:34.400+0000] {logging_mixin.py:190} INFO - [2025-02-05T00:46:34.400+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-02-05T00:46:34.420+0000] {logging_mixin.py:190} INFO - [2025-02-05T00:46:34.420+0000] {dag.py:4180} INFO - Setting next_dagrun for northwind_meltano to 2025-02-04 08:00:00+00:00, run_after=2025-02-05 08:00:00+00:00
+[2025-02-05T00:46:34.436+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/northwind_etl/northwind_meltano.py took 0.088 seconds
+[2025-02-05T00:47:04.676+0000] {processor.py:186} INFO - Started process (PID=9327) to work on /opt/airflow/dags/northwind_etl/northwind_meltano.py
+[2025-02-05T00:47:04.677+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/northwind_etl/northwind_meltano.py for tasks to queue
+[2025-02-05T00:47:04.678+0000] {logging_mixin.py:190} INFO - [2025-02-05T00:47:04.678+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/northwind_etl/northwind_meltano.py
+[2025-02-05T00:47:04.697+0000] {processor.py:925} INFO - DAG(s) 'northwind_meltano' retrieved from /opt/airflow/dags/northwind_etl/northwind_meltano.py
+[2025-02-05T00:47:04.717+0000] {logging_mixin.py:190} INFO - [2025-02-05T00:47:04.716+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-02-05T00:47:04.736+0000] {logging_mixin.py:190} INFO - [2025-02-05T00:47:04.736+0000] {dag.py:4180} INFO - Setting next_dagrun for northwind_meltano to 2025-02-04 08:00:00+00:00, run_after=2025-02-05 08:00:00+00:00
+[2025-02-05T00:47:04.752+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/northwind_etl/northwind_meltano.py took 0.080 seconds
+[2025-02-05T00:47:34.963+0000] {processor.py:186} INFO - Started process (PID=9344) to work on /opt/airflow/dags/northwind_etl/northwind_meltano.py
+[2025-02-05T00:47:34.964+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/northwind_etl/northwind_meltano.py for tasks to queue
+[2025-02-05T00:47:34.965+0000] {logging_mixin.py:190} INFO - [2025-02-05T00:47:34.964+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/northwind_etl/northwind_meltano.py
+[2025-02-05T00:47:34.985+0000] {processor.py:925} INFO - DAG(s) 'northwind_meltano' retrieved from /opt/airflow/dags/northwind_etl/northwind_meltano.py
+[2025-02-05T00:47:35.005+0000] {logging_mixin.py:190} INFO - [2025-02-05T00:47:35.005+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-02-05T00:47:35.024+0000] {logging_mixin.py:190} INFO - [2025-02-05T00:47:35.024+0000] {dag.py:4180} INFO - Setting next_dagrun for northwind_meltano to 2025-02-04 08:00:00+00:00, run_after=2025-02-05 08:00:00+00:00
+[2025-02-05T00:47:35.038+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/northwind_etl/northwind_meltano.py took 0.079 seconds
+[2025-02-05T00:48:03.171+0000] {processor.py:186} INFO - Started process (PID=9355) to work on /opt/airflow/dags/northwind_etl/northwind_meltano.py
+[2025-02-05T00:48:03.172+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/northwind_etl/northwind_meltano.py for tasks to queue
+[2025-02-05T00:48:03.173+0000] {logging_mixin.py:190} INFO - [2025-02-05T00:48:03.173+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/northwind_etl/northwind_meltano.py
+[2025-02-05T00:48:03.205+0000] {processor.py:925} INFO - DAG(s) 'northwind_meltano' retrieved from /opt/airflow/dags/northwind_etl/northwind_meltano.py
+[2025-02-05T00:48:03.300+0000] {logging_mixin.py:190} INFO - [2025-02-05T00:48:03.300+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-02-05T00:48:03.320+0000] {logging_mixin.py:190} INFO - [2025-02-05T00:48:03.320+0000] {dag.py:4180} INFO - Setting next_dagrun for northwind_meltano to 2025-02-04 08:00:00+00:00, run_after=2025-02-05 08:00:00+00:00
+[2025-02-05T00:48:03.343+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/northwind_etl/northwind_meltano.py took 0.176 seconds
+[2025-02-05T00:48:33.599+0000] {processor.py:186} INFO - Started process (PID=9375) to work on /opt/airflow/dags/northwind_etl/northwind_meltano.py
+[2025-02-05T00:48:33.600+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/northwind_etl/northwind_meltano.py for tasks to queue
+[2025-02-05T00:48:33.601+0000] {logging_mixin.py:190} INFO - [2025-02-05T00:48:33.601+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/northwind_etl/northwind_meltano.py
+[2025-02-05T00:48:33.622+0000] {processor.py:925} INFO - DAG(s) 'northwind_meltano' retrieved from /opt/airflow/dags/northwind_etl/northwind_meltano.py
+[2025-02-05T00:48:33.641+0000] {logging_mixin.py:190} INFO - [2025-02-05T00:48:33.641+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-02-05T00:48:33.661+0000] {logging_mixin.py:190} INFO - [2025-02-05T00:48:33.660+0000] {dag.py:4180} INFO - Setting next_dagrun for northwind_meltano to 2025-02-04 08:00:00+00:00, run_after=2025-02-05 08:00:00+00:00
+[2025-02-05T00:48:33.675+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/northwind_etl/northwind_meltano.py took 0.081 seconds
+[2025-02-05T00:49:03.986+0000] {processor.py:186} INFO - Started process (PID=9392) to work on /opt/airflow/dags/northwind_etl/northwind_meltano.py
+[2025-02-05T00:49:03.987+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/northwind_etl/northwind_meltano.py for tasks to queue
+[2025-02-05T00:49:03.988+0000] {logging_mixin.py:190} INFO - [2025-02-05T00:49:03.987+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/northwind_etl/northwind_meltano.py
+[2025-02-05T00:49:04.010+0000] {processor.py:925} INFO - DAG(s) 'northwind_meltano' retrieved from /opt/airflow/dags/northwind_etl/northwind_meltano.py
+[2025-02-05T00:49:04.032+0000] {logging_mixin.py:190} INFO - [2025-02-05T00:49:04.032+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-02-05T00:49:04.054+0000] {logging_mixin.py:190} INFO - [2025-02-05T00:49:04.053+0000] {dag.py:4180} INFO - Setting next_dagrun for northwind_meltano to 2025-02-04 08:00:00+00:00, run_after=2025-02-05 08:00:00+00:00
+[2025-02-05T00:49:04.071+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/northwind_etl/northwind_meltano.py took 0.090 seconds
+[2025-02-05T00:49:34.329+0000] {processor.py:186} INFO - Started process (PID=9412) to work on /opt/airflow/dags/northwind_etl/northwind_meltano.py
+[2025-02-05T00:49:34.329+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/northwind_etl/northwind_meltano.py for tasks to queue
+[2025-02-05T00:49:34.330+0000] {logging_mixin.py:190} INFO - [2025-02-05T00:49:34.330+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/northwind_etl/northwind_meltano.py
+[2025-02-05T00:49:34.350+0000] {processor.py:925} INFO - DAG(s) 'northwind_meltano' retrieved from /opt/airflow/dags/northwind_etl/northwind_meltano.py
+[2025-02-05T00:49:34.369+0000] {logging_mixin.py:190} INFO - [2025-02-05T00:49:34.369+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-02-05T00:49:34.388+0000] {logging_mixin.py:190} INFO - [2025-02-05T00:49:34.388+0000] {dag.py:4180} INFO - Setting next_dagrun for northwind_meltano to 2025-02-04 08:00:00+00:00, run_after=2025-02-05 08:00:00+00:00
+[2025-02-05T00:49:34.403+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/northwind_etl/northwind_meltano.py took 0.079 seconds
+[2025-02-05T00:50:04.666+0000] {processor.py:186} INFO - Started process (PID=9429) to work on /opt/airflow/dags/northwind_etl/northwind_meltano.py
+[2025-02-05T00:50:04.666+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/northwind_etl/northwind_meltano.py for tasks to queue
+[2025-02-05T00:50:04.667+0000] {logging_mixin.py:190} INFO - [2025-02-05T00:50:04.667+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/northwind_etl/northwind_meltano.py
+[2025-02-05T00:50:04.687+0000] {processor.py:925} INFO - DAG(s) 'northwind_meltano' retrieved from /opt/airflow/dags/northwind_etl/northwind_meltano.py
+[2025-02-05T00:50:04.706+0000] {logging_mixin.py:190} INFO - [2025-02-05T00:50:04.706+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-02-05T00:50:04.726+0000] {logging_mixin.py:190} INFO - [2025-02-05T00:50:04.725+0000] {dag.py:4180} INFO - Setting next_dagrun for northwind_meltano to 2025-02-04 08:00:00+00:00, run_after=2025-02-05 08:00:00+00:00
+[2025-02-05T00:50:04.739+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/northwind_etl/northwind_meltano.py took 0.078 seconds
+[2025-02-05T00:50:34.989+0000] {processor.py:186} INFO - Started process (PID=9446) to work on /opt/airflow/dags/northwind_etl/northwind_meltano.py
+[2025-02-05T00:50:34.990+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/northwind_etl/northwind_meltano.py for tasks to queue
+[2025-02-05T00:50:34.991+0000] {logging_mixin.py:190} INFO - [2025-02-05T00:50:34.990+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/northwind_etl/northwind_meltano.py
+[2025-02-05T00:50:35.010+0000] {processor.py:925} INFO - DAG(s) 'northwind_meltano' retrieved from /opt/airflow/dags/northwind_etl/northwind_meltano.py
+[2025-02-05T00:50:35.029+0000] {logging_mixin.py:190} INFO - [2025-02-05T00:50:35.029+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-02-05T00:50:35.048+0000] {logging_mixin.py:190} INFO - [2025-02-05T00:50:35.047+0000] {dag.py:4180} INFO - Setting next_dagrun for northwind_meltano to 2025-02-04 08:00:00+00:00, run_after=2025-02-05 08:00:00+00:00
+[2025-02-05T00:50:35.062+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/northwind_etl/northwind_meltano.py took 0.077 seconds
+[2025-02-05T00:50:55.247+0000] {processor.py:186} INFO - Started process (PID=9457) to work on /opt/airflow/dags/northwind_etl/northwind_meltano.py
+[2025-02-05T00:50:55.248+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/northwind_etl/northwind_meltano.py for tasks to queue
+[2025-02-05T00:50:55.249+0000] {logging_mixin.py:190} INFO - [2025-02-05T00:50:55.249+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/northwind_etl/northwind_meltano.py
+[2025-02-05T00:50:55.282+0000] {processor.py:925} INFO - DAG(s) 'northwind_meltano' retrieved from /opt/airflow/dags/northwind_etl/northwind_meltano.py
+[2025-02-05T00:50:55.302+0000] {logging_mixin.py:190} INFO - [2025-02-05T00:50:55.302+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-02-05T00:50:55.321+0000] {logging_mixin.py:190} INFO - [2025-02-05T00:50:55.321+0000] {dag.py:4180} INFO - Setting next_dagrun for northwind_meltano to 2025-02-04 08:00:00+00:00, run_after=2025-02-05 08:00:00+00:00
+[2025-02-05T00:50:55.340+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/northwind_etl/northwind_meltano.py took 0.097 seconds
+[2025-02-05T00:51:02.305+0000] {processor.py:186} INFO - Started process (PID=9468) to work on /opt/airflow/dags/northwind_etl/northwind_meltano.py
+[2025-02-05T00:51:02.306+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/northwind_etl/northwind_meltano.py for tasks to queue
+[2025-02-05T00:51:02.307+0000] {logging_mixin.py:190} INFO - [2025-02-05T00:51:02.306+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/northwind_etl/northwind_meltano.py
+[2025-02-05T00:51:02.337+0000] {processor.py:925} INFO - DAG(s) 'northwind_meltano' retrieved from /opt/airflow/dags/northwind_etl/northwind_meltano.py
+[2025-02-05T00:51:02.358+0000] {logging_mixin.py:190} INFO - [2025-02-05T00:51:02.357+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-02-05T00:51:02.378+0000] {logging_mixin.py:190} INFO - [2025-02-05T00:51:02.377+0000] {dag.py:4180} INFO - Setting next_dagrun for northwind_meltano to 2025-02-04 08:00:00+00:00, run_after=2025-02-05 08:00:00+00:00
+[2025-02-05T00:51:02.396+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/northwind_etl/northwind_meltano.py took 0.096 seconds
