@@ -116,3 +116,25 @@ AttributeError: 'NoneType' object has no attribute '_instantiate_plugins'
 [2025-02-02T18:01:17.597+0000] {local_task_job_runner.py:266} INFO - Task exited with return code 1
 [2025-02-02T18:01:17.608+0000] {taskinstance.py:3895} INFO - 0 downstream tasks scheduled from follow-on schedule check
 [2025-02-02T18:01:17.610+0000] {local_task_job_runner.py:245} INFO - ::endgroup::
+[2025-02-05T02:26:34.569+0000] {local_task_job_runner.py:123} INFO - ::group::Pre task execution logs
+[2025-02-05T02:26:34.604+0000] {taskinstance.py:2613} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: northwind_etl.extract_orders scheduled__2024-08-08T08:00:00+00:00 [queued]>
+[2025-02-05T02:26:34.620+0000] {taskinstance.py:2613} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: northwind_etl.extract_orders scheduled__2024-08-08T08:00:00+00:00 [queued]>
+[2025-02-05T02:26:34.621+0000] {taskinstance.py:2866} INFO - Starting attempt 1 of 1
+[2025-02-05T02:26:34.642+0000] {taskinstance.py:2889} INFO - Executing <Task(PythonOperator): extract_orders> on 2024-08-08 08:00:00+00:00
+[2025-02-05T02:26:34.660+0000] {standard_task_runner.py:104} INFO - Running: ['***', 'tasks', 'run', 'northwind_etl', 'extract_orders', 'scheduled__2024-08-08T08:00:00+00:00', '--job-id', '508', '--raw', '--subdir', 'DAGS_FOLDER/northwind_etl/northwind_etl.py', '--cfg-path', '/tmp/tmpkqs0c1xk']
+[2025-02-05T02:26:34.663+0000] {standard_task_runner.py:105} INFO - Job 508: Subtask extract_orders
+[2025-02-05T02:26:34.661+0000] {logging_mixin.py:190} WARNING - /home/***/.local/lib/python3.12/site-packages/***/task/task_runner/standard_task_runner.py:70 DeprecationWarning: This process (pid=15728) is multi-threaded, use of fork() may lead to deadlocks in the child.
+[2025-02-05T02:26:34.668+0000] {standard_task_runner.py:72} INFO - Started process 15769 to run task
+[2025-02-05T02:26:34.794+0000] {task_command.py:467} INFO - Running <TaskInstance: northwind_etl.extract_orders scheduled__2024-08-08T08:00:00+00:00 [running]> on host 09d05643d017
+[2025-02-05T02:26:34.955+0000] {taskinstance.py:3132} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='gabriel' AIRFLOW_CTX_DAG_ID='northwind_etl' AIRFLOW_CTX_TASK_ID='extract_orders' AIRFLOW_CTX_EXECUTION_DATE='2024-08-08T08:00:00+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='scheduled__2024-08-08T08:00:00+00:00'
+[2025-02-05T02:26:34.956+0000] {taskinstance.py:731} INFO - ::endgroup::
+[2025-02-05T02:26:34.991+0000] {logging_mixin.py:190} INFO - table: orders, date: 2024-08-08
+[2025-02-05T02:26:35.065+0000] {logging_mixin.py:190} INFO - Total records extracted: 830
+[2025-02-05T02:26:35.066+0000] {logging_mixin.py:190} INFO - Columns present: order_id, customer_id, employee_id, order_date, required_date, shipped_date, ship_via, freight, ship_name, ship_address, ship_city, ship_region, ship_postal_code, ship_country
+[2025-02-05T02:26:35.135+0000] {logging_mixin.py:190} INFO - Extraction saved successfully at: /opt/***/data/postgres/orders/2024-08-08/orders.parquet
+[2025-02-05T02:26:35.136+0000] {python.py:240} INFO - Done. Returned value was: Extracted 830 records from orders
+[2025-02-05T02:26:35.176+0000] {taskinstance.py:340} INFO - ::group::Post task execution logs
+[2025-02-05T02:26:35.184+0000] {taskinstance.py:352} INFO - Marking task as SUCCESS. dag_id=northwind_etl, task_id=extract_orders, run_id=scheduled__2024-08-08T08:00:00+00:00, execution_date=20240808T080000, start_date=20250205T022634, end_date=20250205T022635
+[2025-02-05T02:26:35.253+0000] {local_task_job_runner.py:266} INFO - Task exited with return code 0
+[2025-02-05T02:26:35.287+0000] {taskinstance.py:3895} INFO - 1 downstream tasks scheduled from follow-on schedule check
+[2025-02-05T02:26:35.290+0000] {local_task_job_runner.py:245} INFO - ::endgroup::

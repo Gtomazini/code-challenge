@@ -14,7 +14,7 @@ POSTGRES_CONN = os.getenv('POSTGRES_CONN')
 
 args = {
     'owner' : 'gabriel',
-    'start_date': datetime(2024, 1, 1)
+    'start_date': datetime(2025, 2, 4)
 }
 
 dag = DAG(dag_name, schedule_interval="0 8 * * *", default_args=args)

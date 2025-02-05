@@ -1,0 +1,22 @@
+[2025-02-05T02:25:16.656+0000] {local_task_job_runner.py:123} INFO - ::group::Pre task execution logs
+[2025-02-05T02:25:16.684+0000] {taskinstance.py:2613} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: northwind_etl.extract_order_details scheduled__2024-02-18T08:00:00+00:00 [queued]>
+[2025-02-05T02:25:16.698+0000] {taskinstance.py:2613} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: northwind_etl.extract_order_details scheduled__2024-02-18T08:00:00+00:00 [queued]>
+[2025-02-05T02:25:16.699+0000] {taskinstance.py:2866} INFO - Starting attempt 1 of 1
+[2025-02-05T02:25:16.789+0000] {taskinstance.py:2889} INFO - Executing <Task(PythonOperator): extract_order_details> on 2024-02-18 08:00:00+00:00
+[2025-02-05T02:25:16.809+0000] {logging_mixin.py:190} WARNING - /home/***/.local/lib/python3.12/site-packages/***/task/task_runner/standard_task_runner.py:70 DeprecationWarning: This process (pid=14093) is multi-threaded, use of fork() may lead to deadlocks in the child.
+[2025-02-05T02:25:16.815+0000] {standard_task_runner.py:72} INFO - Started process 14131 to run task
+[2025-02-05T02:25:16.817+0000] {standard_task_runner.py:104} INFO - Running: ['***', 'tasks', 'run', 'northwind_etl', 'extract_order_details', 'scheduled__2024-02-18T08:00:00+00:00', '--job-id', '184', '--raw', '--subdir', 'DAGS_FOLDER/northwind_etl/northwind_etl.py', '--cfg-path', '/tmp/tmpv4h4b_yi']
+[2025-02-05T02:25:16.825+0000] {standard_task_runner.py:105} INFO - Job 184: Subtask extract_order_details
+[2025-02-05T02:25:16.915+0000] {task_command.py:467} INFO - Running <TaskInstance: northwind_etl.extract_order_details scheduled__2024-02-18T08:00:00+00:00 [running]> on host 09d05643d017
+[2025-02-05T02:25:17.144+0000] {taskinstance.py:3132} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='gabriel' AIRFLOW_CTX_DAG_ID='northwind_etl' AIRFLOW_CTX_TASK_ID='extract_order_details' AIRFLOW_CTX_EXECUTION_DATE='2024-02-18T08:00:00+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='scheduled__2024-02-18T08:00:00+00:00'
+[2025-02-05T02:25:17.147+0000] {taskinstance.py:731} INFO - ::endgroup::
+[2025-02-05T02:25:17.169+0000] {logging_mixin.py:190} INFO - CSV extraction for date: 2024-02-18
+[2025-02-05T02:25:17.193+0000] {logging_mixin.py:190} INFO - Total records extracted from CSV: 2155
+[2025-02-05T02:25:17.194+0000] {logging_mixin.py:190} INFO - Columns present: order_id, product_id, unit_price, quantity, discount
+[2025-02-05T02:25:17.272+0000] {logging_mixin.py:190} INFO - CSV data saved successfully at: /opt/***/data/csv/order_details/2024-02-18/order_details.parquet
+[2025-02-05T02:25:17.273+0000] {python.py:240} INFO - Done. Returned value was: Extracted 2155 records from order_details.csv
+[2025-02-05T02:25:17.312+0000] {taskinstance.py:340} INFO - ::group::Post task execution logs
+[2025-02-05T02:25:17.314+0000] {taskinstance.py:352} INFO - Marking task as SUCCESS. dag_id=northwind_etl, task_id=extract_order_details, run_id=scheduled__2024-02-18T08:00:00+00:00, execution_date=20240218T080000, start_date=20250205T022516, end_date=20250205T022517
+[2025-02-05T02:25:17.476+0000] {local_task_job_runner.py:266} INFO - Task exited with return code 0
+[2025-02-05T02:25:17.496+0000] {taskinstance.py:3895} INFO - 0 downstream tasks scheduled from follow-on schedule check
+[2025-02-05T02:25:17.515+0000] {local_task_job_runner.py:245} INFO - ::endgroup::
