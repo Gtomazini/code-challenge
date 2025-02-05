@@ -23,3 +23,5 @@ docker-compose up -d
 Para desativar o projeto
 docker compose down
 
+# Dúvidas
+No processo não disse aonde inserir o video do google drive se era no relatorio, no e-mail ou no repositório.

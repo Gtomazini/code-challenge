@@ -1,0 +1,39 @@
+[2025-02-05T03:00:43.746+0000] {local_task_job_runner.py:123} INFO - ::group::Pre task execution logs
+[2025-02-05T03:00:43.766+0000] {taskinstance.py:2613} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: northwind_meltano.extract_csv manual__2025-02-05T02:59:43.808299+00:00 [queued]>
+[2025-02-05T03:00:43.776+0000] {taskinstance.py:2613} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: northwind_meltano.extract_csv manual__2025-02-05T02:59:43.808299+00:00 [queued]>
+[2025-02-05T03:00:43.776+0000] {taskinstance.py:2866} INFO - Starting attempt 1 of 1
+[2025-02-05T03:00:43.791+0000] {taskinstance.py:2889} INFO - Executing <Task(DockerOperator): extract_csv> on 2025-02-05 02:59:43.808299+00:00
+[2025-02-05T03:00:43.798+0000] {logging_mixin.py:190} WARNING - /home/***/.local/lib/python3.12/site-packages/***/task/task_runner/standard_task_runner.py:70 DeprecationWarning: This process (pid=18035) is multi-threaded, use of fork() may lead to deadlocks in the child.
+[2025-02-05T03:00:43.799+0000] {standard_task_runner.py:72} INFO - Started process 18036 to run task
+[2025-02-05T03:00:43.798+0000] {standard_task_runner.py:104} INFO - Running: ['***', 'tasks', 'run', 'northwind_meltano', 'extract_csv', 'manual__2025-02-05T02:59:43.808299+00:00', '--job-id', '667', '--raw', '--subdir', 'DAGS_FOLDER/northwind_etl/northwind_meltano.py', '--cfg-path', '/tmp/tmp9oyzdm83']
+[2025-02-05T03:00:43.800+0000] {standard_task_runner.py:105} INFO - Job 667: Subtask extract_csv
+[2025-02-05T03:00:43.842+0000] {task_command.py:467} INFO - Running <TaskInstance: northwind_meltano.extract_csv manual__2025-02-05T02:59:43.808299+00:00 [running]> on host 09d05643d017
+[2025-02-05T03:00:43.914+0000] {taskinstance.py:3132} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='gabriel' AIRFLOW_CTX_DAG_ID='northwind_meltano' AIRFLOW_CTX_TASK_ID='extract_csv' AIRFLOW_CTX_EXECUTION_DATE='2025-02-05T02:59:43.808299+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2025-02-05T02:59:43.808299+00:00'
+[2025-02-05T03:00:43.915+0000] {taskinstance.py:731} INFO - ::endgroup::
+[2025-02-05T03:00:43.954+0000] {docker.py:379} INFO - Starting docker container from image meu-meltano
+[2025-02-05T03:00:47.056+0000] {docker.py:73} INFO - Added extractor 'tap-csv' to your project
+[2025-02-05T03:00:47.057+0000] {docker.py:73} INFO - Variant:	meltanolabs (default)
+[2025-02-05T03:00:47.057+0000] {docker.py:73} INFO - Repository:	https://github.com/MeltanoLabs/tap-csv
+[2025-02-05T03:00:47.058+0000] {docker.py:73} INFO - Documentation:	https://hub.meltano.com/extractors/tap-csv--meltanolabs
+[2025-02-05T03:00:47.111+0000] {docker.py:73} INFO - [2m2025-02-05T03:00:47.110011Z[0m [[32m[1minfo     [0m] [1mInstalling extractor 'tap-csv'[0m
+[2025-02-05T03:01:08.630+0000] {docker.py:73} INFO - [2m2025-02-05T03:01:08.629514Z[0m [[32m[1minfo     [0m] [1mInstalled extractor 'tap-csv' [0m
+[2025-02-05T03:01:08.631+0000] {docker.py:73} INFO - 
+[2025-02-05T03:01:08.631+0000] {docker.py:73} INFO - To learn more about extractor 'tap-csv', visit https://hub.meltano.com/extractors/tap-csv--meltanolabs
+[2025-02-05T03:01:09.642+0000] {docker.py:73} INFO - Verificando primeiras linhas do CSV:
+[2025-02-05T03:01:09.683+0000] {docker.py:73} INFO - order_id,product_id,unit_price,quantity,discount
+[2025-02-05T03:01:09.684+0000] {docker.py:73} INFO - 10248,11,14,12,0
+[2025-02-05T03:01:09.684+0000] {docker.py:73} INFO - 10248,42,9.8,10,0
+[2025-02-05T03:01:09.685+0000] {docker.py:73} INFO - 10248,72,34.8,5,0
+[2025-02-05T03:01:09.685+0000] {docker.py:73} INFO - 10249,14,18.6,9,0
+[2025-02-05T03:01:10.336+0000] {docker.py:73} INFO - [2m2025-02-05T03:01:10.335042Z[0m [[32m[1minfo     [0m] [1mThe default environment 'dev' will be ignored for `meltano config`. To configure a specific environment, please use the option `--environment=<environment name>`.[0m
+[2025-02-05T03:01:10.464+0000] {docker.py:73} INFO - Extractor 'tap-csv' setting 'files' was set in `meltano.yml`: [{'entity': 'order_details', 'path': '/meltano/demo-project/input/order_details.csv', 'keys': ['order_id', 'product_id', 'unit_price', 'quantity', 'discount']}]
+[2025-02-05T03:01:12.213+0000] {docker.py:73} INFO - [2m2025-02-05T03:01:12.211575Z[0m [[32m[1minfo     [0m] [1mEnvironment 'dev' is active   [0m
+[2025-02-05T03:01:13.341+0000] {docker.py:73} INFO - 2025-02-05 03:01:13,339 | INFO     | tap-csv.order_details | Beginning full_table sync of 'order_details'...
+[2025-02-05T03:01:13.341+0000] {docker.py:73} INFO - 2025-02-05 03:01:13,339 | INFO     | tap-csv.order_details | Tap has custom mapper. Using 1 provided map(s).
+[2025-02-05T03:01:13.818+0000] {docker.py:73} INFO - 2025-02-05 03:01:13,817 | INFO     | singer_sdk.metrics   | METRIC: {"type": "timer", "metric": "sync_duration", "value": 0.4768662452697754, "tags": {"stream": "order_details", "pid": 88, "context": {}, "status": "succeeded"}}
+[2025-02-05T03:01:13.819+0000] {docker.py:73} INFO - 2025-02-05 03:01:13,817 | INFO     | singer_sdk.metrics   | METRIC: {"type": "counter", "metric": "record_count", "value": 2155, "tags": {"stream": "order_details", "pid": 88, "context": {}}}
+[2025-02-05T03:01:16.143+0000] {taskinstance.py:340} INFO - ::group::Post task execution logs
+[2025-02-05T03:01:16.143+0000] {taskinstance.py:352} INFO - Marking task as SUCCESS. dag_id=northwind_meltano, task_id=extract_csv, run_id=manual__2025-02-05T02:59:43.808299+00:00, execution_date=20250205T025943, start_date=20250205T030043, end_date=20250205T030116
+[2025-02-05T03:01:16.180+0000] {local_task_job_runner.py:266} INFO - Task exited with return code 0
+[2025-02-05T03:01:16.195+0000] {taskinstance.py:3895} INFO - 0 downstream tasks scheduled from follow-on schedule check
+[2025-02-05T03:01:16.197+0000] {local_task_job_runner.py:245} INFO - ::endgroup::

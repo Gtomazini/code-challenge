@@ -1,0 +1,149 @@
+[2025-02-05T02:59:44.545+0000] {local_task_job_runner.py:123} INFO - ::group::Pre task execution logs
+[2025-02-05T02:59:44.560+0000] {taskinstance.py:2613} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: northwind_meltano.northwind_postgres manual__2025-02-05T02:59:43.808299+00:00 [queued]>
+[2025-02-05T02:59:44.567+0000] {taskinstance.py:2613} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: northwind_meltano.northwind_postgres manual__2025-02-05T02:59:43.808299+00:00 [queued]>
+[2025-02-05T02:59:44.568+0000] {taskinstance.py:2866} INFO - Starting attempt 1 of 1
+[2025-02-05T02:59:44.579+0000] {taskinstance.py:2889} INFO - Executing <Task(DockerOperator): northwind_postgres> on 2025-02-05 02:59:43.808299+00:00
+[2025-02-05T02:59:44.585+0000] {logging_mixin.py:190} WARNING - /home/***/.local/lib/python3.12/site-packages/***/task/task_runner/standard_task_runner.py:70 DeprecationWarning: This process (pid=17987) is multi-threaded, use of fork() may lead to deadlocks in the child.
+[2025-02-05T02:59:44.585+0000] {standard_task_runner.py:104} INFO - Running: ['***', 'tasks', 'run', 'northwind_meltano', 'northwind_postgres', 'manual__2025-02-05T02:59:43.808299+00:00', '--job-id', '666', '--raw', '--subdir', 'DAGS_FOLDER/northwind_etl/northwind_meltano.py', '--cfg-path', '/tmp/tmp209750fk']
+[2025-02-05T02:59:44.586+0000] {standard_task_runner.py:72} INFO - Started process 17993 to run task
+[2025-02-05T02:59:44.587+0000] {standard_task_runner.py:105} INFO - Job 666: Subtask northwind_postgres
+[2025-02-05T02:59:44.624+0000] {task_command.py:467} INFO - Running <TaskInstance: northwind_meltano.northwind_postgres manual__2025-02-05T02:59:43.808299+00:00 [running]> on host 09d05643d017
+[2025-02-05T02:59:44.699+0000] {taskinstance.py:3132} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='gabriel' AIRFLOW_CTX_DAG_ID='northwind_meltano' AIRFLOW_CTX_TASK_ID='northwind_postgres' AIRFLOW_CTX_EXECUTION_DATE='2025-02-05T02:59:43.808299+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2025-02-05T02:59:43.808299+00:00'
+[2025-02-05T02:59:44.700+0000] {taskinstance.py:731} INFO - ::endgroup::
+[2025-02-05T02:59:44.747+0000] {docker.py:379} INFO - Starting docker container from image meu-meltano
+[2025-02-05T02:59:48.659+0000] {docker.py:73} INFO - Added extractor 'tap-postgres' to your project
+[2025-02-05T02:59:48.660+0000] {docker.py:73} INFO - Variant:	meltanolabs (default)
+[2025-02-05T02:59:48.660+0000] {docker.py:73} INFO - Repository:	https://github.com/MeltanoLabs/tap-postgres
+[2025-02-05T02:59:48.661+0000] {docker.py:73} INFO - Documentation:	https://hub.meltano.com/extractors/tap-postgres--meltanolabs
+[2025-02-05T02:59:48.799+0000] {docker.py:73} INFO - [2m2025-02-05T02:59:48.798456Z[0m [[32m[1minfo     [0m] [1mInstalling extractor 'tap-postgres'[0m
+[2025-02-05T03:00:09.510+0000] {docker.py:73} INFO - [2m2025-02-05T03:00:09.509148Z[0m [[32m[1minfo     [0m] [1mInstalled extractor 'tap-postgres'[0m
+[2025-02-05T03:00:09.511+0000] {docker.py:73} INFO - 
+[2025-02-05T03:00:09.511+0000] {docker.py:73} INFO - To learn more about extractor 'tap-postgres', visit https://hub.meltano.com/extractors/tap-postgres--meltanolabs
+[2025-02-05T03:00:11.124+0000] {docker.py:73} INFO - [2m2025-02-05T03:00:11.123593Z[0m [[32m[1minfo     [0m] [1mEnvironment 'dev' is active   [0m
+[2025-02-05T03:00:11.222+0000] {docker.py:73} INFO - Extractor 'tap-postgres' setting 'host' was set in the active environment in `meltano.yml`: 'northwind_db'
+[2025-02-05T03:00:12.866+0000] {docker.py:73} INFO - [2m2025-02-05T03:00:12.865098Z[0m [[32m[1minfo     [0m] [1mEnvironment 'dev' is active   [0m
+[2025-02-05T03:00:12.949+0000] {docker.py:73} INFO - Extractor 'tap-postgres' setting 'port' was set in the active environment in `meltano.yml`: 5432
+[2025-02-05T03:00:14.561+0000] {docker.py:73} INFO - [2m2025-02-05T03:00:14.559951Z[0m [[32m[1minfo     [0m] [1mEnvironment 'dev' is active   [0m
+[2025-02-05T03:00:14.641+0000] {docker.py:73} INFO - Extractor 'tap-postgres' setting 'user' was set in the active environment in `meltano.yml`: 'northwind_user'
+[2025-02-05T03:00:16.263+0000] {docker.py:73} INFO - [2m2025-02-05T03:00:16.261609Z[0m [[32m[1minfo     [0m] [1mEnvironment 'dev' is active   [0m
+[2025-02-05T03:00:16.331+0000] {docker.py:73} INFO - Extractor 'tap-postgres' setting 'password' was set in `.env`: (redacted)
+[2025-02-05T03:00:17.925+0000] {docker.py:73} INFO - [2m2025-02-05T03:00:17.924316Z[0m [[32m[1minfo     [0m] [1mEnvironment 'dev' is active   [0m
+[2025-02-05T03:00:18.009+0000] {docker.py:73} INFO - Extractor 'tap-postgres' setting 'database' was set in the active environment in `meltano.yml`: 'northwind'
+[2025-02-05T03:00:19.595+0000] {docker.py:73} INFO - [2m2025-02-05T03:00:19.594322Z[0m [[32m[1minfo     [0m] [1mEnvironment 'dev' is active   [0m
+[2025-02-05T03:00:19.677+0000] {docker.py:73} INFO - Extractor 'tap-postgres' setting 'filter_schemas' was set in the active environment in `meltano.yml`: ['public']
+[2025-02-05T03:00:21.288+0000] {docker.py:73} INFO - [2m2025-02-05T03:00:21.287612Z[0m [[32m[1minfo     [0m] [1mEnvironment 'dev' is active   [0m
+[2025-02-05T03:00:22.270+0000] {docker.py:73} INFO - /meltano/demo-project/.meltano/extractors/tap-postgres/venv/lib/python3.10/site-packages/singer_sdk/connectors/sql.py:1052: SAWarning: Did not recognize type 'bpchar' of column 'customer_id'
+[2025-02-05T03:00:22.271+0000] {docker.py:73} INFO -   columns = inspected.get_multi_columns(
+[2025-02-05T03:00:22.271+0000] {docker.py:73} INFO - /meltano/demo-project/.meltano/extractors/tap-postgres/venv/lib/python3.10/site-packages/singer_sdk/connectors/sql.py:1052: SAWarning: Did not recognize type 'bpchar' of column 'customer_type_id'
+[2025-02-05T03:00:22.271+0000] {docker.py:73} INFO -   columns = inspected.get_multi_columns(
+[2025-02-05T03:00:22.272+0000] {docker.py:73} INFO - /meltano/demo-project/.meltano/extractors/tap-postgres/venv/lib/python3.10/site-packages/singer_sdk/connectors/sql.py:1052: SAWarning: Did not recognize type 'bpchar' of column 'region_description'
+[2025-02-05T03:00:22.272+0000] {docker.py:73} INFO -   columns = inspected.get_multi_columns(
+[2025-02-05T03:00:22.273+0000] {docker.py:73} INFO - /meltano/demo-project/.meltano/extractors/tap-postgres/venv/lib/python3.10/site-packages/singer_sdk/connectors/sql.py:1052: SAWarning: Did not recognize type 'bpchar' of column 'territory_description'
+[2025-02-05T03:00:22.273+0000] {docker.py:73} INFO -   columns = inspected.get_multi_columns(
+[2025-02-05T03:00:24.007+0000] {docker.py:73} INFO - [2m2025-02-05T03:00:24.005734Z[0m [[32m[1minfo     [0m] [1mThe default environment 'dev' will be ignored for `meltano select`. To configure a specific environment, please use the option `--environment=<environment name>`.[0m
+[2025-02-05T03:00:25.475+0000] {docker.py:73} INFO - [2m2025-02-05T03:00:25.474053Z[0m [[32m[1minfo     [0m] [1mEnvironment 'dev' is active   [0m
+[2025-02-05T03:00:27.037+0000] {docker.py:73} INFO - 2025-02-05 03:00:27,036 | INFO     | tap-postgres         | Skipping deselected stream 'public-categories'.
+[2025-02-05T03:00:27.038+0000] {docker.py:73} INFO - 2025-02-05 03:00:27,036 | INFO     | tap-postgres         | Skipping deselected stream 'public-customer_customer_demo'.
+[2025-02-05T03:00:27.039+0000] {docker.py:73} INFO - 2025-02-05 03:00:27,036 | INFO     | tap-postgres         | Skipping deselected stream 'public-customer_demographics'.
+[2025-02-05T03:00:27.039+0000] {docker.py:73} INFO - 2025-02-05 03:00:27,037 | INFO     | tap-postgres         | Skipping deselected stream 'public-customers'.
+[2025-02-05T03:00:27.040+0000] {docker.py:73} INFO - 2025-02-05 03:00:27,037 | INFO     | tap-postgres         | Skipping deselected stream 'public-employee_territories'.
+[2025-02-05T03:00:27.040+0000] {docker.py:73} INFO - 2025-02-05 03:00:27,037 | INFO     | tap-postgres         | Skipping deselected stream 'public-employees'.
+[2025-02-05T03:00:27.040+0000] {docker.py:73} INFO - 2025-02-05 03:00:27,037 | INFO     | tap-postgres         | Skipping deselected stream 'public-order_details'.
+[2025-02-05T03:00:27.041+0000] {docker.py:73} INFO - 2025-02-05 03:00:27,038 | INFO     | tap-postgres.public-orders | Beginning full_table sync of 'public-orders'...
+[2025-02-05T03:00:27.041+0000] {docker.py:73} INFO - 2025-02-05 03:00:27,038 | INFO     | tap-postgres.public-orders | Tap has custom mapper. Using 1 provided map(s).
+[2025-02-05T03:00:27.092+0000] {docker.py:73} INFO - 2025-02-05 03:00:27,090 | WARNING  | py.warnings          | /meltano/demo-project/.meltano/extractors/tap-postgres/venv/lib/python3.10/site-packages/singer_sdk/connectors/sql.py:1155: SAWarning: Did not recognize type 'bpchar' of column 'customer_id'
+[2025-02-05T03:00:27.092+0000] {docker.py:73} INFO -   columns = inspector.get_columns(table_name, schema_name)
+[2025-02-05T03:00:27.304+0000] {docker.py:73} INFO - 2025-02-05 03:00:27,302 | INFO     | singer_sdk.metrics   | METRIC: {"type": "timer", "metric": "sync_duration", "value": 0.26309633255004883, "tags": {"stream": "public-orders", "pid": 136, "context": {}, "status": "succeeded"}}
+[2025-02-05T03:00:27.304+0000] {docker.py:73} INFO - 2025-02-05 03:00:27,302 | INFO     | singer_sdk.metrics   | METRIC: {"type": "counter", "metric": "record_count", "value": 830, "tags": {"stream": "public-orders", "pid": 136, "context": {}}}
+[2025-02-05T03:00:27.305+0000] {docker.py:73} INFO - 2025-02-05 03:00:27,303 | INFO     | tap-postgres         | Skipping deselected stream 'public-products'.
+[2025-02-05T03:00:27.305+0000] {docker.py:73} INFO - 2025-02-05 03:00:27,303 | INFO     | tap-postgres         | Skipping deselected stream 'public-region'.
+[2025-02-05T03:00:27.306+0000] {docker.py:73} INFO - 2025-02-05 03:00:27,303 | INFO     | tap-postgres         | Skipping deselected stream 'public-shippers'.
+[2025-02-05T03:00:27.306+0000] {docker.py:73} INFO - 2025-02-05 03:00:27,304 | INFO     | tap-postgres         | Skipping deselected stream 'public-suppliers'.
+[2025-02-05T03:00:27.307+0000] {docker.py:73} INFO - 2025-02-05 03:00:27,304 | INFO     | tap-postgres         | Skipping deselected stream 'public-territories'.
+[2025-02-05T03:00:27.307+0000] {docker.py:73} INFO - 2025-02-05 03:00:27,304 | INFO     | tap-postgres         | Skipping deselected stream 'public-us_states'.
+[2025-02-05T03:00:29.001+0000] {docker.py:73} INFO - [2m2025-02-05T03:00:29.000303Z[0m [[32m[1minfo     [0m] [1mThe default environment 'dev' will be ignored for `meltano select`. To configure a specific environment, please use the option `--environment=<environment name>`.[0m
+[2025-02-05T03:00:30.451+0000] {docker.py:73} INFO - [2m2025-02-05T03:00:30.450015Z[0m [[32m[1minfo     [0m] [1mEnvironment 'dev' is active   [0m
+[2025-02-05T03:00:31.388+0000] {docker.py:73} INFO - 2025-02-05 03:00:31,386 | INFO     | tap-postgres         | Skipping deselected stream 'public-categories'.
+[2025-02-05T03:00:31.388+0000] {docker.py:73} INFO - 2025-02-05 03:00:31,386 | INFO     | tap-postgres         | Skipping deselected stream 'public-customer_customer_demo'.
+[2025-02-05T03:00:31.389+0000] {docker.py:73} INFO - 2025-02-05 03:00:31,386 | INFO     | tap-postgres         | Skipping deselected stream 'public-customer_demographics'.
+[2025-02-05T03:00:31.389+0000] {docker.py:73} INFO - 2025-02-05 03:00:31,386 | INFO     | tap-postgres         | Skipping deselected stream 'public-customers'.
+[2025-02-05T03:00:31.389+0000] {docker.py:73} INFO - 2025-02-05 03:00:31,386 | INFO     | tap-postgres         | Skipping deselected stream 'public-employee_territories'.
+[2025-02-05T03:00:31.390+0000] {docker.py:73} INFO - 2025-02-05 03:00:31,387 | INFO     | tap-postgres.public-employees | Beginning full_table sync of 'public-employees'...
+[2025-02-05T03:00:31.390+0000] {docker.py:73} INFO - 2025-02-05 03:00:31,387 | INFO     | tap-postgres.public-employees | Tap has custom mapper. Using 1 provided map(s).
+[2025-02-05T03:00:31.446+0000] {docker.py:73} INFO - 2025-02-05 03:00:31,444 | INFO     | singer_sdk.metrics   | METRIC: {"type": "timer", "metric": "sync_duration", "value": 0.0565950870513916, "tags": {"stream": "public-employees", "pid": 142, "context": {}, "status": "succeeded"}}
+[2025-02-05T03:00:31.446+0000] {docker.py:73} INFO - 2025-02-05 03:00:31,444 | INFO     | singer_sdk.metrics   | METRIC: {"type": "counter", "metric": "record_count", "value": 9, "tags": {"stream": "public-employees", "pid": 142, "context": {}}}
+[2025-02-05T03:00:31.447+0000] {docker.py:73} INFO - 2025-02-05 03:00:31,445 | INFO     | tap-postgres         | Skipping deselected stream 'public-order_details'.
+[2025-02-05T03:00:31.447+0000] {docker.py:73} INFO - 2025-02-05 03:00:31,445 | INFO     | tap-postgres.public-orders | Beginning full_table sync of 'public-orders'...
+[2025-02-05T03:00:31.448+0000] {docker.py:73} INFO - 2025-02-05 03:00:31,445 | INFO     | tap-postgres.public-orders | Tap has custom mapper. Using 1 provided map(s).
+[2025-02-05T03:00:31.451+0000] {docker.py:73} INFO - 2025-02-05 03:00:31,450 | WARNING  | py.warnings          | /meltano/demo-project/.meltano/extractors/tap-postgres/venv/lib/python3.10/site-packages/singer_sdk/connectors/sql.py:1155: SAWarning: Did not recognize type 'bpchar' of column 'customer_id'
+[2025-02-05T03:00:31.452+0000] {docker.py:73} INFO -   columns = inspector.get_columns(table_name, schema_name)
+[2025-02-05T03:00:31.655+0000] {docker.py:73} INFO - 2025-02-05 03:00:31,654 | INFO     | singer_sdk.metrics   | METRIC: {"type": "timer", "metric": "sync_duration", "value": 0.2076578140258789, "tags": {"stream": "public-orders", "pid": 142, "context": {}, "status": "succeeded"}}
+[2025-02-05T03:00:31.656+0000] {docker.py:73} INFO - 2025-02-05 03:00:31,654 | INFO     | singer_sdk.metrics   | METRIC: {"type": "counter", "metric": "record_count", "value": 830, "tags": {"stream": "public-orders", "pid": 142, "context": {}}}
+[2025-02-05T03:00:31.657+0000] {docker.py:73} INFO - 2025-02-05 03:00:31,655 | INFO     | tap-postgres         | Skipping deselected stream 'public-products'.
+[2025-02-05T03:00:31.657+0000] {docker.py:73} INFO - 2025-02-05 03:00:31,655 | INFO     | tap-postgres         | Skipping deselected stream 'public-region'.
+[2025-02-05T03:00:31.657+0000] {docker.py:73} INFO - 2025-02-05 03:00:31,655 | INFO     | tap-postgres         | Skipping deselected stream 'public-shippers'.
+[2025-02-05T03:00:31.658+0000] {docker.py:73} INFO - 2025-02-05 03:00:31,655 | INFO     | tap-postgres         | Skipping deselected stream 'public-suppliers'.
+[2025-02-05T03:00:31.658+0000] {docker.py:73} INFO - 2025-02-05 03:00:31,656 | INFO     | tap-postgres         | Skipping deselected stream 'public-territories'.
+[2025-02-05T03:00:31.658+0000] {docker.py:73} INFO - 2025-02-05 03:00:31,656 | INFO     | tap-postgres         | Skipping deselected stream 'public-us_states'.
+[2025-02-05T03:00:33.334+0000] {docker.py:73} INFO - [2m2025-02-05T03:00:33.332897Z[0m [[32m[1minfo     [0m] [1mThe default environment 'dev' will be ignored for `meltano select`. To configure a specific environment, please use the option `--environment=<environment name>`.[0m
+[2025-02-05T03:00:34.776+0000] {docker.py:73} INFO - [2m2025-02-05T03:00:34.775367Z[0m [[32m[1minfo     [0m] [1mEnvironment 'dev' is active   [0m
+[2025-02-05T03:00:35.761+0000] {docker.py:73} INFO - 2025-02-05 03:00:35,759 | INFO     | tap-postgres         | Skipping deselected stream 'public-categories'.
+[2025-02-05T03:00:35.761+0000] {docker.py:73} INFO - 2025-02-05 03:00:35,760 | INFO     | tap-postgres         | Skipping deselected stream 'public-customer_customer_demo'.
+[2025-02-05T03:00:35.762+0000] {docker.py:73} INFO - 2025-02-05 03:00:35,760 | INFO     | tap-postgres         | Skipping deselected stream 'public-customer_demographics'.
+[2025-02-05T03:00:35.762+0000] {docker.py:73} INFO - 2025-02-05 03:00:35,760 | INFO     | tap-postgres.public-customers | Beginning full_table sync of 'public-customers'...
+[2025-02-05T03:00:35.763+0000] {docker.py:73} INFO - 2025-02-05 03:00:35,760 | INFO     | tap-postgres.public-customers | Tap has custom mapper. Using 1 provided map(s).
+[2025-02-05T03:00:35.813+0000] {docker.py:73} INFO - 2025-02-05 03:00:35,811 | WARNING  | py.warnings          | /meltano/demo-project/.meltano/extractors/tap-postgres/venv/lib/python3.10/site-packages/singer_sdk/connectors/sql.py:1155: SAWarning: Did not recognize type 'bpchar' of column 'customer_id'
+[2025-02-05T03:00:35.813+0000] {docker.py:73} INFO -   columns = inspector.get_columns(table_name, schema_name)
+[2025-02-05T03:00:35.841+0000] {docker.py:73} INFO - 2025-02-05 03:00:35,840 | INFO     | singer_sdk.metrics   | METRIC: {"type": "timer", "metric": "sync_duration", "value": 0.07849550247192383, "tags": {"stream": "public-customers", "pid": 148, "context": {}, "status": "succeeded"}}
+[2025-02-05T03:00:35.841+0000] {docker.py:73} INFO - 2025-02-05 03:00:35,840 | INFO     | singer_sdk.metrics   | METRIC: {"type": "counter", "metric": "record_count", "value": 91, "tags": {"stream": "public-customers", "pid": 148, "context": {}}}
+[2025-02-05T03:00:35.842+0000] {docker.py:73} INFO - 2025-02-05 03:00:35,840 | INFO     | tap-postgres         | Skipping deselected stream 'public-employee_territories'.
+[2025-02-05T03:00:35.842+0000] {docker.py:73} INFO - 2025-02-05 03:00:35,841 | INFO     | tap-postgres.public-employees | Beginning full_table sync of 'public-employees'...
+[2025-02-05T03:00:35.842+0000] {docker.py:73} INFO - 2025-02-05 03:00:35,841 | INFO     | tap-postgres.public-employees | Tap has custom mapper. Using 1 provided map(s).
+[2025-02-05T03:00:35.855+0000] {docker.py:73} INFO - 2025-02-05 03:00:35,853 | INFO     | singer_sdk.metrics   | METRIC: {"type": "timer", "metric": "sync_duration", "value": 0.011734247207641602, "tags": {"stream": "public-employees", "pid": 148, "context": {}, "status": "succeeded"}}
+[2025-02-05T03:00:35.855+0000] {docker.py:73} INFO - 2025-02-05 03:00:35,854 | INFO     | singer_sdk.metrics   | METRIC: {"type": "counter", "metric": "record_count", "value": 9, "tags": {"stream": "public-employees", "pid": 148, "context": {}}}
+[2025-02-05T03:00:35.856+0000] {docker.py:73} INFO - 2025-02-05 03:00:35,854 | INFO     | tap-postgres         | Skipping deselected stream 'public-order_details'.
+[2025-02-05T03:00:35.856+0000] {docker.py:73} INFO - 2025-02-05 03:00:35,854 | INFO     | tap-postgres.public-orders | Beginning full_table sync of 'public-orders'...
+[2025-02-05T03:00:35.857+0000] {docker.py:73} INFO - 2025-02-05 03:00:35,854 | INFO     | tap-postgres.public-orders | Tap has custom mapper. Using 1 provided map(s).
+[2025-02-05T03:00:36.073+0000] {docker.py:73} INFO - 2025-02-05 03:00:36,072 | INFO     | singer_sdk.metrics   | METRIC: {"type": "timer", "metric": "sync_duration", "value": 0.2163705825805664, "tags": {"stream": "public-orders", "pid": 148, "context": {}, "status": "succeeded"}}
+[2025-02-05T03:00:36.074+0000] {docker.py:73} INFO - 2025-02-05 03:00:36,072 | INFO     | singer_sdk.metrics   | METRIC: {"type": "counter", "metric": "record_count", "value": 830, "tags": {"stream": "public-orders", "pid": 148, "context": {}}}
+[2025-02-05T03:00:36.074+0000] {docker.py:73} INFO - 2025-02-05 03:00:36,072 | INFO     | tap-postgres         | Skipping deselected stream 'public-products'.
+[2025-02-05T03:00:36.075+0000] {docker.py:73} INFO - 2025-02-05 03:00:36,073 | INFO     | tap-postgres         | Skipping deselected stream 'public-region'.
+[2025-02-05T03:00:36.075+0000] {docker.py:73} INFO - 2025-02-05 03:00:36,073 | INFO     | tap-postgres         | Skipping deselected stream 'public-shippers'.
+[2025-02-05T03:00:36.075+0000] {docker.py:73} INFO - 2025-02-05 03:00:36,073 | INFO     | tap-postgres         | Skipping deselected stream 'public-suppliers'.
+[2025-02-05T03:00:36.076+0000] {docker.py:73} INFO - 2025-02-05 03:00:36,073 | INFO     | tap-postgres         | Skipping deselected stream 'public-territories'.
+[2025-02-05T03:00:36.076+0000] {docker.py:73} INFO - 2025-02-05 03:00:36,073 | INFO     | tap-postgres         | Skipping deselected stream 'public-us_states'.
+[2025-02-05T03:00:37.790+0000] {docker.py:73} INFO - [2m2025-02-05T03:00:37.789401Z[0m [[32m[1minfo     [0m] [1mThe default environment 'dev' will be ignored for `meltano select`. To configure a specific environment, please use the option `--environment=<environment name>`.[0m
+[2025-02-05T03:00:39.267+0000] {docker.py:73} INFO - [2m2025-02-05T03:00:39.265789Z[0m [[32m[1minfo     [0m] [1mEnvironment 'dev' is active   [0m
+[2025-02-05T03:00:40.212+0000] {docker.py:73} INFO - 2025-02-05 03:00:40,210 | INFO     | tap-postgres         | Skipping deselected stream 'public-categories'.
+[2025-02-05T03:00:40.212+0000] {docker.py:73} INFO - 2025-02-05 03:00:40,211 | INFO     | tap-postgres         | Skipping deselected stream 'public-customer_customer_demo'.
+[2025-02-05T03:00:40.213+0000] {docker.py:73} INFO - 2025-02-05 03:00:40,211 | INFO     | tap-postgres         | Skipping deselected stream 'public-customer_demographics'.
+[2025-02-05T03:00:40.213+0000] {docker.py:73} INFO - 2025-02-05 03:00:40,211 | INFO     | tap-postgres.public-customers | Beginning full_table sync of 'public-customers'...
+[2025-02-05T03:00:40.214+0000] {docker.py:73} INFO - 2025-02-05 03:00:40,211 | INFO     | tap-postgres.public-customers | Tap has custom mapper. Using 1 provided map(s).
+[2025-02-05T03:00:40.265+0000] {docker.py:73} INFO - 2025-02-05 03:00:40,263 | WARNING  | py.warnings          | /meltano/demo-project/.meltano/extractors/tap-postgres/venv/lib/python3.10/site-packages/singer_sdk/connectors/sql.py:1155: SAWarning: Did not recognize type 'bpchar' of column 'customer_id'
+[2025-02-05T03:00:40.265+0000] {docker.py:73} INFO -   columns = inspector.get_columns(table_name, schema_name)
+[2025-02-05T03:00:40.292+0000] {docker.py:73} INFO - 2025-02-05 03:00:40,291 | INFO     | singer_sdk.metrics   | METRIC: {"type": "timer", "metric": "sync_duration", "value": 0.07858037948608398, "tags": {"stream": "public-customers", "pid": 154, "context": {}, "status": "succeeded"}}
+[2025-02-05T03:00:40.292+0000] {docker.py:73} INFO - 2025-02-05 03:00:40,291 | INFO     | singer_sdk.metrics   | METRIC: {"type": "counter", "metric": "record_count", "value": 91, "tags": {"stream": "public-customers", "pid": 154, "context": {}}}
+[2025-02-05T03:00:40.293+0000] {docker.py:73} INFO - 2025-02-05 03:00:40,291 | INFO     | tap-postgres         | Skipping deselected stream 'public-employee_territories'.
+[2025-02-05T03:00:40.293+0000] {docker.py:73} INFO - 2025-02-05 03:00:40,292 | INFO     | tap-postgres.public-employees | Beginning full_table sync of 'public-employees'...
+[2025-02-05T03:00:40.294+0000] {docker.py:73} INFO - 2025-02-05 03:00:40,292 | INFO     | tap-postgres.public-employees | Tap has custom mapper. Using 1 provided map(s).
+[2025-02-05T03:00:40.305+0000] {docker.py:73} INFO - 2025-02-05 03:00:40,304 | INFO     | singer_sdk.metrics   | METRIC: {"type": "timer", "metric": "sync_duration", "value": 0.011497020721435547, "tags": {"stream": "public-employees", "pid": 154, "context": {}, "status": "succeeded"}}
+[2025-02-05T03:00:40.306+0000] {docker.py:73} INFO - 2025-02-05 03:00:40,304 | INFO     | singer_sdk.metrics   | METRIC: {"type": "counter", "metric": "record_count", "value": 9, "tags": {"stream": "public-employees", "pid": 154, "context": {}}}
+[2025-02-05T03:00:40.306+0000] {docker.py:73} INFO - 2025-02-05 03:00:40,305 | INFO     | tap-postgres         | Skipping deselected stream 'public-order_details'.
+[2025-02-05T03:00:40.306+0000] {docker.py:73} INFO - 2025-02-05 03:00:40,305 | INFO     | tap-postgres.public-orders | Beginning full_table sync of 'public-orders'...
+[2025-02-05T03:00:40.307+0000] {docker.py:73} INFO - 2025-02-05 03:00:40,305 | INFO     | tap-postgres.public-orders | Tap has custom mapper. Using 1 provided map(s).
+[2025-02-05T03:00:40.524+0000] {docker.py:73} INFO - 2025-02-05 03:00:40,523 | INFO     | singer_sdk.metrics   | METRIC: {"type": "timer", "metric": "sync_duration", "value": 0.21701741218566895, "tags": {"stream": "public-orders", "pid": 154, "context": {}, "status": "succeeded"}}
+[2025-02-05T03:00:40.525+0000] {docker.py:73} INFO - 2025-02-05 03:00:40,523 | INFO     | singer_sdk.metrics   | METRIC: {"type": "counter", "metric": "record_count", "value": 830, "tags": {"stream": "public-orders", "pid": 154, "context": {}}}
+[2025-02-05T03:00:40.525+0000] {docker.py:73} INFO - 2025-02-05 03:00:40,523 | INFO     | tap-postgres         | Skipping deselected stream 'public-products'.
+[2025-02-05T03:00:40.526+0000] {docker.py:73} INFO - 2025-02-05 03:00:40,524 | INFO     | tap-postgres         | Skipping deselected stream 'public-region'.
+[2025-02-05T03:00:40.526+0000] {docker.py:73} INFO - 2025-02-05 03:00:40,524 | INFO     | tap-postgres.public-shippers | Beginning full_table sync of 'public-shippers'...
+[2025-02-05T03:00:40.527+0000] {docker.py:73} INFO - 2025-02-05 03:00:40,524 | INFO     | tap-postgres.public-shippers | Tap has custom mapper. Using 1 provided map(s).
+[2025-02-05T03:00:40.535+0000] {docker.py:73} INFO - 2025-02-05 03:00:40,533 | INFO     | singer_sdk.metrics   | METRIC: {"type": "timer", "metric": "sync_duration", "value": 0.009009122848510742, "tags": {"stream": "public-shippers", "pid": 154, "context": {}, "status": "succeeded"}}
+[2025-02-05T03:00:40.535+0000] {docker.py:73} INFO - 2025-02-05 03:00:40,534 | INFO     | singer_sdk.metrics   | METRIC: {"type": "counter", "metric": "record_count", "value": 6, "tags": {"stream": "public-shippers", "pid": 154, "context": {}}}
+[2025-02-05T03:00:40.536+0000] {docker.py:73} INFO - 2025-02-05 03:00:40,534 | INFO     | tap-postgres         | Skipping deselected stream 'public-suppliers'.
+[2025-02-05T03:00:40.536+0000] {docker.py:73} INFO - 2025-02-05 03:00:40,534 | INFO     | tap-postgres         | Skipping deselected stream 'public-territories'.
+[2025-02-05T03:00:40.537+0000] {docker.py:73} INFO - 2025-02-05 03:00:40,534 | INFO     | tap-postgres         | Skipping deselected stream 'public-us_states'.
+[2025-02-05T03:00:43.017+0000] {taskinstance.py:340} INFO - ::group::Post task execution logs
+[2025-02-05T03:00:43.018+0000] {taskinstance.py:352} INFO - Marking task as SUCCESS. dag_id=northwind_meltano, task_id=northwind_postgres, run_id=manual__2025-02-05T02:59:43.808299+00:00, execution_date=20250205T025943, start_date=20250205T025944, end_date=20250205T030043
+[2025-02-05T03:00:43.037+0000] {local_task_job_runner.py:266} INFO - Task exited with return code 0
+[2025-02-05T03:00:43.055+0000] {taskinstance.py:3895} INFO - 1 downstream tasks scheduled from follow-on schedule check
+[2025-02-05T03:00:43.057+0000] {local_task_job_runner.py:245} INFO - ::endgroup::
