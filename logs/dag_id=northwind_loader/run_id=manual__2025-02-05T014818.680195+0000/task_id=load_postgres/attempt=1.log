@@ -1,0 +1,146 @@
+[2025-02-05T01:48:19.383+0000] {local_task_job_runner.py:123} INFO - ::group::Pre task execution logs
+[2025-02-05T01:48:19.397+0000] {taskinstance.py:2613} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: northwind_loader.load_postgres manual__2025-02-05T01:48:18.680195+00:00 [queued]>
+[2025-02-05T01:48:19.403+0000] {taskinstance.py:2613} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: northwind_loader.load_postgres manual__2025-02-05T01:48:18.680195+00:00 [queued]>
+[2025-02-05T01:48:19.404+0000] {taskinstance.py:2866} INFO - Starting attempt 1 of 1
+[2025-02-05T01:48:19.414+0000] {taskinstance.py:2889} INFO - Executing <Task(DockerOperator): load_postgres> on 2025-02-05 01:48:18.680195+00:00
+[2025-02-05T01:48:19.420+0000] {logging_mixin.py:190} WARNING - /home/***/.local/lib/python3.12/site-packages/***/task/task_runner/standard_task_runner.py:70 DeprecationWarning: This process (pid=11964) is multi-threaded, use of fork() may lead to deadlocks in the child.
+[2025-02-05T01:48:19.421+0000] {standard_task_runner.py:72} INFO - Started process 11965 to run task
+[2025-02-05T01:48:19.420+0000] {standard_task_runner.py:104} INFO - Running: ['***', 'tasks', 'run', 'northwind_loader', 'load_postgres', 'manual__2025-02-05T01:48:18.680195+00:00', '--job-id', '72', '--raw', '--subdir', 'DAGS_FOLDER/northwind_etl/northwind_loader_mel.py', '--cfg-path', '/tmp/tmpj8ypg53e']
+[2025-02-05T01:48:19.422+0000] {standard_task_runner.py:105} INFO - Job 72: Subtask load_postgres
+[2025-02-05T01:48:19.455+0000] {task_command.py:467} INFO - Running <TaskInstance: northwind_loader.load_postgres manual__2025-02-05T01:48:18.680195+00:00 [running]> on host 09d05643d017
+[2025-02-05T01:48:19.522+0000] {taskinstance.py:3132} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='gabriel' AIRFLOW_CTX_DAG_ID='northwind_loader' AIRFLOW_CTX_TASK_ID='load_postgres' AIRFLOW_CTX_EXECUTION_DATE='2025-02-05T01:48:18.680195+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2025-02-05T01:48:18.680195+00:00'
+[2025-02-05T01:48:19.523+0000] {taskinstance.py:731} INFO - ::endgroup::
+[2025-02-05T01:48:19.580+0000] {docker.py:379} INFO - Starting docker container from image meu-meltano
+[2025-02-05T01:48:20.095+0000] {docker.py:73} INFO - + set -e
+[2025-02-05T01:48:20.096+0000] {docker.py:73} INFO - + cd /meltano/demo-project
+[2025-02-05T01:48:20.096+0000] {docker.py:73} INFO - + apt-get update
+[2025-02-05T01:48:20.280+0000] {docker.py:73} INFO - Get:1 http://deb.debian.org/debian bookworm InRelease [151 kB]
+[2025-02-05T01:48:20.313+0000] {docker.py:73} INFO - Get:2 http://deb.debian.org/debian bookworm-updates InRelease [55.4 kB]
+[2025-02-05T01:48:20.330+0000] {docker.py:73} INFO - Get:3 http://deb.debian.org/debian-security bookworm-security InRelease [48.0 kB]
+[2025-02-05T01:48:20.410+0000] {docker.py:73} INFO - Get:4 http://deb.debian.org/debian bookworm/main amd64 Packages [8792 kB]
+[2025-02-05T01:48:20.735+0000] {docker.py:73} INFO - Get:5 http://deb.debian.org/debian bookworm-updates/main amd64 Packages [13.5 kB]
+[2025-02-05T01:48:20.736+0000] {docker.py:73} INFO - Get:6 http://deb.debian.org/debian-security bookworm-security/main amd64 Packages [243 kB]
+[2025-02-05T01:48:21.538+0000] {docker.py:73} INFO - Fetched 9303 kB in 1s (7084 kB/s)
+[2025-02-05T01:48:21.538+0000] {docker.py:73} INFO - Reading package lists...
+[2025-02-05T01:48:21.980+0000] {docker.py:73} INFO - 
+[2025-02-05T01:48:21.990+0000] {docker.py:73} INFO - + apt-get install -y postgresql-client jq
+[2025-02-05T01:48:21.997+0000] {docker.py:73} INFO - Reading package lists...
+[2025-02-05T01:48:22.407+0000] {docker.py:73} INFO - 
+[2025-02-05T01:48:22.417+0000] {docker.py:73} INFO - Building dependency tree...
+[2025-02-05T01:48:22.519+0000] {docker.py:73} INFO - 
+[2025-02-05T01:48:22.520+0000] {docker.py:73} INFO - Reading state information...
+[2025-02-05T01:48:22.520+0000] {docker.py:73} INFO - 
+[2025-02-05T01:48:22.622+0000] {docker.py:73} INFO - The following additional packages will be installed:
+[2025-02-05T01:48:22.623+0000] {docker.py:73} INFO -   libjq1 libonig5 libpq5 postgresql-client-15 postgresql-client-common
+[2025-02-05T01:48:22.623+0000] {docker.py:73} INFO -   sensible-utils
+[2025-02-05T01:48:22.624+0000] {docker.py:73} INFO - Suggested packages:
+[2025-02-05T01:48:22.624+0000] {docker.py:73} INFO -   postgresql-15 postgresql-doc-15
+[2025-02-05T01:48:22.690+0000] {docker.py:73} INFO - The following NEW packages will be installed:
+[2025-02-05T01:48:22.690+0000] {docker.py:73} INFO -   jq libjq1 libonig5 libpq5 postgresql-client postgresql-client-15
+[2025-02-05T01:48:22.691+0000] {docker.py:73} INFO -   postgresql-client-common sensible-utils
+[2025-02-05T01:48:22.764+0000] {docker.py:73} INFO - 0 upgraded, 8 newly installed, 0 to remove and 0 not upgraded.
+[2025-02-05T01:48:22.764+0000] {docker.py:73} INFO - Need to get 2347 kB of archives.
+[2025-02-05T01:48:22.765+0000] {docker.py:73} INFO - After this operation, 10.4 MB of additional disk space will be used.
+[2025-02-05T01:48:22.765+0000] {docker.py:73} INFO - Get:1 http://deb.debian.org/debian bookworm/main amd64 sensible-utils all 0.0.17+nmu1 [19.0 kB]
+[2025-02-05T01:48:22.783+0000] {docker.py:73} INFO - Get:2 http://deb.debian.org/debian bookworm/main amd64 libonig5 amd64 6.9.8-1 [188 kB]
+[2025-02-05T01:48:22.810+0000] {docker.py:73} INFO - Get:3 http://deb.debian.org/debian bookworm/main amd64 libjq1 amd64 1.6-2.1 [135 kB]
+[2025-02-05T01:48:22.820+0000] {docker.py:73} INFO - Get:4 http://deb.debian.org/debian bookworm/main amd64 jq amd64 1.6-2.1 [64.9 kB]
+[2025-02-05T01:48:22.822+0000] {docker.py:73} INFO - Get:5 http://deb.debian.org/debian bookworm/main amd64 libpq5 amd64 15.10-0+deb12u1 [191 kB]
+[2025-02-05T01:48:22.834+0000] {docker.py:73} INFO - Get:6 http://deb.debian.org/debian bookworm/main amd64 postgresql-client-common all 248 [35.1 kB]
+[2025-02-05T01:48:22.835+0000] {docker.py:73} INFO - Get:7 http://deb.debian.org/debian bookworm/main amd64 postgresql-client-15 amd64 15.10-0+deb12u1 [1704 kB]
+[2025-02-05T01:48:22.879+0000] {docker.py:73} INFO - Get:8 http://deb.debian.org/debian bookworm/main amd64 postgresql-client all 15+248 [10.1 kB]
+[2025-02-05T01:48:23.031+0000] {docker.py:73} INFO - debconf: delaying package configuration, since apt-utils is not installed
+[2025-02-05T01:48:23.058+0000] {docker.py:73} INFO - Fetched 2347 kB in 0s (12.9 MB/s)
+[2025-02-05T01:48:23.079+0000] {docker.py:73} INFO - Selecting previously unselected package sensible-utils.
+[2025-02-05T01:48:23.079+0000] {docker.py:73} INFO - (Reading database ...
+[2025-02-05T01:48:23.080+0000] {docker.py:73} INFO - (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%
+[2025-02-05T01:48:23.080+0000] {docker.py:73} INFO - (Reading database ... 70%
+[2025-02-05T01:48:23.082+0000] {docker.py:73} INFO - (Reading database ... 75%
+[2025-02-05T01:48:23.088+0000] {docker.py:73} INFO - (Reading database ... 80%
+[2025-02-05T01:48:23.094+0000] {docker.py:73} INFO - (Reading database ... 85%
+[2025-02-05T01:48:23.100+0000] {docker.py:73} INFO - (Reading database ... 90%
+[2025-02-05T01:48:23.108+0000] {docker.py:73} INFO - (Reading database ... 95%
+[2025-02-05T01:48:23.117+0000] {docker.py:73} INFO - (Reading database ... 100%(Reading database ... 9877 files and directories currently installed.)
+[2025-02-05T01:48:23.117+0000] {docker.py:73} INFO - Preparing to unpack .../0-sensible-utils_0.0.17+nmu1_all.deb ...
+[2025-02-05T01:48:23.121+0000] {docker.py:73} INFO - Unpacking sensible-utils (0.0.17+nmu1) ...
+[2025-02-05T01:48:23.155+0000] {docker.py:73} INFO - Selecting previously unselected package libonig5:amd64.
+[2025-02-05T01:48:23.156+0000] {docker.py:73} INFO - Preparing to unpack .../1-libonig5_6.9.8-1_amd64.deb ...
+[2025-02-05T01:48:23.164+0000] {docker.py:73} INFO - Unpacking libonig5:amd64 (6.9.8-1) ...
+[2025-02-05T01:48:23.208+0000] {docker.py:73} INFO - Selecting previously unselected package libjq1:amd64.
+[2025-02-05T01:48:23.209+0000] {docker.py:73} INFO - Preparing to unpack .../2-libjq1_1.6-2.1_amd64.deb ...
+[2025-02-05T01:48:23.213+0000] {docker.py:73} INFO - Unpacking libjq1:amd64 (1.6-2.1) ...
+[2025-02-05T01:48:23.247+0000] {docker.py:73} INFO - Selecting previously unselected package jq.
+[2025-02-05T01:48:23.248+0000] {docker.py:73} INFO - Preparing to unpack .../3-jq_1.6-2.1_amd64.deb ...
+[2025-02-05T01:48:23.251+0000] {docker.py:73} INFO - Unpacking jq (1.6-2.1) ...
+[2025-02-05T01:48:23.286+0000] {docker.py:73} INFO - Selecting previously unselected package libpq5:amd64.
+[2025-02-05T01:48:23.287+0000] {docker.py:73} INFO - Preparing to unpack .../4-libpq5_15.10-0+deb12u1_amd64.deb ...
+[2025-02-05T01:48:23.290+0000] {docker.py:73} INFO - Unpacking libpq5:amd64 (15.10-0+deb12u1) ...
+[2025-02-05T01:48:23.332+0000] {docker.py:73} INFO - Selecting previously unselected package postgresql-client-common.
+[2025-02-05T01:48:23.333+0000] {docker.py:73} INFO - Preparing to unpack .../5-postgresql-client-common_248_all.deb ...
+[2025-02-05T01:48:23.336+0000] {docker.py:73} INFO - Unpacking postgresql-client-common (248) ...
+[2025-02-05T01:48:23.375+0000] {docker.py:73} INFO - Selecting previously unselected package postgresql-client-15.
+[2025-02-05T01:48:23.376+0000] {docker.py:73} INFO - Preparing to unpack .../6-postgresql-client-15_15.10-0+deb12u1_amd64.deb ...
+[2025-02-05T01:48:23.380+0000] {docker.py:73} INFO - Unpacking postgresql-client-15 (15.10-0+deb12u1) ...
+[2025-02-05T01:48:23.516+0000] {docker.py:73} INFO - Selecting previously unselected package postgresql-client.
+[2025-02-05T01:48:23.517+0000] {docker.py:73} INFO - Preparing to unpack .../7-postgresql-client_15+248_all.deb ...
+[2025-02-05T01:48:23.520+0000] {docker.py:73} INFO - Unpacking postgresql-client (15+248) ...
+[2025-02-05T01:48:23.550+0000] {docker.py:73} INFO - Setting up postgresql-client-common (248) ...
+[2025-02-05T01:48:23.567+0000] {docker.py:73} INFO - Setting up libpq5:amd64 (15.10-0+deb12u1) ...
+[2025-02-05T01:48:23.577+0000] {docker.py:73} INFO - Setting up sensible-utils (0.0.17+nmu1) ...
+[2025-02-05T01:48:23.587+0000] {docker.py:73} INFO - Setting up libonig5:amd64 (6.9.8-1) ...
+[2025-02-05T01:48:23.598+0000] {docker.py:73} INFO - Setting up libjq1:amd64 (1.6-2.1) ...
+[2025-02-05T01:48:23.607+0000] {docker.py:73} INFO - Setting up postgresql-client-15 (15.10-0+deb12u1) ...
+[2025-02-05T01:48:24.111+0000] {docker.py:73} INFO - update-alternatives: using /usr/share/postgresql/15/man/man1/psql.1.gz to provide /usr/share/man/man1/psql.1.gz (psql.1.gz) in auto mode
+[2025-02-05T01:48:24.145+0000] {docker.py:73} INFO - Setting up jq (1.6-2.1) ...
+[2025-02-05T01:48:24.155+0000] {docker.py:73} INFO - Setting up postgresql-client (15+248) ...
+[2025-02-05T01:48:24.166+0000] {docker.py:73} INFO - Processing triggers for libc-bin (2.36-9+deb12u9) ...
+[2025-02-05T01:48:24.263+0000] {docker.py:73} INFO - Criando tabela final...
+[2025-02-05T01:48:24.263+0000] {docker.py:73} INFO - + echo 'Criando tabela final...'
+[2025-02-05T01:48:24.264+0000] {docker.py:73} INFO - + PGPASSWORD=thewindisblowing
+[2025-02-05T01:48:24.264+0000] {docker.py:73} INFO - + psql -h northwind_db -U northwind_user -d northwind -c '
+[2025-02-05T01:48:24.265+0000] {docker.py:73} INFO -             DROP TABLE IF EXISTS order_details;
+[2025-02-05T01:48:24.265+0000] {docker.py:73} INFO -             CREATE TABLE order_details (
+[2025-02-05T01:48:24.265+0000] {docker.py:73} INFO -                 order_id SMALLINT,
+[2025-02-05T01:48:24.266+0000] {docker.py:73} INFO -                 product_id SMALLINT,
+[2025-02-05T01:48:24.266+0000] {docker.py:73} INFO -                 unit_price REAL,
+[2025-02-05T01:48:24.266+0000] {docker.py:73} INFO -                 quantity SMALLINT,
+[2025-02-05T01:48:24.267+0000] {docker.py:73} INFO -                 discount REAL
+[2025-02-05T01:48:24.267+0000] {docker.py:73} INFO -             );'
+[2025-02-05T01:48:24.381+0000] {docker.py:73} INFO - DROP TABLE
+[2025-02-05T01:48:24.381+0000] {docker.py:73} INFO - CREATE TABLE
+[2025-02-05T01:48:24.386+0000] {docker.py:73} INFO - Carregando dados...
+[2025-02-05T01:48:24.386+0000] {docker.py:73} INFO - + echo 'Carregando dados...'
+[2025-02-05T01:48:24.387+0000] {docker.py:73} INFO - + cat /meltano/demo-project/input/csv/2025-02-05/order_details.json
+[2025-02-05T01:48:24.387+0000] {docker.py:73} INFO - + jq -r 'select(.type == "RECORD") | .record | [(.order_id|tonumber), (.product_id|tonumber), (.unit_price|tonumber), (.quantity|tonumber), (.discount|tonumber)] | @csv'
+[2025-02-05T01:48:24.388+0000] {docker.py:73} INFO - + PGPASSWORD=thewindisblowing
+[2025-02-05T01:48:24.388+0000] {docker.py:73} INFO - + psql -h northwind_db -U northwind_user -d northwind -c 'COPY order_details FROM STDIN WITH (FORMAT csv)'
+[2025-02-05T01:48:24.476+0000] {docker.py:73} INFO - COPY 2155
+[2025-02-05T01:48:24.477+0000] {docker.py:73} INFO - + echo 'Verificando dados carregados:'
+[2025-02-05T01:48:24.478+0000] {docker.py:73} INFO - + PGPASSWORD=thewindisblowing
+[2025-02-05T01:48:24.479+0000] {docker.py:73} INFO - + psql -h northwind_db -U northwind_user -d northwind -c '
+[2025-02-05T01:48:24.479+0000] {docker.py:73} INFO -             SELECT 
+[2025-02-05T01:48:24.479+0000] {docker.py:73} INFO -                 pg_typeof(order_id) as order_id_type,
+[2025-02-05T01:48:24.480+0000] {docker.py:73} INFO -                 pg_typeof(product_id) as product_id_type,
+[2025-02-05T01:48:24.480+0000] {docker.py:73} INFO -                 pg_typeof(unit_price) as unit_price_type,
+[2025-02-05T01:48:24.481+0000] {docker.py:73} INFO -                 pg_typeof(quantity) as quantity_type,
+[2025-02-05T01:48:24.481+0000] {docker.py:73} INFO -                 pg_typeof(discount) as discount_type
+[2025-02-05T01:48:24.481+0000] {docker.py:73} INFO -             FROM order_details 
+[2025-02-05T01:48:24.482+0000] {docker.py:73} INFO -             LIMIT 1;
+[2025-02-05T01:48:24.482+0000] {docker.py:73} INFO -             
+[2025-02-05T01:48:24.482+0000] {docker.py:73} INFO -             SELECT COUNT(*) as total_records FROM order_details;
+[2025-02-05T01:48:24.483+0000] {docker.py:73} INFO -         '
+[2025-02-05T01:48:24.483+0000] {docker.py:73} INFO - Verificando dados carregados:
+[2025-02-05T01:48:24.524+0000] {docker.py:73} INFO -  order_id_type | product_id_type | unit_price_type | quantity_type | discount_type 
+[2025-02-05T01:48:24.525+0000] {docker.py:73} INFO - ---------------+-----------------+-----------------+---------------+---------------
+[2025-02-05T01:48:24.525+0000] {docker.py:73} INFO -  smallint      | smallint        | real            | smallint      | real
+[2025-02-05T01:48:24.525+0000] {docker.py:73} INFO - (1 row)
+[2025-02-05T01:48:24.526+0000] {docker.py:73} INFO - 
+[2025-02-05T01:48:24.526+0000] {docker.py:73} INFO -  total_records 
+[2025-02-05T01:48:24.527+0000] {docker.py:73} INFO - ---------------
+[2025-02-05T01:48:24.527+0000] {docker.py:73} INFO -           2155
+[2025-02-05T01:48:24.527+0000] {docker.py:73} INFO - (1 row)
+[2025-02-05T01:48:25.231+0000] {taskinstance.py:340} INFO - ::group::Post task execution logs
+[2025-02-05T01:48:25.232+0000] {taskinstance.py:352} INFO - Marking task as SUCCESS. dag_id=northwind_loader, task_id=load_postgres, run_id=manual__2025-02-05T01:48:18.680195+00:00, execution_date=20250205T014818, start_date=20250205T014819, end_date=20250205T014825
+[2025-02-05T01:48:25.283+0000] {local_task_job_runner.py:266} INFO - Task exited with return code 0
+[2025-02-05T01:48:25.298+0000] {taskinstance.py:3895} INFO - 0 downstream tasks scheduled from follow-on schedule check
+[2025-02-05T01:48:25.311+0000] {local_task_job_runner.py:245} INFO - ::endgroup::

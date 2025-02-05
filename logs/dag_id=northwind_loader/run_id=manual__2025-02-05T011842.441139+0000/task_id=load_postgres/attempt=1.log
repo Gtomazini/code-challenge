@@ -1,0 +1,87 @@
+[2025-02-05T01:18:43.091+0000] {local_task_job_runner.py:123} INFO - ::group::Pre task execution logs
+[2025-02-05T01:18:43.106+0000] {taskinstance.py:2613} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: northwind_loader.load_postgres manual__2025-02-05T01:18:42.441139+00:00 [queued]>
+[2025-02-05T01:18:43.113+0000] {taskinstance.py:2613} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: northwind_loader.load_postgres manual__2025-02-05T01:18:42.441139+00:00 [queued]>
+[2025-02-05T01:18:43.113+0000] {taskinstance.py:2866} INFO - Starting attempt 1 of 1
+[2025-02-05T01:18:43.125+0000] {taskinstance.py:2889} INFO - Executing <Task(DockerOperator): load_postgres> on 2025-02-05 01:18:42.441139+00:00
+[2025-02-05T01:18:43.131+0000] {logging_mixin.py:190} WARNING - /home/***/.local/lib/python3.12/site-packages/***/task/task_runner/standard_task_runner.py:70 DeprecationWarning: This process (pid=10614) is multi-threaded, use of fork() may lead to deadlocks in the child.
+[2025-02-05T01:18:43.131+0000] {standard_task_runner.py:104} INFO - Running: ['***', 'tasks', 'run', 'northwind_loader', 'load_postgres', 'manual__2025-02-05T01:18:42.441139+00:00', '--job-id', '62', '--raw', '--subdir', 'DAGS_FOLDER/northwind_etl/northwind_loader_mel.py', '--cfg-path', '/tmp/tmpohvr151e']
+[2025-02-05T01:18:43.132+0000] {standard_task_runner.py:72} INFO - Started process 10615 to run task
+[2025-02-05T01:18:43.133+0000] {standard_task_runner.py:105} INFO - Job 62: Subtask load_postgres
+[2025-02-05T01:18:43.167+0000] {task_command.py:467} INFO - Running <TaskInstance: northwind_loader.load_postgres manual__2025-02-05T01:18:42.441139+00:00 [running]> on host 09d05643d017
+[2025-02-05T01:18:43.235+0000] {taskinstance.py:3132} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='gabriel' AIRFLOW_CTX_DAG_ID='northwind_loader' AIRFLOW_CTX_TASK_ID='load_postgres' AIRFLOW_CTX_EXECUTION_DATE='2025-02-05T01:18:42.441139+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2025-02-05T01:18:42.441139+00:00'
+[2025-02-05T01:18:43.235+0000] {taskinstance.py:731} INFO - ::endgroup::
+[2025-02-05T01:18:43.274+0000] {docker.py:379} INFO - Starting docker container from image meu-meltano
+[2025-02-05T01:18:43.779+0000] {docker.py:73} INFO - + set -e
+[2025-02-05T01:18:43.780+0000] {docker.py:73} INFO - + cd /meltano/demo-project
+[2025-02-05T01:18:43.781+0000] {docker.py:73} INFO - Iniciando processo...
+[2025-02-05T01:18:43.782+0000] {docker.py:73} INFO - Instalando target-postgres...
+[2025-02-05T01:18:43.782+0000] {docker.py:73} INFO - + echo 'Iniciando processo...'
+[2025-02-05T01:18:43.783+0000] {docker.py:73} INFO - + echo 'Instalando target-postgres...'
+[2025-02-05T01:18:43.783+0000] {docker.py:73} INFO - + meltano add loader target-postgres
+[2025-02-05T01:18:46.213+0000] {docker.py:73} INFO - Added loader 'target-postgres' to your project
+[2025-02-05T01:18:46.214+0000] {docker.py:73} INFO - Variant:	meltanolabs (default)
+[2025-02-05T01:18:46.214+0000] {docker.py:73} INFO - Repository:	https://github.com/MeltanoLabs/target-postgres
+[2025-02-05T01:18:46.215+0000] {docker.py:73} INFO - Documentation:	https://hub.meltano.com/loaders/target-postgres--meltanolabs
+[2025-02-05T01:18:46.278+0000] {docker.py:73} INFO - [2m2025-02-05T01:18:46.276995Z[0m [[32m[1minfo     [0m] [1mInstalling loader 'target-postgres'[0m
+[2025-02-05T01:19:05.101+0000] {docker.py:73} INFO - [2m2025-02-05T01:19:05.099607Z[0m [[32m[1minfo     [0m] [1mInstalled loader 'target-postgres'[0m
+[2025-02-05T01:19:05.101+0000] {docker.py:73} INFO - 
+[2025-02-05T01:19:05.102+0000] {docker.py:73} INFO - To learn more about loader 'target-postgres', visit https://hub.meltano.com/loaders/target-postgres--meltanolabs
+[2025-02-05T01:19:06.061+0000] {docker.py:73} INFO - Configurando target-postgres...
+[2025-02-05T01:19:06.062+0000] {docker.py:73} INFO - + echo 'Configurando target-postgres...'
+[2025-02-05T01:19:06.062+0000] {docker.py:73} INFO - + meltano --environment=dev config target-postgres set host northwind_db
+[2025-02-05T01:19:06.694+0000] {docker.py:73} INFO - [2m2025-02-05T01:19:06.693064Z[0m [[32m[1minfo     [0m] [1mEnvironment 'dev' is active   [0m
+[2025-02-05T01:19:06.780+0000] {docker.py:73} INFO - Loader 'target-postgres' setting 'host' was set in the active environment in `meltano.yml`: 'northwind_db'
+[2025-02-05T01:19:07.736+0000] {docker.py:73} INFO - + meltano --environment=dev config target-postgres set port 5432
+[2025-02-05T01:19:08.368+0000] {docker.py:73} INFO - [2m2025-02-05T01:19:08.366909Z[0m [[32m[1minfo     [0m] [1mEnvironment 'dev' is active   [0m
+[2025-02-05T01:19:08.454+0000] {docker.py:73} INFO - Loader 'target-postgres' setting 'port' was set in the active environment in `meltano.yml`: 5432
+[2025-02-05T01:19:09.415+0000] {docker.py:73} INFO - + meltano --environment=dev config target-postgres set user northwind_user
+[2025-02-05T01:19:10.042+0000] {docker.py:73} INFO - [2m2025-02-05T01:19:10.041185Z[0m [[32m[1minfo     [0m] [1mEnvironment 'dev' is active   [0m
+[2025-02-05T01:19:10.128+0000] {docker.py:73} INFO - Loader 'target-postgres' setting 'user' was set in the active environment in `meltano.yml`: 'northwind_user'
+[2025-02-05T01:19:11.095+0000] {docker.py:73} INFO - + meltano --environment=dev config target-postgres set password thewindisblowing
+[2025-02-05T01:19:11.723+0000] {docker.py:73} INFO - [2m2025-02-05T01:19:11.722318Z[0m [[32m[1minfo     [0m] [1mEnvironment 'dev' is active   [0m
+[2025-02-05T01:19:11.791+0000] {docker.py:73} INFO - Loader 'target-postgres' setting 'password' was set in `.env`: (redacted)
+[2025-02-05T01:19:12.743+0000] {docker.py:73} INFO - + meltano --environment=dev config target-postgres set database northwind
+[2025-02-05T01:19:13.391+0000] {docker.py:73} INFO - [2m2025-02-05T01:19:13.389662Z[0m [[32m[1minfo     [0m] [1mEnvironment 'dev' is active   [0m
+[2025-02-05T01:19:13.472+0000] {docker.py:73} INFO - Loader 'target-postgres' setting 'database' was set in the active environment in `meltano.yml`: 'northwind'
+[2025-02-05T01:19:14.423+0000] {docker.py:73} INFO - + meltano --environment=dev config target-postgres set default_target_schema public
+[2025-02-05T01:19:15.072+0000] {docker.py:73} INFO - [2m2025-02-05T01:19:15.071213Z[0m [[32m[1minfo     [0m] [1mEnvironment 'dev' is active   [0m
+[2025-02-05T01:19:15.152+0000] {docker.py:73} INFO - Loader 'target-postgres' setting 'default_target_schema' was set in the active environment in `meltano.yml`: 'public'
+[2025-02-05T01:19:16.116+0000] {docker.py:73} INFO - + echo 'Verificando arquivo JSON...'
+[2025-02-05T01:19:16.116+0000] {docker.py:73} INFO - + ls -l /meltano/demo-project/input/csv/2025-02-05/order_details.json
+[2025-02-05T01:19:16.117+0000] {docker.py:73} INFO - Verificando arquivo JSON...
+[2025-02-05T01:19:16.122+0000] {docker.py:73} INFO - -rw-r--r-- 1 root root 418175 Feb  5 00:49 /meltano/demo-project/input/csv/2025-02-05/order_details.json
+[2025-02-05T01:19:16.123+0000] {docker.py:73} INFO - Carregando dados para o PostgreSQL...
+[2025-02-05T01:19:16.123+0000] {docker.py:73} INFO - + echo 'Carregando dados para o PostgreSQL...'
+[2025-02-05T01:19:16.124+0000] {docker.py:73} INFO - + cat /meltano/demo-project/input/csv/2025-02-05/order_details.json
+[2025-02-05T01:19:16.124+0000] {docker.py:73} INFO - + meltano --environment=dev invoke target-postgres
+[2025-02-05T01:19:16.124+0000] {docker.py:73} INFO - + tee load_output.log
+[2025-02-05T01:19:16.774+0000] {docker.py:73} INFO - [2m2025-02-05T01:19:16.773222Z[0m [[32m[1minfo     [0m] [1mEnvironment 'dev' is active   [0m
+[2025-02-05T01:19:17.452+0000] {docker.py:73} INFO - 2025-02-05 01:19:17,450 | INFO     | target-postgres      | Target 'target-postgres' is listening for input from tap.
+[2025-02-05T01:19:17.452+0000] {docker.py:73} INFO - 2025-02-05 01:19:17,451 | INFO     | target-postgres      | Initializing 'target-postgres' target sink...
+[2025-02-05T01:19:17.453+0000] {docker.py:73} INFO - 2025-02-05 01:19:17,451 | INFO     | target-postgres.order_details | Initializing target sink for stream 'order_details'...
+[2025-02-05T01:19:18.059+0000] {docker.py:73} INFO - 2025-02-05 01:19:18,057 | INFO     | target-postgres      | Target 'target-postgres' completed reading 2157 lines of input (1 schemas, 2155 records, 0 batch manifests, 1 state messages).
+[2025-02-05T01:19:18.180+0000] {docker.py:73} INFO - 2025-02-05 01:19:18,178 | INFO     | target-postgres.order_details | Inserting with SQL: INSERT INTO "5a9a4c7e_8cbe_463f_b6d3_78fc9451a081" (order_id, product_id, unit_price, quantity, discount, _sdc_extracted_at, _sdc_received_at, _sdc_batched_at, _sdc_deleted_at, _sdc_sequence, _sdc_table_version, _sdc_sync_started_at) VALUES (:order_id, :product_id, :unit_price, :quantity, :discount, :_sdc_extracted_at, :_sdc_received_at, :_sdc_batched_at, :_sdc_deleted_at, :_sdc_sequence, :_sdc_table_version, :_sdc_sync_started_at)
+[2025-02-05T01:19:18.413+0000] {docker.py:73} INFO - 2025-02-05 01:19:18,412 | INFO     | singer_sdk.metrics   | METRIC: {"type": "timer", "metric": "batch_processing_time", "value": 0.34679293632507324, "tags": {"stream": "order_details", "pid": 66, "status": "succeeded"}}
+[2025-02-05T01:19:18.419+0000] {docker.py:73} INFO - 2025-02-05 01:19:18,418 | INFO     | target-postgres.order_details | Cleaning up order_details
+[2025-02-05T01:19:18.420+0000] {docker.py:73} INFO - 2025-02-05 01:19:18,418 | INFO     | singer_sdk.metrics   | METRIC: {"type": "counter", "metric": "record_count", "value": 2155, "tags": {"stream": "order_details", "pid": 66}}
+[2025-02-05T01:19:18.420+0000] {docker.py:73} INFO - 2025-02-05 01:19:18,418 | INFO     | target-postgres      | Emitting completed target state {"bookmarks": {"order_details": {}}}
+[2025-02-05T01:19:18.421+0000] {docker.py:73} INFO - {"bookmarks": {"order_details": {}}}
+[2025-02-05T01:19:19.481+0000] {docker.py:73} INFO - Load completo. Verificando resultado...
+[2025-02-05T01:19:19.482+0000] {docker.py:73} INFO - + echo 'Load completo. Verificando resultado...'
+[2025-02-05T01:19:19.483+0000] {docker.py:73} INFO - + tail -n 50 load_output.log
+[2025-02-05T01:19:19.483+0000] {docker.py:73} INFO - [2m2025-02-05T01:19:16.773222Z[0m [[32m[1minfo     [0m] [1mEnvironment 'dev' is active   [0m
+[2025-02-05T01:19:19.484+0000] {docker.py:73} INFO - 2025-02-05 01:19:17,450 | INFO     | target-postgres      | Target 'target-postgres' is listening for input from tap.
+[2025-02-05T01:19:19.484+0000] {docker.py:73} INFO - 2025-02-05 01:19:17,451 | INFO     | target-postgres      | Initializing 'target-postgres' target sink...
+[2025-02-05T01:19:19.485+0000] {docker.py:73} INFO - 2025-02-05 01:19:17,451 | INFO     | target-postgres.order_details | Initializing target sink for stream 'order_details'...
+[2025-02-05T01:19:19.486+0000] {docker.py:73} INFO - 2025-02-05 01:19:18,057 | INFO     | target-postgres      | Target 'target-postgres' completed reading 2157 lines of input (1 schemas, 2155 records, 0 batch manifests, 1 state messages).
+[2025-02-05T01:19:19.487+0000] {docker.py:73} INFO - 2025-02-05 01:19:18,178 | INFO     | target-postgres.order_details | Inserting with SQL: INSERT INTO "5a9a4c7e_8cbe_463f_b6d3_78fc9451a081" (order_id, product_id, unit_price, quantity, discount, _sdc_extracted_at, _sdc_received_at, _sdc_batched_at, _sdc_deleted_at, _sdc_sequence, _sdc_table_version, _sdc_sync_started_at) VALUES (:order_id, :product_id, :unit_price, :quantity, :discount, :_sdc_extracted_at, :_sdc_received_at, :_sdc_batched_at, :_sdc_deleted_at, :_sdc_sequence, :_sdc_table_version, :_sdc_sync_started_at)
+[2025-02-05T01:19:19.488+0000] {docker.py:73} INFO - 2025-02-05 01:19:18,412 | INFO     | singer_sdk.metrics   | METRIC: {"type": "timer", "metric": "batch_processing_time", "value": 0.34679293632507324, "tags": {"stream": "order_details", "pid": 66, "status": "succeeded"}}
+[2025-02-05T01:19:19.488+0000] {docker.py:73} INFO - 2025-02-05 01:19:18,418 | INFO     | target-postgres.order_details | Cleaning up order_details
+[2025-02-05T01:19:19.489+0000] {docker.py:73} INFO - 2025-02-05 01:19:18,418 | INFO     | singer_sdk.metrics   | METRIC: {"type": "counter", "metric": "record_count", "value": 2155, "tags": {"stream": "order_details", "pid": 66}}
+[2025-02-05T01:19:19.489+0000] {docker.py:73} INFO - 2025-02-05 01:19:18,418 | INFO     | target-postgres      | Emitting completed target state {"bookmarks": {"order_details": {}}}
+[2025-02-05T01:19:19.490+0000] {docker.py:73} INFO - {"bookmarks": {"order_details": {}}}
+[2025-02-05T01:19:20.846+0000] {taskinstance.py:340} INFO - ::group::Post task execution logs
+[2025-02-05T01:19:20.847+0000] {taskinstance.py:352} INFO - Marking task as SUCCESS. dag_id=northwind_loader, task_id=load_postgres, run_id=manual__2025-02-05T01:18:42.441139+00:00, execution_date=20250205T011842, start_date=20250205T011843, end_date=20250205T011920
+[2025-02-05T01:19:20.891+0000] {local_task_job_runner.py:266} INFO - Task exited with return code 0
+[2025-02-05T01:19:20.906+0000] {taskinstance.py:3895} INFO - 0 downstream tasks scheduled from follow-on schedule check
+[2025-02-05T01:19:20.908+0000] {local_task_job_runner.py:245} INFO - ::endgroup::

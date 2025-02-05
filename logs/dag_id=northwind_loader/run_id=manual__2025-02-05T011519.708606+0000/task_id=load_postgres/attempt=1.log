@@ -1,0 +1,183 @@
+[2025-02-05T01:15:20.261+0000] {local_task_job_runner.py:123} INFO - ::group::Pre task execution logs
+[2025-02-05T01:15:20.276+0000] {taskinstance.py:2613} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: northwind_loader.load_postgres manual__2025-02-05T01:15:19.708606+00:00 [queued]>
+[2025-02-05T01:15:20.284+0000] {taskinstance.py:2613} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: northwind_loader.load_postgres manual__2025-02-05T01:15:19.708606+00:00 [queued]>
+[2025-02-05T01:15:20.285+0000] {taskinstance.py:2866} INFO - Starting attempt 1 of 1
+[2025-02-05T01:15:20.297+0000] {taskinstance.py:2889} INFO - Executing <Task(DockerOperator): load_postgres> on 2025-02-05 01:15:19.708606+00:00
+[2025-02-05T01:15:20.305+0000] {logging_mixin.py:190} WARNING - /home/***/.local/lib/python3.12/site-packages/***/task/task_runner/standard_task_runner.py:70 DeprecationWarning: This process (pid=10449) is multi-threaded, use of fork() may lead to deadlocks in the child.
+[2025-02-05T01:15:20.305+0000] {standard_task_runner.py:104} INFO - Running: ['***', 'tasks', 'run', 'northwind_loader', 'load_postgres', 'manual__2025-02-05T01:15:19.708606+00:00', '--job-id', '60', '--raw', '--subdir', 'DAGS_FOLDER/northwind_etl/northwind_loader_mel.py', '--cfg-path', '/tmp/tmpwcj_twu2']
+[2025-02-05T01:15:20.306+0000] {standard_task_runner.py:72} INFO - Started process 10450 to run task
+[2025-02-05T01:15:20.306+0000] {standard_task_runner.py:105} INFO - Job 60: Subtask load_postgres
+[2025-02-05T01:15:20.343+0000] {task_command.py:467} INFO - Running <TaskInstance: northwind_loader.load_postgres manual__2025-02-05T01:15:19.708606+00:00 [running]> on host 09d05643d017
+[2025-02-05T01:15:20.414+0000] {taskinstance.py:3132} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='gabriel' AIRFLOW_CTX_DAG_ID='northwind_loader' AIRFLOW_CTX_TASK_ID='load_postgres' AIRFLOW_CTX_EXECUTION_DATE='2025-02-05T01:15:19.708606+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2025-02-05T01:15:19.708606+00:00'
+[2025-02-05T01:15:20.414+0000] {taskinstance.py:731} INFO - ::endgroup::
+[2025-02-05T01:15:20.452+0000] {docker.py:379} INFO - Starting docker container from image meu-meltano
+[2025-02-05T01:15:20.852+0000] {docker.py:73} INFO - + set -e
+[2025-02-05T01:15:20.852+0000] {docker.py:73} INFO - + cd /meltano/demo-project
+[2025-02-05T01:15:20.853+0000] {docker.py:73} INFO - Iniciando processo...
+[2025-02-05T01:15:20.854+0000] {docker.py:73} INFO - Instalando target-postgres...
+[2025-02-05T01:15:20.854+0000] {docker.py:73} INFO - + echo 'Iniciando processo...'
+[2025-02-05T01:15:20.855+0000] {docker.py:73} INFO - + echo 'Instalando target-postgres...'
+[2025-02-05T01:15:20.855+0000] {docker.py:73} INFO - + meltano add loader target-postgres
+[2025-02-05T01:15:23.063+0000] {docker.py:73} INFO - Added loader 'target-postgres' to your project
+[2025-02-05T01:15:23.063+0000] {docker.py:73} INFO - Variant:	meltanolabs (default)
+[2025-02-05T01:15:23.064+0000] {docker.py:73} INFO - Repository:	https://github.com/MeltanoLabs/target-postgres
+[2025-02-05T01:15:23.064+0000] {docker.py:73} INFO - Documentation:	https://hub.meltano.com/loaders/target-postgres--meltanolabs
+[2025-02-05T01:15:23.127+0000] {docker.py:73} INFO - [2m2025-02-05T01:15:23.125693Z[0m [[32m[1minfo     [0m] [1mInstalling loader 'target-postgres'[0m
+[2025-02-05T01:15:38.002+0000] {docker.py:73} INFO - [2m2025-02-05T01:15:38.000648Z[0m [[32m[1minfo     [0m] [1mInstalled loader 'target-postgres'[0m
+[2025-02-05T01:15:38.002+0000] {docker.py:73} INFO - 
+[2025-02-05T01:15:38.002+0000] {docker.py:73} INFO - To learn more about loader 'target-postgres', visit https://hub.meltano.com/loaders/target-postgres--meltanolabs
+[2025-02-05T01:15:39.005+0000] {docker.py:73} INFO - + echo 'Configurando target-postgres...'
+[2025-02-05T01:15:39.006+0000] {docker.py:73} INFO - + meltano --environment=dev config target-postgres set host northwind_db
+[2025-02-05T01:15:39.006+0000] {docker.py:73} INFO - Configurando target-postgres...
+[2025-02-05T01:15:39.645+0000] {docker.py:73} INFO - [2m2025-02-05T01:15:39.644429Z[0m [[32m[1minfo     [0m] [1mEnvironment 'dev' is active   [0m
+[2025-02-05T01:15:39.750+0000] {docker.py:73} INFO - Loader 'target-postgres' setting 'host' was set in the active environment in `meltano.yml`: 'northwind_db'
+[2025-02-05T01:15:40.703+0000] {docker.py:73} INFO - + meltano --environment=dev config target-postgres set port 5432
+[2025-02-05T01:15:41.352+0000] {docker.py:73} INFO - [2m2025-02-05T01:15:41.351448Z[0m [[32m[1minfo     [0m] [1mEnvironment 'dev' is active   [0m
+[2025-02-05T01:15:41.433+0000] {docker.py:73} INFO - Loader 'target-postgres' setting 'port' was set in the active environment in `meltano.yml`: 5432
+[2025-02-05T01:15:42.383+0000] {docker.py:73} INFO - + meltano --environment=dev config target-postgres set user northwind_user
+[2025-02-05T01:15:43.006+0000] {docker.py:73} INFO - [2m2025-02-05T01:15:43.005344Z[0m [[32m[1minfo     [0m] [1mEnvironment 'dev' is active   [0m
+[2025-02-05T01:15:43.087+0000] {docker.py:73} INFO - Loader 'target-postgres' setting 'user' was set in the active environment in `meltano.yml`: 'northwind_user'
+[2025-02-05T01:15:44.083+0000] {docker.py:73} INFO - + meltano --environment=dev config target-postgres set password thewindisblowing
+[2025-02-05T01:15:44.716+0000] {docker.py:73} INFO - [2m2025-02-05T01:15:44.714530Z[0m [[32m[1minfo     [0m] [1mEnvironment 'dev' is active   [0m
+[2025-02-05T01:15:44.782+0000] {docker.py:73} INFO - Loader 'target-postgres' setting 'password' was set in `.env`: (redacted)
+[2025-02-05T01:15:45.729+0000] {docker.py:73} INFO - + meltano --environment=dev config target-postgres set dbname northwind
+[2025-02-05T01:15:46.361+0000] {docker.py:73} INFO - [2m2025-02-05T01:15:46.360489Z[0m [[32m[1minfo     [0m] [1mEnvironment 'dev' is active   [0m
+[2025-02-05T01:15:46.429+0000] {docker.py:73} INFO - /usr/local/lib/python3.10/site-packages/meltano/cli/interactive/config.py:403: RuntimeWarning: Unknown setting 'dbname'
+[2025-02-05T01:15:46.430+0000] {docker.py:73} INFO -   value, metadata = settings.set_with_metadata(
+[2025-02-05T01:15:46.444+0000] {docker.py:73} INFO - Loader 'target-postgres' setting 'dbname' was set in the active environment in `meltano.yml`: 'northwind'
+[2025-02-05T01:15:47.403+0000] {docker.py:73} INFO - + meltano --environment=dev config target-postgres set schema public
+[2025-02-05T01:15:48.036+0000] {docker.py:73} INFO - [2m2025-02-05T01:15:48.035187Z[0m [[32m[1minfo     [0m] [1mEnvironment 'dev' is active   [0m
+[2025-02-05T01:15:48.102+0000] {docker.py:73} INFO - /usr/local/lib/python3.10/site-packages/meltano/cli/interactive/config.py:403: RuntimeWarning: Unknown setting 'schema'
+[2025-02-05T01:15:48.103+0000] {docker.py:73} INFO -   value, metadata = settings.set_with_metadata(
+[2025-02-05T01:15:48.117+0000] {docker.py:73} INFO - Loader 'target-postgres' setting 'schema' was set in the active environment in `meltano.yml`: 'public'
+[2025-02-05T01:15:49.100+0000] {docker.py:73} INFO - Tentando carregar o arquivo...
+[2025-02-05T01:15:49.101+0000] {docker.py:73} INFO - + echo 'Tentando carregar o arquivo...'
+[2025-02-05T01:15:49.102+0000] {docker.py:73} INFO - ++ date +%Y-%m-%d
+[2025-02-05T01:15:49.102+0000] {docker.py:73} INFO - + ls -la /meltano/demo-project/input/csv/2025-02-05
+[2025-02-05T01:15:49.114+0000] {docker.py:73} INFO - total 412
+[2025-02-05T01:15:49.114+0000] {docker.py:73} INFO - drwxr-xr-x 1 root  root   4096 Feb  5 00:38 .
+[2025-02-05T01:15:49.115+0000] {docker.py:73} INFO - drwxrwxr-x 1 50000 root   4096 Feb  5 00:38 ..
+[2025-02-05T01:15:49.115+0000] {docker.py:73} INFO - -rw-r--r-- 1 root  root 418175 Feb  5 00:49 order_details.json
+[2025-02-05T01:15:49.115+0000] {docker.py:73} INFO - + meltano invoke target-postgres
+[2025-02-05T01:15:49.116+0000] {docker.py:73} INFO - ++ date +%Y-%m-%d
+[2025-02-05T01:15:49.116+0000] {docker.py:73} INFO - + cat /meltano/demo-project/input/csv/2025-02-05/order_details.json
+[2025-02-05T01:15:49.743+0000] {docker.py:73} INFO - [2m2025-02-05T01:15:49.742454Z[0m [[32m[1minfo     [0m] [1mEnvironment 'dev' is active   [0m
+[2025-02-05T01:15:50.444+0000] {docker.py:73} INFO - 2025-02-05 01:15:50,443 | INFO     | target-postgres      | Target 'target-postgres' is listening for input from tap.
+[2025-02-05T01:15:50.445+0000] {docker.py:73} INFO - 2025-02-05 01:15:50,443 | INFO     | target-postgres      | Initializing 'target-postgres' target sink...
+[2025-02-05T01:15:50.445+0000] {docker.py:73} INFO - Traceback (most recent call last):
+[2025-02-05T01:15:50.446+0000] {docker.py:73} INFO -   File "/meltano/demo-project/.meltano/loaders/target-postgres/venv/bin/target-postgres", line 8, in <module>
+[2025-02-05T01:15:50.447+0000] {docker.py:73} INFO -     sys.exit(TargetPostgres.cli())
+[2025-02-05T01:15:50.447+0000] {docker.py:73} INFO -   File "/meltano/demo-project/.meltano/loaders/target-postgres/venv/lib/python3.10/site-packages/click/core.py", line 1161, in __call__
+[2025-02-05T01:15:50.447+0000] {docker.py:73} INFO -     return self.main(*args, **kwargs)
+[2025-02-05T01:15:50.448+0000] {docker.py:73} INFO -   File "/meltano/demo-project/.meltano/loaders/target-postgres/venv/lib/python3.10/site-packages/click/core.py", line 1082, in main
+[2025-02-05T01:15:50.448+0000] {docker.py:73} INFO -     rv = self.invoke(ctx)
+[2025-02-05T01:15:50.448+0000] {docker.py:73} INFO -   File "/meltano/demo-project/.meltano/loaders/target-postgres/venv/lib/python3.10/site-packages/singer_sdk/plugin_base.py", line 92, in invoke
+[2025-02-05T01:15:50.449+0000] {docker.py:73} INFO -     return super().invoke(ctx)
+[2025-02-05T01:15:50.449+0000] {docker.py:73} INFO -   File "/meltano/demo-project/.meltano/loaders/target-postgres/venv/lib/python3.10/site-packages/click/core.py", line 1443, in invoke
+[2025-02-05T01:15:50.450+0000] {docker.py:73} INFO -     return ctx.invoke(self.callback, **ctx.params)
+[2025-02-05T01:15:50.450+0000] {docker.py:73} INFO -   File "/meltano/demo-project/.meltano/loaders/target-postgres/venv/lib/python3.10/site-packages/click/core.py", line 788, in invoke
+[2025-02-05T01:15:50.450+0000] {docker.py:73} INFO -     return __callback(*args, **kwargs)
+[2025-02-05T01:15:50.451+0000] {docker.py:73} INFO -   File "/meltano/demo-project/.meltano/loaders/target-postgres/venv/lib/python3.10/site-packages/singer_sdk/target_base.py", line 586, in invoke
+[2025-02-05T01:15:50.451+0000] {docker.py:73} INFO -     target.listen(file_input)
+[2025-02-05T01:15:50.451+0000] {docker.py:73} INFO -   File "/meltano/demo-project/.meltano/loaders/target-postgres/venv/lib/python3.10/site-packages/singer_sdk/_singerlib/encoding/_base.py", line 53, in listen
+[2025-02-05T01:15:50.452+0000] {docker.py:73} INFO -     self._process_lines(file_input or self.default_input)
+[2025-02-05T01:15:50.452+0000] {docker.py:73} INFO -   File "/meltano/demo-project/.meltano/loaders/target-postgres/venv/lib/python3.10/site-packages/singer_sdk/target_base.py", line 305, in _process_lines
+[2025-02-05T01:15:50.452+0000] {docker.py:73} INFO -     counter = super()._process_lines(file_input)
+[2025-02-05T01:15:50.453+0000] {docker.py:73} INFO -   File "/meltano/demo-project/.meltano/loaders/target-postgres/venv/lib/python3.10/site-packages/singer_sdk/_singerlib/encoding/_base.py", line 80, in _process_lines
+[2025-02-05T01:15:50.453+0000] {docker.py:73} INFO -     self._process_schema_message(line_dict)
+[2025-02-05T01:15:50.453+0000] {docker.py:73} INFO -   File "/meltano/demo-project/.meltano/loaders/target-postgres/venv/lib/python3.10/site-packages/singer_sdk/target_base.py", line 421, in _process_schema_message
+[2025-02-05T01:15:50.454+0000] {docker.py:73} INFO -     _ = self.get_sink(
+[2025-02-05T01:15:50.454+0000] {docker.py:73} INFO -   File "/meltano/demo-project/.meltano/loaders/target-postgres/venv/lib/python3.10/site-packages/singer_sdk/target_base.py", line 815, in get_sink
+[2025-02-05T01:15:50.454+0000] {docker.py:73} INFO -     return self.add_sqlsink(stream_name, schema, key_properties)
+[2025-02-05T01:15:50.455+0000] {docker.py:73} INFO -   File "/meltano/demo-project/.meltano/loaders/target-postgres/venv/lib/python3.10/site-packages/singer_sdk/target_base.py", line 747, in add_sqlsink
+[2025-02-05T01:15:50.455+0000] {docker.py:73} INFO -     connector=self.target_connector,
+[2025-02-05T01:15:50.455+0000] {docker.py:73} INFO -   File "/meltano/demo-project/.meltano/loaders/target-postgres/venv/lib/python3.10/site-packages/singer_sdk/target_base.py", line 665, in target_connector
+[2025-02-05T01:15:50.455+0000] {docker.py:73} INFO -     self._target_connector = self.default_sink_class.connector_class(
+[2025-02-05T01:15:50.456+0000] {docker.py:73} INFO -   File "/meltano/demo-project/.meltano/loaders/target-postgres/venv/lib/python3.10/site-packages/target_postgres/connector.py", line 89, in __init__
+[2025-02-05T01:15:50.456+0000] {docker.py:73} INFO -     url: URL = make_url(self.get_sqlalchemy_url(config=config))
+[2025-02-05T01:15:50.456+0000] {docker.py:73} INFO -   File "/meltano/demo-project/.meltano/loaders/target-postgres/venv/lib/python3.10/site-packages/target_postgres/connector.py", line 710, in get_sqlalchemy_url
+[2025-02-05T01:15:50.457+0000] {docker.py:73} INFO -     database=config["database"],
+[2025-02-05T01:15:50.457+0000] {docker.py:73} INFO - KeyError: 'database'
+[2025-02-05T01:15:52.186+0000] {taskinstance.py:3311} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/taskinstance.py", line 767, in _execute_task
+    result = _execute_callable(context=context, **execute_callable_kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/taskinstance.py", line 733, in _execute_callable
+    return ExecutionCallableRunner(
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/utils/operator_helpers.py", line 252, in run
+    return self.func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/baseoperator.py", line 422, in wrapper
+    return func(self, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/providers/docker/operators/docker.py", line 519, in execute
+    return self._run_image()
+           ^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/providers/docker/operators/docker.py", line 396, in _run_image
+    return self._run_image_with_mounts(self.mounts, add_tmp_variable=False)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/providers/docker/operators/docker.py", line 453, in _run_image_with_mounts
+    raise DockerContainerFailedException(f"Docker container failed: {result!r}", logs=log_lines)
+airflow.providers.docker.exceptions.DockerContainerFailedException: Docker container failed: {'StatusCode': 1}
+[2025-02-05T01:15:52.190+0000] {taskinstance.py:1225} INFO - Marking task as FAILED. dag_id=northwind_loader, task_id=load_postgres, run_id=manual__2025-02-05T01:15:19.708606+00:00, execution_date=20250205T011519, start_date=20250205T011520, end_date=20250205T011552
+[2025-02-05T01:15:52.200+0000] {taskinstance.py:340} INFO - ::group::Post task execution logs
+[2025-02-05T01:15:52.201+0000] {standard_task_runner.py:124} ERROR - Failed to execute job 60 for task load_postgres (Docker container failed: {'StatusCode': 1}; 10450)
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/task/task_runner/standard_task_runner.py", line 117, in _start_by_fork
+    ret = args.func(args, dag=self.dag)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/cli/cli_config.py", line 49, in command
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/utils/cli.py", line 116, in wrapper
+    return f(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/cli/commands/task_command.py", line 483, in task_run
+    task_return_code = _run_task_by_selected_method(args, _dag, ti)
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/cli/commands/task_command.py", line 256, in _run_task_by_selected_method
+    return _run_raw_task(args, ti)
+           ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/cli/commands/task_command.py", line 341, in _run_raw_task
+    return ti._run_raw_task(
+           ^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/utils/session.py", line 97, in wrapper
+    return func(*args, session=session, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/taskinstance.py", line 3005, in _run_raw_task
+    return _run_raw_task(
+           ^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/taskinstance.py", line 273, in _run_raw_task
+    TaskInstance._execute_task_with_callbacks(
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/taskinstance.py", line 3159, in _execute_task_with_callbacks
+    result = self._execute_task(context, task_orig)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/taskinstance.py", line 3183, in _execute_task
+    return _execute_task(self, context, task_orig)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/taskinstance.py", line 767, in _execute_task
+    result = _execute_callable(context=context, **execute_callable_kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/taskinstance.py", line 733, in _execute_callable
+    return ExecutionCallableRunner(
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/utils/operator_helpers.py", line 252, in run
+    return self.func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/baseoperator.py", line 422, in wrapper
+    return func(self, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/providers/docker/operators/docker.py", line 519, in execute
+    return self._run_image()
+           ^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/providers/docker/operators/docker.py", line 396, in _run_image
+    return self._run_image_with_mounts(self.mounts, add_tmp_variable=False)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/providers/docker/operators/docker.py", line 453, in _run_image_with_mounts
+    raise DockerContainerFailedException(f"Docker container failed: {result!r}", logs=log_lines)
+airflow.providers.docker.exceptions.DockerContainerFailedException: Docker container failed: {'StatusCode': 1}
+[2025-02-05T01:15:52.250+0000] {local_task_job_runner.py:266} INFO - Task exited with return code 1
+[2025-02-05T01:15:52.262+0000] {taskinstance.py:3895} INFO - 0 downstream tasks scheduled from follow-on schedule check
+[2025-02-05T01:15:52.264+0000] {local_task_job_runner.py:245} INFO - ::endgroup::
